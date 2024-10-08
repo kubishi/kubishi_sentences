@@ -2,6 +2,7 @@
 import functools
 import hashlib
 import json
+import logging
 import os
 import pathlib
 from typing import Callable, Dict, List, Optional, TYPE_CHECKING
@@ -10,16 +11,15 @@ import dotenv
 import numpy as np
 import openai
 from openai.types.chat import ChatCompletion
-import pandas as pd
 import numpy as np
-import rbo
 
 if TYPE_CHECKING:
     from sentence_transformers import SentenceTransformer
 
 dotenv.load_dotenv()
 
-thisdir = pathlib.Path(__file__).parent.absolute()
+cachedir = pathlib.Path.home() / '.cache' / 'yaduha'
+cachedir.mkdir(exist_ok=True, parents=True)
 
 oai_client = openai.Client(api_key=os.environ['OPENAI_API_KEY'])
 
@@ -35,9 +35,16 @@ def semantic_similarity_spacy(sentence1: str, sentence2: str) -> float:
     Returns:
         float: The semantic similarity between the two sentences.
     """
+    global nlp
     import spacy
     if nlp is None:
-        nlp = spacy.load("en_core_web_md")
+        try:
+            nlp = spacy.load("en_core_web_md")
+        except OSError:
+            from spacy.cli import download
+            logging.info("Downloading spaCy model 'en_core_web_md'")
+            download('en_core_web_md')
+            nlp = spacy.load("en_core_web_md")
     doc1 = nlp(sentence1)
     doc2 = nlp(sentence2)
     similarity = doc1.similarity(doc2)
@@ -47,6 +54,7 @@ tokenizer = None
 model = None
 @functools.lru_cache(maxsize=1000)
 def semantic_similarity_bert(sentence1: str, sentence2: str) -> float:
+    global tokenizer, model
     import torch
     from transformers import BertModel, BertTokenizer
 
@@ -137,7 +145,7 @@ def semantic_similarity_transformers(sentence1: str, sentence2: str, model: str)
     return similarities[0, 1]
 
 def _get_openai_embeddings(model: str, *sentences: str) -> Dict[str, np.ndarray]:
-    savedir = thisdir / '.results' / 'embeddings' / model
+    savedir = cachedir / '.results' / 'embeddings' / model
     savedir.mkdir(exist_ok=True, parents=True)
     # load cached embeddings from disk
     embeddings = {}
@@ -243,6 +251,9 @@ def split_sentence(sentence: str, model: str = None, res_callback: Optional[Call
             'The set of simple sentences should be as semantically equivalent as possible to the user input sentence. ',
             'No adjectives, adverbs, prepositions, or conjunctions should be added to the simple sentences. ',
             'Indirect objects and objects of prepositions should not be included in the simple sentences. ',
+            'Subjects and objects can be verbs IF they are "nominalized" as "past", "present", or "future" ',
+            '(e.g., "run" -> "the runner", "the one who ran", "the one who will run"). ',
+            'The present nominalizer should be used to describe those who always do the action (runner, drinker, cook(er), etc.). ',
         ])},
         {'role': 'user', 'content': 'I am sitting in a chair.'},
         {
@@ -257,6 +268,19 @@ def split_sentence(sentence: str, model: str = None, res_callback: Optional[Call
                 "name": "set_sentences"
             },
         },
+        {'role': 'user', 'content': 'The one who ran is sitting.'},
+        {
+            "role": "assistant",
+            "content": None,
+            "function_call": {
+                "arguments": json.dumps({
+                    'sentences': [
+                        {'subject': 'run', 'subject_nominalizer': 'past', 'verb': 'sit', 'verb_tense': 'present_continuous', 'object': None},
+                    ]
+                }),
+                "name": "set_sentences"
+            },
+        },
         {'role': 'user', 'content': 'The dogs were chasing their tails.'},
         {
             "role": "assistant",
@@ -265,6 +289,19 @@ def split_sentence(sentence: str, model: str = None, res_callback: Optional[Call
                 "arguments": json.dumps({
                     'sentences': [
                         {'subject': 'dog', 'verb': 'chase', 'verb_tense': 'past_continuous', 'object': 'tail'},
+                    ]
+                }),
+                "name": "set_sentences"
+            },
+        },
+        {'role': 'user', 'content': 'The drinker is eating.'},
+        {
+            "role": "assistant",
+            "content": None,
+            "function_call": {
+                "arguments": json.dumps({
+                    'sentences': [
+                        {'subject': 'drink', 'subject_nominalizer': 'present', 'verb': 'eat', 'verb_tense': 'present', 'object': None},
                     ]
                 }),
                 "name": "set_sentences"
@@ -306,6 +343,19 @@ def split_sentence(sentence: str, model: str = None, res_callback: Optional[Call
                         {'subject': 'I', 'verb': 'see', 'verb_tense': 'past', 'object': 'man'},
                         {'subject': 'man', 'verb': 'walk', 'verb_tense': 'past_continuous', 'object': 'dog'},
                         {'subject': 'man', 'verb': 'drink', 'verb_tense': 'past_continuous', 'object': 'coffee'}
+                    ]
+                }),
+                "name": "set_sentences"
+            },
+        },
+        {'role': 'user', 'content': 'That runner down the street will eat the one that fell.'},
+        {
+            "role": "assistant",
+            "content": None,
+            "function_call": {
+                "arguments": json.dumps({
+                    'sentences': [
+                        {'subject': 'run', 'subject_nominalizer': 'present', 'verb': 'eat', 'verb_tense': 'future', 'object': 'fall', 'object_nominalizer': 'past'},
                     ]
                 }),
                 "name": "set_sentences"
@@ -373,7 +423,14 @@ def make_sentence(sentence: Dict, model: str = None, res_callback: Optional[Call
     messages = [
         {
             'role': 'system',
-            'content': 'You are an assistant takes structured data and generates simple SVO or SV natural language sentence. Only add add necessary articles and conjugations. Do not add any other words.'
+            'content': (
+                'You are an assistant takes structured data and generates simple SVO or SV natural language sentence. '
+                'Only add add necessary articles and conjugations. '
+                'Do not add any other words.'
+                'When a subject_nominalizer or object_nominalizer is present, subjects are "nominalized" verbs as "past", "present", or "future" '
+                '(e.g., "run" -> "the runner", "the one who ran", "the one who will run"; "drink" -> "the drinker", "the one who drank", "the one who will drink"). '
+
+            )
         },
         {
             'role': 'user',
@@ -413,6 +470,30 @@ def make_sentence(sentence: Dict, model: str = None, res_callback: Optional[Call
         },
         {
             'role': 'user',
+            'content': "{'subject': 'drink', 'subject_nominalizer': 'past', 'verb': 'stand', 'verb_tense': 'present', 'object': None}"
+        },
+        {
+            'role': 'assistant',
+            'content': None,
+            'function_call': {
+                'arguments': json.dumps({'sentence': 'The one who drank stood'}),
+                'name': 'make_sentence'
+            }
+        },
+        {
+            'role': 'user',
+            'content': "{'subject': 'walk', 'subject_nominalizer': 'present', 'verb': 'drink', 'verb_tense': 'past', 'object': None}"
+        },
+        {
+            'role': 'assistant',
+            'content': None,
+            'function_call': {
+                'arguments': json.dumps({'sentence': 'The walker drank'}),
+                'name': 'make_sentence'
+            }
+        },
+        {
+            'role': 'user',
             'content': json.dumps(sentence)
         }
     ]
@@ -429,73 +510,3 @@ def make_sentence(sentence: Dict, model: str = None, res_callback: Optional[Call
     response_message = response.choices[0].message
     function_args = json.loads(response_message.function_call.arguments)
     return function_args.get('sentence')
-
-
-def main(): # pylint: disable=missing-function-docstring
-    source_sentences = [
-        "The dog fell.",
-        "The dog fell yesterday.",
-        "The dog was running yesterday and fell.",
-        "The dog was running yesterday and fell while chasing a cat.",
-        "The dog sat in the house.",
-        "I gave him bread.",
-        "The dog and the cat were running."
-    ]
-    for source_sentence in source_sentences:
-        simple_sentences = split_sentence(source_sentence, model=os.environ['OPENAI_MODEL'])
-        print(simple_sentences)
-        simple_nl_sentence = '. '.join([make_sentence(sentence) for sentence in simple_sentences]) + '.'
-
-        print(f"Source sentence: {source_sentence}")
-        print(f"Simple sentences: {simple_nl_sentence}")
-        similarity = semantic_similarity_spacy(source_sentence, simple_nl_sentence)
-        print(f"Semantic similarity: {similarity:0.3f}")
-        print()
-
-def avg_displacement(truth: np.ndarray, arr: np.ndarray) -> float:
-    """Compute the average displacement between two arrays.
-    
-    Computes the distance of each element to its proper position in the truth array
-    and returns the average of these distances.
-    """
-    return np.mean(np.abs(np.argsort(truth) - np.argsort(arr)))    
-
-def test_similarity():
-    sentences = json.loads((thisdir / 'data' / 'semantic_sentences.json').read_text())
-    similarity_funcs = {
-        "spacy": semantic_similarity_spacy,
-        "bert": semantic_similarity_bert,
-        "all-MiniLM-L6-v2": functools.partial(semantic_similarity_sentence_transformers, model='all-MiniLM-L6-v2'),
-        "paraphrase-MiniLM-L6-v2": functools.partial(semantic_similarity_sentence_transformers, model='paraphrase-MiniLM-L6-v2'),
-        # "SFR-Embedding-Mistral": functools.partial(semantic_similarity_sentence_transformers, model='Salesforce/SFR-Embedding-Mistral'),
-        "text-embedding-3-large": functools.partial(semantic_similarity_openai, model='text-embedding-3-large'),
-        "text-embedding-3-small": functools.partial(semantic_similarity_openai, model='text-embedding-3-small'),
-        "text-embedding-ada-002": functools.partial(semantic_similarity_openai, model='text-embedding-ada-002'),
-    }
-    
-    rows = []
-    for sentence in sentences:
-        base_sentence = sentence['base']
-        sentences = sentence['sentences']
-        for similarity_func_name, similarity_func in similarity_funcs.items():
-            similarities = np.array([similarity_func(base_sentence, s) for s in sentences])
-            dist = np.mean(np.abs(np.argsort(-similarities) - np.arange(len(similarities))))
-
-            sorted_sentences = [sentences[i] for i in np.argsort(-similarities)]
-            rbo_similarity = rbo.RankingSimilarity(sorted_sentences, sentences).rbo()
-
-            rows.append([base_sentence, similarity_func_name, dist, rbo_similarity])
-
-    df = pd.DataFrame(rows, columns=['sentence', 'similarity_func', 'avg_displacement', 'rbo'])
-    print(df)
-
-    # compute stats for each similarity function
-    stats = df.groupby('similarity_func').agg({'avg_displacement': ['mean', 'std'], 'rbo': ['mean', 'std']})
-    stats = stats.sort_values(by=('rbo', 'mean'), ascending=False)
-    print(stats.round(3))
-    print(stats.to_latex(float_format="%.3f", bold_rows=True, column_format="lcccc"))
-        
-
-if __name__ == '__main__':
-    # main()
-    test_similarity()
