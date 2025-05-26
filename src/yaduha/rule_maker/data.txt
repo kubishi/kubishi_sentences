@@ -1,0 +1,46 @@
+**1. Pattern Summary**
+
+From the provided English–Paiute sentence pairs, several linguistic patterns can be observed:
+
+- **Word Order**: Paiute generally follows a Subject-Object-Verb (SOV) order, whereas English typically uses Subject-Verb-Object (SVO).
+- **Subject Pronouns**: The subject pronouns in Paiute appear to be "nü" for "I", "taa" for "you and I", "taagwa" for "we", and "uhuw̃a" for "they".
+- **Object Markers**: The suffix "-noka" is used to mark the object in Paiute, as seen in "wai-noka" for "that rice" and "isha'pugu-noka" for "those dogs".
+- **Verb Conjugation and Tense**: 
+  - The suffix "-ti" indicates a present continuous action (e.g., "yotsi-ti" for "is flying").
+  - The suffix "-gaa-wei" indicates a future action (e.g., "u-gwana-gaa-wei" for "is going to smell").
+  - The suffix "-pü" indicates a completed action or past tense (e.g., "ui-düka-pü" for "have eaten").
+  - The suffix "-wei" can also indicate a future action, as seen in "ui-dama'i-wei" for "will find".
+  - The suffix "-ku" indicates a simple past action (e.g., "ui-dama'i-ku" for "found").
+- **Possession and Plurality**: The use of "noka" seems to indicate a specific object, possibly with a sense of definiteness or plurality, as seen in "wai-noka" and "isha'pugu-noka".
+
+**2. Translation Rules**
+
+1. **Identify the Subject**: Determine the subject of the sentence and use the appropriate Paiute pronoun:
+   - "I" -> "nü"
+   - "You and I" -> "taa"
+   - "We" -> "taagwa"
+   - "They" -> "uhuw̃a"
+
+2. **Identify the Object**: Translate the object and add the suffix "-noka" to indicate definiteness or specificity.
+
+3. **Translate the Verb**: 
+   - For present continuous actions, use the suffix "-ti".
+   - For future actions, use the suffix "-gaa-wei" or "-wei".
+   - For completed actions, use the suffix "-pü".
+   - For simple past actions, use the suffix "-ku".
+
+4. **Construct the Sentence**: Arrange the sentence in Subject-Object-Verb order.
+
+**3. Example Applications**
+
+- **English**: "I am going to eat that rice."
+  - **Paiute**: "wai-noka nü ui-düka-gaa-wei"
+  - **Explanation**: "wai-noka" (that rice) as the object, "nü" (I) as the subject, "ui-düka-gaa-wei" (am going to eat) as the verb.
+
+- **English**: "They found those dogs."
+  - **Paiute**: "isha'pugu-noka uhuw̃a ui-dama'i-ku"
+  - **Explanation**: "isha'pugu-noka" (those dogs) as the object, "uhuw̃a" (they) as the subject, "ui-dama'i-ku" (found) as the verb.
+
+- **English**: "We are eating those rice."
+  - **Paiute**: "wai-noka taagwa ui-düka-ti"
+  - **Explanation**: "wai-noka" (those rice) as the object, "taagwa" (we) as the subject, "ui-düka-ti" (are eating) as the verb.
