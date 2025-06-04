@@ -1,0 +1,80 @@
+[
+    {
+        "query": "This bird will see those pinenuts.",
+        "response": "tsiipa-ii tüba-noka ui-buni-wei",
+        "tool_calls": [
+            {
+                "function": "search_sentences",
+                "arguments": {
+                    "query": "This bird will see those pinenuts."
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "bird"
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "pinenuts"
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "see"
+                }
+            }
+        ]
+    },
+    {
+        "query": "You all will fall.",
+        "response": "kwatsa'i-wei üügwa",
+        "tool_calls": [
+            {
+                "function": "search_sentences",
+                "arguments": {
+                    "query": "You all will fall."
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "you"
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "fall"
+                }
+            }
+        ]
+    },
+    {
+        "query": "They are going to cook those cottontails.",
+        "response": "tabuutsi'-oka mahuw̃a ui-zawa-gaa-wei",
+        "tool_calls": [
+            {
+                "function": "search_sentences",
+                "arguments": {
+                    "query": "They are going to cook those cottontails."
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "cook"
+                }
+            },
+            {
+                "function": "search_english",
+                "arguments": {
+                    "query": "cottontails"
+                }
+            }
+        ]
+    }
+]

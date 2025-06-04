@@ -6,10 +6,9 @@ from pydantic import BaseModel
 
 from yaduha.common import get_openai_client
 from yaduha.translate.base import Translation, Translator
-from yaduha.chatbot.tools.functions import search_english, search_sentences
 from yaduha.translate.pipeline import split_sentence
 from yaduha.translate.pipeline import translate_simple, order_sentence
-from yaduha.translate.ablation_tools import rag_tools, pipeline_tools, full_translation_messages
+from yaduha.translate.ablation_tools import pipeline_tools, full_translation_messages
 from openai.types.chat import ChatCompletion
 
 client = get_openai_client()
@@ -32,8 +31,6 @@ def translate_simple_sentences(sentence: str, model: str = "gpt-4o-mini")-> str:
     
 
 functions = {
-    "search_english": search_english,
-    "search_sentences": search_sentences,
     "split_sentence": split_sentence_tool,
     "translate_simple_sentence": translate_simple_sentences
 }
@@ -52,7 +49,7 @@ def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
             model=model,
             messages=messages,
             temperature=0.0,
-            tools=rag_tools + pipeline_tools,
+            tools=pipeline_tools,
         )
 
         messages.append(json.loads(completion.choices[0].message.model_dump_json()))
@@ -98,11 +95,12 @@ def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
 
     return response
 
-class FullTranslator(Translator):
+class InstructionsPipelineTranslator(Translator):
     def __init__(self, model: str):
         self.model = model
 
     def translate(self, sentence: str) -> Translation:
+        
         start = time.time()
         response = translate_sentence(sentence, model=self.model)
         end = time.time()

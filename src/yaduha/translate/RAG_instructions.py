@@ -9,38 +9,19 @@ from yaduha.translate.base import Translation, Translator
 from yaduha.chatbot.tools.functions import search_english, search_sentences
 from yaduha.translate.pipeline import split_sentence
 from yaduha.translate.pipeline import translate_simple, order_sentence
-from yaduha.translate.ablation_tools import rag_tools, pipeline_tools, full_translation_messages
+from yaduha.translate.ablation_tools import rag_tools, rag_instruction_messages
 from openai.types.chat import ChatCompletion
 
 client = get_openai_client()
 
-def split_sentence_tool(sentence: str, model: str = "gpt-4o-mini"):
-    return split_sentence(sentence=sentence, model=model)
-
-def translate_simple_sentences(sentence: str, model: str = "gpt-4o-mini")-> str:
-    simple_sentences = split_sentence(sentence=sentence, model=model)
-
-    target_simple_sentences = []
-
-    for sentence in simple_sentences.sentences:
-        subject, verb, _object = translate_simple(sentence)
-        target_simple_sentence = order_sentence(subject, verb, _object)
-        target_simple_sentences.append(" ".join(map(str, target_simple_sentence)))
-    
-    target_simple_sentence_nl = ". ".join(target_simple_sentences) + '.'
-    return target_simple_sentence_nl
-    
-
 functions = {
     "search_english": search_english,
     "search_sentences": search_sentences,
-    "split_sentence": split_sentence_tool,
-    "translate_simple_sentence": translate_simple_sentences
 }
 
 def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
     messages = [
-        *full_translation_messages,
+        *rag_instruction_messages,
         {
             "role": "user",
             "content": sentence
@@ -52,7 +33,7 @@ def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
             model=model,
             messages=messages,
             temperature=0.0,
-            tools=rag_tools + pipeline_tools,
+            tools=rag_tools,
         )
 
         messages.append(json.loads(completion.choices[0].message.model_dump_json()))
@@ -98,7 +79,7 @@ def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
 
     return response
 
-class FullTranslator(Translator):
+class RagInstructionsTranslator(Translator):
     def __init__(self, model: str):
         self.model = model
 

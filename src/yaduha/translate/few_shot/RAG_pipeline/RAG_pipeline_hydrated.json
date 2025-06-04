@@ -1,0 +1,805 @@
+[
+  {
+    "query": "This bird will see those pinenuts.",
+    "response": "tsiipa-ii tüba-noka ui-buni-wei",
+    "tool_calls": [
+      {
+        "function": "search_sentences",
+        "arguments": {
+          "query": "This bird will see those pinenuts."
+        },
+        "result": [
+          {
+            "sentence": "Kaigai-uu 'i-düba-naha-neikka 'i-su'a-ggü-tei-ku.",
+            "translation": "That magpie ate up my pinenuts (inspite of me)."
+          },
+          {
+            "sentence": "Kaiggai-uu 'i-düba-naha-neikka 'i-su'a-gü-tei-ku.",
+            "translation": "The magpie ate up my pinenuts inspite of me."
+          },
+          {
+            "sentence": "Mahu tüba-nokka 'u-düka-dü 'oonno'oho-düa tu'ihiima tü-dü-gütübuhei-nna.",
+            "translation": "He eats the pine nuts and anything he comes across (speaking of specific bird)."
+          },
+          {
+            "sentence": "Tüa-daagwa hiinno'o-mana tüba-ka-tei-gaa-wei-düa.",
+            "translation": "We will go and collect pinenuts again sometime."
+          },
+          {
+            "sentence": "Mahu puhibanagi-dü-eikka tsiidoopi'-eikka 'a-buni-ti.",
+            "translation": "She sees the green bird."
+          }
+        ],
+        "id": "call_YFOCT65GXBmpmc5mVyXGU06Y"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "bird"
+        },
+        "result": [
+          {
+            "lexical_unit": "pakkodopa",
+            "senses": [
+              {
+                "gloss": "black bird",
+                "definition": null,
+                "examples": [
+                  {
+                    "form": null,
+                    "translation": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "tsiipa'",
+            "senses": [
+              {
+                "gloss": "bird",
+                "definition": "Bird, southern valley dialect.",
+                "examples": [
+                  {
+                    "form": null,
+                    "translation": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "tsiidoopi'",
+            "senses": [
+              {
+                "gloss": "bird",
+                "definition": "Bird, general name for birds.",
+                "examples": [
+                  {
+                    "form": "Tsiidoopi'-ii tü-ddo'oo-gwee 'iiga-'i-pü süngaabü-wee-ikka.",
+                    "translation": "The bird went into its hole in the tree."
+                  },
+                  {
+                    "form": "Tsiipa'-uu yotsi-ti.",
+                    "translation": "The bird is flying."
+                  },
+                  {
+                    "form": "Tsiidoopi'-ii tü-dziidoopi-ba' katü-ti tü-na-wükütsü'i-weidü 'a-wee-kku.",
+                    "translation": "The bird is sitting on top of its own bird cage."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "hiichizho'",
+            "senses": [
+              {
+                "gloss": "dragonfly",
+                "definition": null,
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "hiichido'",
+            "senses": [
+              {
+                "gloss": "dragonfly",
+                "definition": null,
+                "examples": []
+              }
+            ]
+          }
+        ],
+        "id": "call_xgUGkiZXW7uYnzcUk8CnKKCo"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "pinenuts"
+        },
+        "result": [
+          {
+            "lexical_unit": "paa",
+            "senses": [
+              {
+                "gloss": "pinenut mush",
+                "definition": "To make pinenut mush.",
+                "examples": [
+                  {
+                    "form": "'Oonno'oho nüü-düa, 'ui-baa-gü-pü nüü tüba'-aa.",
+                    "translation": "And I had also made them pine nut mush."
+                  },
+                  {
+                    "form": "'Uhu-bünno' paa-weidü.",
+                    "translation": "She intends on making pine nut mush."
+                  },
+                  {
+                    "form": "Hiibü-uu 'unnihi 'u-na-ŵani-gwee-su-düa 'i-bia-uu 'awa-kida'a-ggu paa-tei-ti tüba-na.",
+                    "translation": "What... at those kinds of gatherings my mother would make so much pine nut mush."
+                  },
+                  {
+                    "form": "Pinnahei 'uhu müna'wi-kida' na-ŵaappa'i-ti 'u-na-baa-si-ukka.",
+                    "translation": "Because it takes a long time to be made, if pine nut mush is made."
+                  },
+                  {
+                    "form": "Nüü paa-si 'oonno'oho nüügwa ukkahuna tüka-ti.",
+                    "translation": "I made pine nut mush and then we ate that."
+                  },
+                  {
+                    "form": "Nüümü-ii tüba'-aa 'u-na-baa-nna sutsamaa'i-ti.",
+                    "translation": "The Indian People like pine nut soup."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "'ehu",
+            "senses": [
+              {
+                "gloss": "pinenut stick",
+                "definition": "Pinenut stick with a hook used for shaking limbs of the pinion trees in order to bring down pine nuts.",
+                "examples": [
+                  {
+                    "form": "Toya-ŵa nüügwa mia-si-ukka nii-'ehu-na noo-pü tu'ihiibü-na nii-düba-ka-wei-nna 'u-ŵama.",
+                    "translation": "When we go to the mountains we'll take our pine nut stick, and whatever we'll use to gather pine nuts with."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "tüba",
+            "senses": [
+              {
+                "gloss": "pine nut",
+                "definition": "Pine nuts from the pinion pine tree. Food source for Great Basin tribes.",
+                "examples": [
+                  {
+                    "form": "Tüba-ii-düa nuhi-zhaŵu kama-ti.",
+                    "translation": "And the pine nuts taste really good!"
+                  },
+                  {
+                    "form": "Nüü 'a-buni-ti 'a-düba-ka-nna.",
+                    "translation": "I saw her collecting pine nuts."
+                  },
+                  {
+                    "form": "'Oonno'oho 'üü tüba-ŵahi-ku-si-ukka 'üü 'ü-dü-dügü-nna 'u-ŵaddü-aa tüka-boo-ti.",
+                    "translation": "And then, once you've gone out to get pine nuts, you can go about eating from those you've placed."
+                  },
+                  {
+                    "form": "Tüba-mahi-shi-ukka nüügwa tü-noo-ku-si-ukka 'oonno'oho nüügwa pitü-si-ukka tü-hani-ti 'ikibi-du-ti.",
+                    "translation": "Once we scouted for pine nuts, we'd haul them, and then we'd arrive to prepare and make mush."
+                  },
+                  {
+                    "form": "Lida-uu-düa tüba-tua-ki'ei-dü 'u-nübaa-su-ukka.",
+                    "translation": "And Lida always produces pine nuts, when it snows."
+                  },
+                  {
+                    "form": "Tüba'-aa 'i-ŵakka.",
+                    "translation": "Give me some pine nuts to eat."
+                  },
+                  {
+                    "form": "'Uhu-wa' a-na-düba'a-ga-nna?",
+                    "translation": "Was it during the pine nut harvesting time?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "tübapü",
+            "senses": [
+              {
+                "gloss": "pinion pine",
+                "definition": "Pinion pine tree.",
+                "examples": [
+                  {
+                    "form": "Tübabü-ii na-wüddabi-gü-pü 'u-mia-pü-dugu-ddü-uu.",
+                    "translation": "The pinions were knocked down where it went through there (wind)."
+                  },
+                  {
+                    "form": "Wünüpü-nokka nüü 'u-duha katü-ti.",
+                    "translation": "I camped under the pinion trees."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "tübamahi",
+            "senses": [
+              {
+                "gloss": "scout pine nuts",
+                "definition": "To scout for pine nuts.",
+                "examples": [
+                  {
+                    "form": "'Oonno'oho 'üü tüba-ŵahi-ku-si-ukka 'üü 'ü-dü-dügü-nna 'u-ŵa-ddü-aa tüka-boo-ti.",
+                    "translation": "And then, once you scouted for pine nuts, you can take what you place (aside) and eat off that."
+                  },
+                  {
+                    "form": "Tüba-mahi-shi-ukka nüügwa tü-noo-ku-si-ukka 'oonno'oho nüügwa pitü-si-ukka tü-hani-ti 'ikibi-du-ti.",
+                    "translation": "Scouting for pine nuts, we bring some (back) and then upon arrival we prepare it, making mush."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "call_Spjd0lzzuUZjAq1Fa0NcDCLt"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "see"
+        },
+        "result": [
+          {
+            "lexical_unit": "puni",
+            "senses": [
+              {
+                "gloss": "see",
+                "definition": "To see.",
+                "examples": [
+                  {
+                    "form": "Tsaŵu-iddu i-buni-ku-nna-ii.",
+                    "translation": "It's good to see you."
+                  },
+                  {
+                    "form": "Tsaŵu naama-ti nüü 'ü-buni-si-ukka ('ü-buni-ku-si-ukka).",
+                    "translation": "I was happy to see you."
+                  },
+                  {
+                    "form": "'Ü-buni-kwaa-ti nüü 'u-binna-tugu-su-ukka.",
+                    "translation": "I'll see you the next time."
+                  },
+                  {
+                    "form": "Nüü 'ionnoho wünü-si-ukka kadu' ui-buni-ti.",
+                    "translation": "When I stood here, I couldn't see them."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "pitaŵa",
+            "senses": [
+              {
+                "gloss": "look",
+                "definition": "To look at something.",
+                "examples": [
+                  {
+                    "form": "Naatsi'-ii-bünno' 'a-dübinuhi-wei-gwee-ikka 'iga-tei-ku-si tei-bitaŵa-ti.",
+                    "translation": "The boy entered the playhouse then look at us."
+                  },
+                  {
+                    "form": "Kadu' üügwa tsaŵu tü-bitaŵa-ti.",
+                    "translation": "You guys aren't looking around good (enough)."
+                  },
+                  {
+                    "form": "Tü-baagwa-na na-bitaŵa-gü-gaa-dü.",
+                    "translation": "He's going to get his blood looked at (check up on at the doctors)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "tsapuni",
+            "senses": [
+              {
+                "gloss": "look",
+                "definition": "To take a look while using the hand(s) to move something aside to get a better look.",
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "puttabühi",
+            "senses": [
+              {
+                "gloss": "see well",
+                "definition": "To be able to see something well, to clearly see something.",
+                "examples": [
+                  {
+                    "form": "'Oonno'oho nüü ka' tü-buttabühi-ni-ukka 'u-ŵan-dugu mia-ddabi-tei-ti 'oonno'oho na-mutsuku'i-bitü-ga'.",
+                    "translation": "And then, while I couldn't see clearly, I went right into it, and then bumped my head."
+                  },
+                  {
+                    "form": "Hanni'i-tugu mahu tü-bittabühi-wei annikku?",
+                    "translation": "How is he going to see it now?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "manakkagü",
+            "senses": [
+              {
+                "gloss": "show (example)",
+                "definition": "To show how by example, to show someone how to do something.",
+                "examples": [
+                  {
+                    "form": "'I-ŵanakka-gü 'i-dü-dagwüna'i-wei-nokka.",
+                    "translation": "Show me how to throw (the ball)."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "call_t8lfBVEvyb5Xh7AKbhtJdv3S"
+      },
+      {
+        "function": "translate_simple_sentences",
+        "arguments": {
+          "query": "This bird will see those pinenuts."
+        },
+        "result": "ui-[pinenut]-noka tsiipa-ii ui-buni-wei.",
+        "id": "call_RycNAREQYtS0lpe44XJ1r9IS"
+      },
+      {
+        "function": "split_sentence",
+        "arguments": {
+          "query": "This bird will see those pinenuts."
+        },
+        "result": "{\"sentences\": [{\"subject\": {\"head\": \"bird\", \"possessive_determiner\": null, \"proximity\": \"proximal\", \"plurality\": \"singular\"}, \"verb\": {\"lemma\": \"see\", \"tense\": \"future\", \"aspect\": \"simple\"}, \"object\": {\"head\": \"pinenut\", \"possessive_determiner\": null, \"proximity\": \"distal\", \"plurality\": \"plural\"}}]}",
+        "id": "call_htRq2KJ6JhKc3kZR8DPWlQiZ"
+      }
+    ]
+  },
+  {
+    "query": "You all will fall.",
+    "response": "kwatsa'i-wei üügwa",
+    "tool_calls": [
+      {
+        "function": "search_sentences",
+        "arguments": {
+          "query": "You all will fall."
+        },
+        "result": [
+          {
+            "sentence": "Weebuhi-dua-pü 'üügwa.",
+            "translation": "You all could fall over."
+          },
+          {
+            "sentence": "'Üügwa hiinno'o-mana münaa-kwaa-ti.",
+            "translation": "You'll all return sometime."
+          },
+          {
+            "sentence": "'Anaa-ki-gwei tei-ŵa-dugu.",
+            "translation": "It's going to start falling in on us."
+          },
+          {
+            "sentence": "Poono'-ii tübina-dugu 'ia kwatsa'i-wei.",
+            "translation": "The ball will fall to the ground."
+          },
+          {
+            "sentence": "Habishigei-dua-pü nüü-düa.",
+            "translation": "I could end up falling."
+          }
+        ],
+        "id": "call_8eBUOOATEvq82NjAXZMaPVqU"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "you"
+        },
+        "result": [
+          {
+            "lexical_unit": "'üü",
+            "senses": [
+              {
+                "gloss": "you",
+                "definition": "You, singular second person pronoun.",
+                "examples": [
+                  {
+                    "form": "Haŵutta-wa' üü a-gimma-nna?",
+                    "translation": "From where do you come?"
+                  },
+                  {
+                    "form": "Nüügwa ümikka-mani-nna suga-ti.",
+                    "translation": "We thought you were the one to do that."
+                  },
+                  {
+                    "form": "Maanno'oho 'ümikka-na-bünno' i-yaduhi-nna.",
+                    "translation": "That's all I must say to you."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "'ümikka",
+            "senses": [
+              {
+                "gloss": "you",
+                "definition": "To you, your, singular second person pronoun (object case)",
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "'uhuŵa",
+            "senses": [
+              {
+                "gloss": "they",
+                "definition": null,
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "'ü-",
+            "senses": [
+              {
+                "gloss": "you",
+                "definition": "To you, attaches to verb, (to do that action) \"to you.\"",
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "nüügwa",
+            "senses": [
+              {
+                "gloss": "we",
+                "definition": "We, first person(s) plural and dual, exclusive.",
+                "examples": []
+              }
+            ]
+          }
+        ],
+        "id": "call_o0rkeF796g7ZLqnk9Z0NXAO3"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "fall"
+        },
+        "result": [
+          {
+            "lexical_unit": "kottohi",
+            "senses": [
+              {
+                "gloss": "fall",
+                "definition": null,
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "kwattuhi",
+            "senses": [
+              {
+                "gloss": "fall",
+                "definition": "To drop down, to fall off.",
+                "examples": [
+                  {
+                    "form": null,
+                    "translation": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "nagwünakka",
+            "senses": [
+              {
+                "gloss": "fall",
+                "definition": "To fall down making a sound of impact.",
+                "examples": [
+                  {
+                    "form": "Hiinno'-okka nüü... 'aaŵahu-ikka nüü nagwünakka-tei-ti Margie'-okka u-nobi-gwee-ddu 'aa.",
+                    "translation": "When did I... this morning I fell down in Margie's house there."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "wü'i",
+            "senses": [
+              {
+                "gloss": "fall",
+                "definition": "To fall making impact with a surface or the ground.",
+                "examples": [
+                  {
+                    "form": "Tü-kwahiibü-ŵa wü'i-dua-pü.",
+                    "translation": "He could fall landing on his back."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "yübano",
+            "senses": [
+              {
+                "gloss": "fall time",
+                "definition": "Fall time, during the fall.",
+                "examples": [
+                  {
+                    "form": "Yübano 'oonno'oho-daa tüba'a-ga-gaa-wei.",
+                    "translation": "In the fall, then we go and get pine nuts."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "call_V6SqysNX2iLD4tUmAyWAg3hn"
+      },
+      {
+        "function": "translate_simple_sentences",
+        "arguments": {
+          "query": "You all will fall."
+        },
+        "result": "üügwa kwatsa'i-wei.",
+        "id": "call_xsrYUqeU5nhYDvKTzufUJSSV"
+      },
+      {
+        "function": "split_sentence",
+        "arguments": {
+          "query": "You all will fall."
+        },
+        "result": "{\"sentences\": [{\"subject\": {\"person\": \"second\", \"plurality\": \"plural\", \"proximity\": \"proximal\", \"inclusivity\": \"inclusive\", \"reflexive\": false}, \"verb\": {\"lemma\": \"fall\", \"tense\": \"future\", \"aspect\": \"simple\"}, \"object\": null}]}",
+        "id": "call_AgjnKEkNfjgtp2hm60raCmbY"
+      }
+    ]
+  },
+  {
+    "query": "They are going to cook those cottontails.",
+    "response": "tabuutsi'-oka mahuw̃a ui-zawa-gaa-wei",
+    "tool_calls": [
+      {
+        "function": "search_sentences",
+        "arguments": {
+          "query": "They are going to cook those cottontails."
+        },
+        "result": [
+          {
+            "sentence": "Tabuutsi'-uu tsaŵu kama-ti.",
+            "translation": "Cottontail rabbits taste good."
+          },
+          {
+            "sentence": "Tabuutsi'-tsi'-okka-büü 'aaŵohosu yotsi-si 'u-gwati-shei-ti.",
+            "translation": "(We'd) get up early in the moring, and shoot those little cottontail rabbits."
+          },
+          {
+            "sentence": "'Ihiŵa noyobi-ga-gaidü.",
+            "translation": "They're going to go collect some eggs."
+          },
+          {
+            "sentence": "Nüügwa tsaŵu tüboona-ddü-aa 'ia kammü-ga-tuha-si 'ukkahuna 'u-zakwadda-si\n                        tüka-dü.",
+            "translation": "We go get jackrabbit from the open country, then skin that, and eat."
+          },
+          {
+            "sentence": "Nüügwa tsaŵu tüboona-ddü-aa 'ia kammü-ga-tuha-si 'ukkahuna 'u-zakwadda-si tüka-dü.",
+            "translation": "We go get jackrabbit from the open country, then skin that, and eat."
+          }
+        ],
+        "id": "call_UwFV1H5MOSORdvMZc4seflu1"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "cook"
+        },
+        "result": [
+          {
+            "lexical_unit": "kumasawa",
+            "senses": [
+              {
+                "gloss": "bake",
+                "definition": null,
+                "examples": []
+              }
+            ]
+          },
+          {
+            "lexical_unit": "sawa",
+            "senses": [
+              {
+                "gloss": "cook",
+                "definition": "To cook, to prepare food by the use of heat, by boiling, baking, or roasting.",
+                "examples": [
+                  {
+                    "form": "Hiibü-na-wa' nüü sawa-wei?",
+                    "translation": "What shall I cook?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "kuhani",
+            "senses": [
+              {
+                "gloss": "cook",
+                "definition": "To prepare or cook food by means of fire or other heat element.",
+                "examples": [
+                  {
+                    "form": "'Ü-bida-nokka-düa 'üü 'u-beegi-weidü 'oonno'oho-bünno' kuhani-dei-wei.",
+                    "translation": "You'll need to add fuel to your fire and then you'll do your cooking."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "hubasawa",
+            "senses": [
+              {
+                "gloss": "stew",
+                "definition": "To stew, to cook stew or soup.",
+                "examples": [
+                  {
+                    "form": "Nüü-dei huba-sawa-si 'oonno'oho nüü-düa nüümü-gumasaa'-aa tü-hani-pü.",
+                    "translation": "I cooked some stew and then also I prepared some Indian bread."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "wishua",
+            "senses": [
+              {
+                "gloss": "pot, cooking",
+                "definition": "Cooking pot",
+                "examples": [
+                  {
+                    "form": "'A-wüsidoogi witua-weettü-eikka 'oonno'oho 'a-batsaga.",
+                    "translation": "Scape out the inside of the pot and then wash it."
+                  },
+                  {
+                    "form": "Nüü 'a-sawa-ti paba-kida'a-gwee-kku-ikka witua-gwee-kku-ikka.",
+                    "translation": "I'll cook in the really big one, in that pot."
+                  },
+                  {
+                    "form": "'Üü witua-nokka 'u-wüü-hu-gaa.",
+                    "translation": "You go and get the pot."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "call_b8SNUVoWJQwTHuIHBGOK241d"
+      },
+      {
+        "function": "search_english",
+        "arguments": {
+          "query": "cottontails"
+        },
+        "result": [
+          {
+            "lexical_unit": "tabuu'tsi'",
+            "senses": [
+              {
+                "gloss": "cottontail rabbit",
+                "definition": "Cottontail rabbit",
+                "examples": [
+                  {
+                    "form": "Tabuutsi'-tsi'-okka-büü 'aaŵohosu yotsi-si 'u-gwati-shei-ti.",
+                    "translation": "(We'd) get up early in the moring, and shoot those little cottontail rabbits."
+                  },
+                  {
+                    "form": "Tabuutsi'-uu tsaŵu kama-ti.",
+                    "translation": "Cottontail rabbits taste good."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "pagwi'naa'",
+            "senses": [
+              {
+                "gloss": "redtail hawk",
+                "definition": null,
+                "examples": [
+                  {
+                    "form": null,
+                    "translation": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "toibi",
+            "senses": [
+              {
+                "gloss": "cattail (roots)",
+                "definition": "Cattail roots.",
+                "examples": [
+                  {
+                    "form": null,
+                    "translation": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "kwadzi",
+            "senses": [
+              {
+                "gloss": "tail",
+                "definition": "The tail of an animal.",
+                "examples": [
+                  {
+                    "form": "'Üdü-ggu kwadzi-ga.",
+                    "translation": "It has a long tail."
+                  },
+                  {
+                    "form": "'Uhu na-wüttaŵa-gü-si-ukka tü-kwadzi-nokka subaa kamma-ti-du'i.",
+                    "translation": "It (dragonfly) may be hurt if it has its tail tied."
+                  },
+                  {
+                    "form": "Kwadzi-ga-ggu witua-neikka a-wüü.",
+                    "translation": "Grab the pot which has a handle."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lexical_unit": "wawahabü",
+            "senses": [
+              {
+                "gloss": "white-tip clover",
+                "definition": null,
+                "examples": []
+              }
+            ]
+          }
+        ],
+        "id": "call_srMccnmPzjzOA3TpOoWF7jaX"
+      },
+      {
+        "function": "translate_simple_sentences",
+        "arguments": {
+          "query": "They are going to cook those cottontails."
+        },
+        "result": "mahuw̃a mia-ti. mahuw̃a tabuutsi'-oka ui-zawa-wei.",
+        "id": "call_P5O9AQ0A14mSf35shYLB0kcJ"
+      },
+      {
+        "function": "split_sentence",
+        "arguments": {
+          "query": "They are going to cook those cottontails."
+        },
+        "result": "{\"sentences\": [{\"subject\": {\"person\": \"third\", \"plurality\": \"plural\", \"proximity\": \"proximal\", \"inclusivity\": \"exclusive\", \"reflexive\": false}, \"verb\": {\"lemma\": \"go\", \"tense\": \"present\", \"aspect\": \"continuous\"}, \"object\": null}, {\"subject\": {\"person\": \"third\", \"plurality\": \"plural\", \"proximity\": \"proximal\", \"inclusivity\": \"exclusive\", \"reflexive\": false}, \"verb\": {\"lemma\": \"cook\", \"tense\": \"future\", \"aspect\": \"simple\"}, \"object\": {\"head\": \"cottontail\", \"possessive_determiner\": null, \"proximity\": \"distal\", \"plurality\": \"plural\"}}]}",
+        "id": "call_RZAUdhaNylMHLBTfwwbUncgh"
+      }
+    ]
+  }
+]

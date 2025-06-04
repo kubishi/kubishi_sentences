@@ -1,0 +1,68 @@
+[
+  {
+    "query": "This bird will see those pinenuts.",
+    "response": "tsiipa-ii tüba-noka ui-buni-wei",
+    "tool_calls": [
+      {
+        "function": "translate_simple_sentences",
+        "arguments": {
+          "query": "This bird will see those pinenuts."
+        },
+        "result": "ui-[pinenut]-noka tsiipa-ii ui-buni-wei.",
+        "id": "call_KN4NFRlRYJhBflHVUHwpAMph"
+      },
+      {
+        "function": "split_sentence",
+        "arguments": {
+          "query": "This bird will see those pinenuts."
+        },
+        "result": "{\"sentences\": [{\"subject\": {\"head\": \"bird\", \"possessive_determiner\": null, \"proximity\": \"proximal\", \"plurality\": \"singular\"}, \"verb\": {\"lemma\": \"see\", \"tense\": \"future\", \"aspect\": \"simple\"}, \"object\": {\"head\": \"pinenut\", \"possessive_determiner\": null, \"proximity\": \"distal\", \"plurality\": \"plural\"}}]}",
+        "id": "call_J2y3qYFiQajfVE9l9NCoq036"
+      }
+    ]
+  },
+  {
+    "query": "You all will fall.",
+    "response": "kwatsa'i-wei üügwa",
+    "tool_calls": [
+      {
+        "function": "translate_simple_sentences",
+        "arguments": {
+          "query": "You all will fall."
+        },
+        "result": "üügwa kwatsa'i-wei.",
+        "id": "call_AtyihyHk7jkR3H0uuYk1K0Nv"
+      },
+      {
+        "function": "split_sentence",
+        "arguments": {
+          "query": "You all will fall."
+        },
+        "result": "{\"sentences\": [{\"subject\": {\"person\": \"second\", \"plurality\": \"plural\", \"proximity\": \"proximal\", \"inclusivity\": \"inclusive\", \"reflexive\": false}, \"verb\": {\"lemma\": \"fall\", \"tense\": \"future\", \"aspect\": \"simple\"}, \"object\": null}]}",
+        "id": "call_PbOCLTLXg0FK0GIhzM9AmQru"
+      }
+    ]
+  },
+  {
+    "query": "They are going to cook those cottontails.",
+    "response": "tabuutsi'-oka mahuw̃a ui-zawa-gaa-wei",
+    "tool_calls": [
+      {
+        "function": "translate_simple_sentences",
+        "arguments": {
+          "query": "They are going to cook those cottontails."
+        },
+        "result": "mahuw̃a mia-dü. mahuw̃a tabuutsi'-oka ui-zawa-wei.",
+        "id": "call_jAyZlFrpg0U8bswxoRZK7ikC"
+      },
+      {
+        "function": "split_sentence",
+        "arguments": {
+          "query": "They are going to cook those cottontails."
+        },
+        "result": "{\"sentences\": [{\"subject\": {\"person\": \"third\", \"plurality\": \"plural\", \"proximity\": \"proximal\", \"inclusivity\": \"exclusive\", \"reflexive\": false}, \"verb\": {\"lemma\": \"go\", \"tense\": \"present\", \"aspect\": \"continuous\"}, \"object\": null}, {\"subject\": {\"person\": \"third\", \"plurality\": \"plural\", \"proximity\": \"proximal\", \"inclusivity\": \"exclusive\", \"reflexive\": false}, \"verb\": {\"lemma\": \"cook\", \"tense\": \"future\", \"aspect\": \"simple\"}, \"object\": {\"head\": \"cottontail\", \"possessive_determiner\": null, \"proximity\": \"distal\", \"plurality\": \"plural\"}}]}",
+        "id": "call_77tO3pCK7fwwCVYeJCOVQ07z"
+      }
+    ]
+  }
+]

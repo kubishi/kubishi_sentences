@@ -9,7 +9,7 @@ from yaduha.translate.base import Translation, Translator
 from yaduha.chatbot.tools.functions import search_english, search_sentences
 from yaduha.translate.pipeline import split_sentence
 from yaduha.translate.pipeline import translate_simple, order_sentence
-from yaduha.translate.ablation_tools import rag_tools, pipeline_tools, full_translation_messages
+from yaduha.translate.ablation_tools import rag_tools, pipeline_tools, RAG_pipeline_messages
 from openai.types.chat import ChatCompletion
 
 client = get_openai_client()
@@ -17,7 +17,8 @@ client = get_openai_client()
 def split_sentence_tool(sentence: str, model: str = "gpt-4o-mini"):
     return split_sentence(sentence=sentence, model=model)
 
-def translate_simple_sentences(sentence: str, model: str = "gpt-4o-mini")-> str:
+def translate_simple_sentences(sentence: str, model: str = "gpt-4o-mini"):
+    print("SENTENCE____________: ", sentence)
     simple_sentences = split_sentence(sentence=sentence, model=model)
 
     target_simple_sentences = []
@@ -38,9 +39,9 @@ functions = {
     "translate_simple_sentence": translate_simple_sentences
 }
 
-def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
+def translate_sentence(sentence: str, model: str = "gpt-4o-mini"):
     messages = [
-        *full_translation_messages,
+        *RAG_pipeline_messages,
         {
             "role": "user",
             "content": sentence
@@ -76,7 +77,7 @@ def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
 
             # Calling the necessary tool functions 
             res = function(**kwargs)
-            print("RESPONSE = ", res)
+            print("RESPONSE FUNCTION = ", res)
 
             # Converting pydantic models to dict
             if isinstance(res, BaseModel):
@@ -95,10 +96,9 @@ def translate_sentence(sentence: str, model: str = "gpt-4o-mini") -> dict:
         "translation": translation,
         "messages": messages
     }
-
     return response
 
-class FullTranslator(Translator):
+class RagPipelineTranslator(Translator):
     def __init__(self, model: str):
         self.model = model
 
