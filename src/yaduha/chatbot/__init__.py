@@ -237,13 +237,11 @@ def translate(message: str, model: str = "gpt-4o-mini"):
         for tool_call in completion.choices[0].message.tool_calls:
             kwargs = json.loads(tool_call.function.arguments)
             logging.info(f"Function: {tool_call.function.name}")
-            # logging.info(f"Arguments: {kwargs}")
             function = functions.get(tool_call.function.name)
             if not function:
                 logging.error(f"Function {tool_call.function.name} not found.")
                 continue
             res = function(**kwargs)
-            # logging.info(f"Result: {res}")
             messages.append({
                 "role": "tool",
                 "content": json.dumps(res, ensure_ascii=False),

@@ -131,7 +131,7 @@ system_prompt_full = (
     ", ".join([f"{f}->{l}" for f, l in LENIS_MAP.items()]) + "\n"
 )
 
-full_translation_messages = json.loads((thisdir / "few_shot/full_translator/full_translator_messages.json").read_text())
+full_translation_messages = json.loads((thisdir / "../few_shot/full_translator/full_translator_messages.json").read_text())
 full_translation_messages.insert(0, {"role": "system", "content": system_prompt_full})
 
 # RAG instructions translator ------------------------------------------------------------------------
@@ -167,7 +167,7 @@ system_prompt_RAG_instructions = (
     ", ".join([f"{f}->{l}" for f, l in LENIS_MAP.items()]) + "\n"
 )
 
-rag_instruction_messages = json.loads((thisdir / "few_shot/RAG_instructions/RAG_instructions_messages.json").read_text())
+rag_instruction_messages = json.loads((thisdir / "../few_shot/RAG_instructions/RAG_instructions_messages.json").read_text())
 rag_instruction_messages.insert(0, {"role": "system", "content": system_prompt_RAG_instructions})
 
 # RAG pipeline translator ------------------------------------------------------------------------
@@ -181,8 +181,8 @@ system_prompt_RAG_pipeline = (
     "- **Sentence Builder:** Use simple sentence translator function to help in developing the grammatically correct sentence in Paiute.\n"
 )
 
-RAG_pipeline_messages = json.loads((thisdir / "few_shot/RAG_pipeline/RAG_pipeline_messages.json").read_text())
-RAG_pipeline_messages.insert(0, {"role": "system", "content": system_prompt_RAG_pipeline})
+rag_pipeline_messages = json.loads((thisdir / "../few_shot/RAG_pipeline/RAG_pipeline_messages.json").read_text())
+rag_pipeline_messages.insert(0, {"role": "system", "content": system_prompt_RAG_pipeline})
 
 
 system_prompt_instructions_pipeline = (
@@ -217,5 +217,5 @@ system_prompt_instructions_pipeline = (
     ", ".join([f"{f}->{l}" for f, l in LENIS_MAP.items()]) + "\n"
 )
 
-instructions_pipeline = json.loads((thisdir / "few_shot/instructions_pipeline/instructions_pipeline_messages.json").read_text())
-instructions_pipeline.insert(0, {"role": "system", "content": system_prompt_instructions_pipeline})
+instructions_pipeline_messages = json.loads((thisdir / "../few_shot/instructions_pipeline/instructions_pipeline_messages.json").read_text())
+instructions_pipeline_messages.insert(0, {"role": "system", "content": system_prompt_instructions_pipeline})
