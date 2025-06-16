@@ -8,6 +8,12 @@ from yaduha.translate import (
     AgenticTranslator,
     RAGTranslator
 )
+from yaduha.translate.ablation import (
+    FullTranslator,
+    InstructionsPipelineTranslator,
+    RagInstructionsTranslator,
+    RagPipelineTranslator
+)
 import pandas as pd
 import pathlib
 
@@ -44,23 +50,27 @@ def main():
             # 'instructions': InstructionsTranslator(model='gpt-4o-mini'),
             # 'agentic': AgenticTranslator(model='gpt-4o-mini'),
             # 'finetuned': FinetunedTranslator(model='ft:gpt-4o-mini-2024-07-18:kubishi::AInrzzLW'),
-            'pipeline-new': PipelineTranslator(model='gpt-4o-mini'),
-            'rag': RAGTranslator(model='gpt-4o-mini')
+            'full': FullTranslator(model='gpt-4o-mini'),
+            'instructions-pipeline': InstructionsPipelineTranslator(model='gpt-4o-mini'),
+            'rag-instructions': RagInstructionsTranslator(model='gpt-4o-mini'),
+            'rag-pipeline': RagPipelineTranslator(model='gpt-4o-mini'),
+            # 'pipeline-new': PipelineTranslator(model='gpt-4o-mini'),
+            # 'rag': RAGTranslator(model='gpt-4o-mini')
         },
         'gpt-4o': {
             # 'pipeline': PipelineTranslator(model='gpt-4o'),
             # 'instructions': InstructionsTranslator(model='gpt-4o'),
             # 'agentic': AgenticTranslator(model='gpt-4o'),
             # 'finetuned': FinetunedTranslator(model='ft:gpt-4o-2024-08-06:kubishi::AInyiTpj'),
-            'pipeline-new': PipelineTranslator(model='gpt-4o'),
-            'rag': RAGTranslator(model='gpt-4o')
+            # 'pipeline-new': PipelineTranslator(model='gpt-4o'),
+            # 'rag': RAGTranslator(model='gpt-4o')
         },
     }
 
     redo = {"pipeline"}
 
     # load results from disk
-    resultspath = thisdir / 'results/evaluation_results.json'
+    resultspath = thisdir / 'results/evaluation_results_ablation.json'
     resultspath.parent.mkdir(exist_ok=True, parents=True)
     results = Results(results=[])
     if resultspath.exists():
