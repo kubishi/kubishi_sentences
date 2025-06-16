@@ -6,7 +6,7 @@ import string
 from pydantic import BaseModel
 
 from yaduha.chatbot.tools.functions import search_english, search_sentences
-from yaduha.translate.full_translator import translate_simple_sentences
+from yaduha.translate.ablation.full_translator import translate_simple_sentences
 from yaduha.translate.pipeline import split_sentence
 
 

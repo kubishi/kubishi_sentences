@@ -1,6 +1,5 @@
 import logging
 import json
-from openai import OpenAI
 from pydantic import BaseModel
 
 from yaduha.common import get_openai_client
@@ -14,7 +13,7 @@ def split_sentence_tool(sentence: str, model: str = "gpt-4o-mini"):
     return split_sentence(sentence=sentence, model=model)
 
 def translate_simple_sentences(sentence: str, model: str = "gpt-4o-mini"):
-    print("SENTENCE____________: ", sentence)
+    print("Sentence: ", sentence)
     simple_sentences = split_sentence(sentence=sentence, model=model)
 
     target_simple_sentences = []
@@ -27,10 +26,17 @@ def translate_simple_sentences(sentence: str, model: str = "gpt-4o-mini"):
     target_simple_sentence_nl = ". ".join(target_simple_sentences) + '.'
     return target_simple_sentence_nl
 
-def translate_sentence(sentence: str, model: str = "gpt-4o-mini", functions: dict = {}, example_messages: list = [], tools: list = []) -> dict:
+def translate_sentence(
+        sentence: str, 
+        model: str = "gpt-4o-mini", 
+        functions: dict = {}, 
+        example_messages: list = [], 
+        tools: list = []
+    ) -> dict:
+
     messages = [
         *example_messages,
-        {
+        { 
             "role": "user",
             "content": sentence
         }
