@@ -132,7 +132,7 @@ def main():
 
         if res.tool_calls:
             for tool_call in res.tool_calls:
-                print(tool_call)
+                print(tool_call.function)
                 tool_name = tool_call.function.name
                 kwargs = json.loads(tool_call.function.arguments)
 
@@ -141,7 +141,7 @@ def main():
                     print(f"Unknown tool: {tool_name}")
                     continue
                 
-                response = functions[tool_name](**kwargs)
+                tool_result = tool_func(**kwargs)
 
                 # If result is pydantic model, dump to dict
                 if hasattr(tool_result, "model_dump"):
@@ -150,11 +150,23 @@ def main():
                 messages.append({
                     "role": "tool", 
                     "tool_call_id": tool_call.id, 
-                    "content": json.dumps(tool_result)
+                    "content": json.dumps(tool_result, ensure_ascii=False)
                 })
-        elif res.content:
+            
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",  
+                messages=messages,
+                tools=tools,
+                temperature=0.0,
+            )
+
+            res = response.choices[0].message
+            messages.append(res)
             print(res.content)
-            break
+
+        elif res.content:
+            print("res.content: ", res.content)
+            continue
 
         else:
             print("No content and no tool calls in response: " + res)
