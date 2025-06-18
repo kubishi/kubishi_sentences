@@ -36,12 +36,17 @@ if FILETYPE == 'pdf':
     })
 
 TRANSLATOR_NAMES = {
-    'instructions': 'Instructions',
-    'finetuned': 'Fine-tuned',
+    # 'instructions': 'Instructions',
+    # 'finetuned': 'Fine-tuned',
     # 'pipeline': 'Pipeline',
-    'agentic': 'Builder',
-    'pipeline-new': 'Pipeline',
-    'rag': 'RAG',
+    # 'agentic': 'Builder',
+    # 'pipeline-new': 'Pipeline',
+    # 'rag': 'RAG',
+
+    'full': 'Full',
+    'instructions-pipeline': 'Instructions + Pipeline',
+    'rag-instructions': 'RAG + Instructions',
+    'rag-pipeline': 'RAG + Pipeline',
 }
 
 CATEGORY_ORDERS = {
@@ -110,7 +115,7 @@ def load_data(do_save: bool = True,
               overwrite: bool = False,
               compute_scores: bool = False,
               skip_errors: bool = False) -> pd.DataFrame:
-    file_path = thisdir / 'results' / 'evaluation_results.json'
+    file_path = thisdir / 'results' / 'evaluation_results_ablation.json'
     save_path = thisdir / 'results' / 'evaluation_results_evaluated.json'
     data = json.loads(file_path.read_text())
     data_evaluated = json.loads(save_path.read_text()) if save_path.exists() else {'results': []}
