@@ -120,26 +120,33 @@ def load_data(do_save: bool = True,
     data = json.loads(file_path.read_text())
     data_evaluated = json.loads(save_path.read_text()) if save_path.exists() else {'results': []}
 
-    all_results = set()
-    results = []
+    # all_results = set()
+    # results = []
+    results_dict = {}
     # Add completed results to the list
     for result in data_evaluated['results']:
         # remove metadata if present
         if 'metadata' in result['translation']:
             del result['translation']['metadata']
-        results.append(result)
-        all_results.add((result['translator'], result['model'], result['translation']['source']))
+        results_dict_key = (result['translator'], result['model'], result['translation']['source'])
+        results_dict[results_dict_key] = result
+        # results.append(result)
+        # all_results.add((result['translator'], result['model'], result['translation']['source']))
 
     # Add new results to the list
     for result in data['results']:
         # remove metadata if present
         if 'metadata' in result['translation']:
             del result['translation']['metadata']
-        if (result['translator'], result['model'], result['translation']['source']) not in all_results:
-            results.append(result)
-            all_results.add((result['translator'], result['model'], result['translation']['source']))
+        results_dict_key = (result['translator'], result['model'], result['translation']['source'])
+        if not results_dict_key in results_dict:
+            results_dict[results_dict_key] = result
+        # if back translations are different, overwrite the existing result
+        elif results_dict_key in results_dict and results_dict[results_dict_key]['translation']['back_translation'] != result['translation']['back_translation']:
+            # if the back translation is different, overwrite the existing result
+            results_dict[results_dict_key] = result
 
-    data['results'] = results
+    data['results'] = list(results_dict.values())
 
     if compute_scores:
         print(f"Computing semantic similarities for {len(data['results'])} sentences...")

@@ -46,7 +46,7 @@ def main():
     ]
     translators: Dict[str, Dict[str, Translator]] = {
         'gpt-4o-mini': {
-            # 'pipeline': PipelineTranslator(model='gpt-4o-mini'),
+            'pipeline': PipelineTranslator(model='gpt-4o-mini'),
             # 'instructions': InstructionsTranslator(model='gpt-4o-mini'),
             # 'agentic': AgenticTranslator(model='gpt-4o-mini'),
             # 'finetuned': FinetunedTranslator(model='ft:gpt-4o-mini-2024-07-18:kubishi::AInrzzLW'),
