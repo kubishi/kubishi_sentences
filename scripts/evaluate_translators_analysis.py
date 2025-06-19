@@ -38,7 +38,7 @@ if FILETYPE == 'pdf':
 TRANSLATOR_NAMES = {
     # 'instructions': 'Instructions',
     # 'finetuned': 'Fine-tuned',
-    # 'pipeline': 'Pipeline',
+    'pipeline': 'Pipeline',
     # 'agentic': 'Builder',
     # 'pipeline-new': 'Pipeline',
     # 'rag': 'RAG',
@@ -59,12 +59,16 @@ CATEGORY_ORDERS = {
         'nominalization',
     ],
     'translator': [
-        'Instructions', 
-        'Fine-tuned', 
+        # 'Instructions', 
+        # 'Fine-tuned', 
         'Pipeline', 
         # 'Pipeline V2', 
-        'Builder', 
-        'RAG'
+        # 'Builder', 
+        # 'RAG',
+        'Full',
+        'Instructions + Pipeline',
+        'RAG + Instructions',
+        'RAG + Pipeline',
     ],
     'models': ['gpt-4o-mini', 'gpt-4o'],
 }
@@ -464,20 +468,23 @@ def plot_translation_quality():
         },
     ]
 
-    models = ['gpt-4o-mini', 'gpt-4o']  # Define models to iterate over
+    models = ['gpt-4o-mini'] #, 'gpt-4o']  # Define models to iterate over
 
     for plot in plots:
         yval = plot['yval']
         offset = plot['offset']
 
         # Create a figure with 2 subplots (one on top of the other), sharing the x-axis
-        fig, axes = plt.subplots(2, 1, figsize=(10, 6), sharex=True)
+        fig, axes = plt.subplots(len(models), 1, figsize=(10, 6), sharex=True)
+        if not isinstance(axes, np.ndarray):
+            axes = [axes]
 
         handles, labels = [], []  # To collect legend handles and labels
 
         for i, model in enumerate(models):
             ax: plt.Axes = axes[i]  # Get the corresponding subplot
             df_model = df[df['model'] == model]
+
             df_similarity = df_model[['translator', 'model', 'sentence_type', yval]]
 
             df_similarity.loc[:, yval] += offset
