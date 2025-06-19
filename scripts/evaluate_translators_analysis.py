@@ -36,12 +36,12 @@ if FILETYPE == 'pdf':
     })
 
 TRANSLATOR_NAMES = {
-    # 'instructions': 'Instructions',
+    'instructions': 'Instructions',
     # 'finetuned': 'Fine-tuned',
     'pipeline': 'Pipeline',
     # 'agentic': 'Builder',
     # 'pipeline-new': 'Pipeline',
-    # 'rag': 'RAG',
+    'rag': 'RAG',
 
     'full': 'Full',
     'instructions-pipeline': 'Instructions + Pipeline',
@@ -59,21 +59,37 @@ CATEGORY_ORDERS = {
         'nominalization',
     ],
     'translator': [
-        # 'Instructions', 
+        'Instructions', 
         # 'Fine-tuned', 
         'Pipeline', 
         # 'Pipeline V2', 
         # 'Builder', 
-        # 'RAG',
-        'Full',
+        'RAG',
         'Instructions + Pipeline',
         'RAG + Instructions',
         'RAG + Pipeline',
+        'Full',
     ],
     'models': ['gpt-4o-mini', 'gpt-4o'],
 }
 
-COLORS = ['#7b3294', '#c2a5cf', '#a6dba0', '#008837', '#d95f0e', '#fdae61']
+COLORS = [
+    # '#7b3294',  # Original
+    # '#c2a5cf',
+    # '#a6dba0',
+    # '#008837',
+    # '#d95f0e',
+    # '#fdae61',
+    # Additional colorblind-friendly colors
+    '#1b9e77',  # Teal
+    '#d95f02',  # Orange
+    '#7570b3',  # Purple-blue
+    '#e7298a',  # Pink
+    '#66a61e',  # Olive green
+    '#e6ab02',  # Mustard yellow
+    '#a6761d',  # Brown
+    '#666666',  # Dark gray
+]
 
 def compute_chrf(reference: str, candidate: str, word_order: int = 2):
     """
@@ -365,7 +381,7 @@ def plot_translation_time():
     grouped_data['error_y_plus'] = grouped_data['q3_translation_time'] - grouped_data['median_translation_time']
     grouped_data['error_y_minus'] = grouped_data['median_translation_time'] - grouped_data['q1_translation_time']
 
-    bar_width = 0.175  # Width of each bar
+    bar_width = 0.125  # Width of each bar
     x_positions = np.arange(len(CATEGORY_ORDERS['sentence_type']))  # X-axis positions for the sentence types
 
     for model in grouped_data['model'].unique():
@@ -401,7 +417,7 @@ def plot_translation_time():
 
 def plot_translation_quality():
     df = load_data(compute_scores=True)
-    bar_width = 0.175  # Adjust the width of each bar
+    bar_width = 0.125  # Adjust the width of each bar
     fontsize = 16
     x_positions = np.arange(len(CATEGORY_ORDERS['sentence_type']))  # Create fixed positions for sentence types
 
@@ -601,7 +617,7 @@ def plot_cost():
     grouped_data['error_y_plus'] = grouped_data['q3_cost'] - grouped_data['median_cost']
     grouped_data['error_y_minus'] = grouped_data['median_cost'] - grouped_data['q1_cost']
 
-    bar_width = 0.175  # Width of each bar
+    bar_width = 0.125  # Width of each bar
     x_positions = np.arange(len(CATEGORY_ORDERS['sentence_type']))  # X-axis positions for the sentence types
 
     for model in grouped_data['model'].unique():
