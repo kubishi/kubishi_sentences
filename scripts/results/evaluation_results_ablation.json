@@ -5707,7 +5707,7 @@
       "translation": {
         "source": "They are climbing.",
         "target": "uhuw̃a tsibui-dü",
-        "back_translation": "",
+        "back_translation": "They climb.",
         "translation_prompt_tokens": 7240,
         "translation_completion_tokens": 10,
         "translation_time": 2.700428009033203,
@@ -5726,7 +5726,7 @@
       "translation": {
         "source": "I read.",
         "target": "nüü-nia-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7416,
         "translation_completion_tokens": 7,
         "translation_time": 3.3151915073394775,
@@ -5745,7 +5745,7 @@
       "translation": {
         "source": "He works.",
         "target": "waakü-dü uhu",
-        "back_translation": "",
+        "back_translation": "He works.",
         "translation_prompt_tokens": 7597,
         "translation_completion_tokens": 8,
         "translation_time": 3.74509334564209,
@@ -5764,7 +5764,7 @@
       "translation": {
         "source": "I will cook.",
         "target": "nüü sawa-wei",
-        "back_translation": "",
+        "back_translation": "I cook.",
         "translation_prompt_tokens": 7160,
         "translation_completion_tokens": 6,
         "translation_time": 2.467344045639038,
@@ -5783,7 +5783,7 @@
       "translation": {
         "source": "I am swimming.",
         "target": "nüü paya-wee na-bakia-wei",
-        "back_translation": "",
+        "back_translation": "I will swim in the water.",
         "translation_prompt_tokens": 7168,
         "translation_completion_tokens": 12,
         "translation_time": 2.8824620246887207,
@@ -5802,7 +5802,7 @@
       "translation": {
         "source": "He visited.",
         "target": "uhu nobini-wei",
-        "back_translation": "",
+        "back_translation": "He will visit.",
         "translation_prompt_tokens": 7209,
         "translation_completion_tokens": 6,
         "translation_time": 2.5414862632751465,
@@ -5821,7 +5821,7 @@
       "translation": {
         "source": "I ate.",
         "target": "tüka-wei nüü",
-        "back_translation": "",
+        "back_translation": "I will eat.",
         "translation_prompt_tokens": 7440,
         "translation_completion_tokens": 8,
         "translation_time": 2.675194025039673,
@@ -5840,7 +5840,7 @@
       "translation": {
         "source": "They were laughing.",
         "target": "mahuw̃a nishuwa'i-ti",
-        "back_translation": "",
+        "back_translation": "They are laughing.",
         "translation_prompt_tokens": 7186,
         "translation_completion_tokens": 10,
         "translation_time": 3.090419292449951,
@@ -5859,7 +5859,7 @@
       "translation": {
         "source": "I was running.",
         "target": "nüü poyoha-ti",
-        "back_translation": "",
+        "back_translation": "I am running.",
         "translation_prompt_tokens": 7120,
         "translation_completion_tokens": 7,
         "translation_time": 2.1464693546295166,
@@ -5878,7 +5878,7 @@
       "translation": {
         "source": "Birds were chirping.",
         "target": "tsiidoopi-uhuw̃a tsiipe'i-tei-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7230,
         "translation_completion_tokens": 16,
         "translation_time": 3.5239036083221436,
@@ -5897,7 +5897,7 @@
       "translation": {
         "source": "She sings.",
         "target": "uhu hubia-du-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7134,
         "translation_completion_tokens": 7,
         "translation_time": 2.038731098175049,
@@ -5916,7 +5916,7 @@
       "translation": {
         "source": "We are playing.",
         "target": "mahuw̃a tübinuhi-wei",
-        "back_translation": "",
+        "back_translation": "They will play.",
         "translation_prompt_tokens": 7334,
         "translation_completion_tokens": 11,
         "translation_time": 2.1117186546325684,
@@ -5935,7 +5935,7 @@
       "translation": {
         "source": "She is cooking.",
         "target": "mahu sawa-dü",
-        "back_translation": "",
+        "back_translation": "He cooks.",
         "translation_prompt_tokens": 7231,
         "translation_completion_tokens": 6,
         "translation_time": 2.531944751739502,
@@ -5954,7 +5954,7 @@
       "translation": {
         "source": "They danced.",
         "target": "uhuw̃a nüga-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7516,
         "translation_completion_tokens": 10,
         "translation_time": 2.453494071960449,
@@ -5973,7 +5973,7 @@
       "translation": {
         "source": "They will travel.",
         "target": "uhuw̃a mia-wei",
-        "back_translation": "",
+        "back_translation": "They will go.",
         "translation_prompt_tokens": 7629,
         "translation_completion_tokens": 8,
         "translation_time": 2.3888299465179443,
@@ -5992,7 +5992,7 @@
       "translation": {
         "source": "We traveled.",
         "target": "nüügwa mia-wei",
-        "back_translation": "",
+        "back_translation": "We will go.",
         "translation_prompt_tokens": 7653,
         "translation_completion_tokens": 8,
         "translation_time": 2.3302814960479736,
@@ -6011,7 +6011,7 @@
       "translation": {
         "source": "We will celebrate.",
         "target": "nüügwa tünia-gaa-wei",
-        "back_translation": "",
+        "back_translation": "We are going to read.",
         "translation_prompt_tokens": 7154,
         "translation_completion_tokens": 12,
         "translation_time": 2.569159746170044,
@@ -6030,7 +6030,7 @@
       "translation": {
         "source": "Dogs are chasing.",
         "target": "ishabugu-uu ü-ma'nhia-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7619,
         "translation_completion_tokens": 13,
         "translation_time": 3.6036343574523926,
@@ -6049,7 +6049,7 @@
       "translation": {
         "source": "She smiled.",
         "target": "mahu wükihaa-dü",
-        "back_translation": "",
+        "back_translation": "He smiles.",
         "translation_prompt_tokens": 7064,
         "translation_completion_tokens": 9,
         "translation_time": 2.114060401916504,
@@ -6068,7 +6068,7 @@
       "translation": {
         "source": "Birds will migrate.",
         "target": "tsiidoopi-uhuw̃a nu'aa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7588,
         "translation_completion_tokens": 14,
         "translation_time": 5.1037678718566895,
@@ -6087,7 +6087,7 @@
       "translation": {
         "source": "He was painting.",
         "target": "mahu tünia-wei",
-        "back_translation": "",
+        "back_translation": "He will read.",
         "translation_prompt_tokens": 7578,
         "translation_completion_tokens": 8,
         "translation_time": 2.3484339714050293,
@@ -6106,7 +6106,7 @@
       "translation": {
         "source": "She will study.",
         "target": "mahu tsapita'na-weidü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 6934,
         "translation_completion_tokens": 11,
         "translation_time": 2.219672441482544,
@@ -6125,7 +6125,7 @@
       "translation": {
         "source": "Plants grow.",
         "target": "naa-tei-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7165,
         "translation_completion_tokens": 6,
         "translation_time": 2.2955210208892822,
@@ -6144,7 +6144,7 @@
       "translation": {
         "source": "Dogs bark.",
         "target": "kwidapugu-uu yagi-dü",
-        "back_translation": "",
+        "back_translation": "The dog cries.",
         "translation_prompt_tokens": 7530,
         "translation_completion_tokens": 11,
         "translation_time": 3.615893602371216,
@@ -6163,7 +6163,7 @@
       "translation": {
         "source": "She was typing.",
         "target": "mahu wogani-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 6786,
         "translation_completion_tokens": 7,
         "translation_time": 3.786259174346924,
@@ -6182,7 +6182,7 @@
       "translation": {
         "source": "The bird chased a worm.",
         "target": "tsiidoopi'-ii wo'abi-noka ui-mahi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7748,
         "translation_completion_tokens": 16,
         "translation_time": 3.6984505653381348,
@@ -6201,7 +6201,7 @@
       "translation": {
         "source": "The bear caught a fish.",
         "target": "pahabichi-uu pagwi-na ui-wükihaa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8486,
         "translation_completion_tokens": 17,
         "translation_time": 4.233192682266235,
@@ -6220,7 +6220,7 @@
       "translation": {
         "source": "Tom caught a fish.",
         "target": "uhu pagwi-na tapinna-wei",
-        "back_translation": "",
+        "back_translation": "He will catch fish.",
         "translation_prompt_tokens": 7957,
         "translation_completion_tokens": 9,
         "translation_time": 3.1777892112731934,
@@ -6239,7 +6239,7 @@
       "translation": {
         "source": "Rachel loves coffee.",
         "target": "Rachel sutsamaa'i koopi'",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7681,
         "translation_completion_tokens": 9,
         "translation_time": 3.0963683128356934,
@@ -6258,7 +6258,7 @@
       "translation": {
         "source": "John read a book.",
         "target": "nüü-nia-wei tibo-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7770,
         "translation_completion_tokens": 11,
         "translation_time": 3.0548532009124756,
@@ -6277,7 +6277,7 @@
       "translation": {
         "source": "The dog ate soup.",
         "target": "kwidapugu-uu huba-hibi-dü",
-        "back_translation": "",
+        "back_translation": "The dog eats soup.",
         "translation_prompt_tokens": 8333,
         "translation_completion_tokens": 13,
         "translation_time": 3.6945574283599854,
@@ -6296,7 +6296,7 @@
       "translation": {
         "source": "The sun heats the earth.",
         "target": "tabeduadü-ii tüwoobü-oka ui-sawa-wei",
-        "back_translation": "",
+        "back_translation": "The sun is cooking the earths.",
         "translation_prompt_tokens": 8087,
         "translation_completion_tokens": 18,
         "translation_time": 3.178753614425659,
@@ -6315,7 +6315,7 @@
       "translation": {
         "source": "Batman caught a thief.",
         "target": "Batman wü'ü nagüdzä'aya'i.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8025,
         "translation_completion_tokens": 14,
         "translation_time": 3.8075883388519287,
@@ -6334,7 +6334,7 @@
       "translation": {
         "source": "Romeo wrote a letter.",
         "target": "Romeo nüü-ii 'i-dü-mui-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7875,
         "translation_completion_tokens": 15,
         "translation_time": 3.32918643951416,
@@ -6353,7 +6353,7 @@
       "translation": {
         "source": "Jack found a pail.",
         "target": "Jack-uu ma'i-wei pattuuna-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7928,
         "translation_completion_tokens": 13,
         "translation_time": 2.8897416591644287,
@@ -6372,7 +6372,7 @@
       "translation": {
         "source": "Susan sings songs.",
         "target": "Susan hubiadu hubia-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7944,
         "translation_completion_tokens": 9,
         "translation_time": 3.115381956100464,
@@ -6391,7 +6391,7 @@
       "translation": {
         "source": "Mike watched a movie.",
         "target": "nüügwa soo'i-dü-aa puni-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8245,
         "translation_completion_tokens": 13,
         "translation_time": 3.089489698410034,
@@ -6410,7 +6410,7 @@
       "translation": {
         "source": "The king wore a crown.",
         "target": "pogina-uu kwiduba-ii tükü-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7500,
         "translation_completion_tokens": 15,
         "translation_time": 3.182042360305786,
@@ -6429,7 +6429,7 @@
       "translation": {
         "source": "The lion hunted a deer.",
         "target": "wiheetsiti tühidda-noka kooinü'hi-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8111,
         "translation_completion_tokens": 16,
         "translation_time": 3.968944787979126,
@@ -6448,7 +6448,7 @@
       "translation": {
         "source": "The captain steered the ship.",
         "target": "I could not find a direct translation for \"captain\" and \"ship.\" Please provide a different sentence for translation.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7358,
         "translation_completion_tokens": 25,
         "translation_time": 3.072561740875244,
@@ -6467,7 +6467,7 @@
       "translation": {
         "source": "Harry received a letter.",
         "target": "Harry-uu piponibü-naka mui-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7063,
         "translation_completion_tokens": 13,
         "translation_time": 2.448094606399536,
@@ -6486,7 +6486,7 @@
       "translation": {
         "source": "Linda bought a dress.",
         "target": "Linda 'u-nawasii-maa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7942,
         "translation_completion_tokens": 11,
         "translation_time": 2.7891454696655273,
@@ -6505,7 +6505,7 @@
       "translation": {
         "source": "The chef prepared a meal.",
         "target": "tükanobi-uu na-sawa-wei tüünapi-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7463,
         "translation_completion_tokens": 17,
         "translation_time": 3.177664041519165,
@@ -6524,7 +6524,7 @@
       "translation": {
         "source": "My brother drives a car.",
         "target": "'i-babi'-uu 'adaamubüdi'-ka 'u-sawa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7645,
         "translation_completion_tokens": 20,
         "translation_time": 2.4796900749206543,
@@ -6543,7 +6543,7 @@
       "translation": {
         "source": "Alice opened a door.",
         "target": "Alice-uu tükotohi-nokka 'i-düwüttümannu.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8157,
         "translation_completion_tokens": 19,
         "translation_time": 2.935224771499634,
@@ -6562,7 +6562,7 @@
       "translation": {
         "source": "Paul plays the guitar.",
         "target": "nüü-ii tsataumugi-wei mahuw̃a",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7894,
         "translation_completion_tokens": 15,
         "translation_time": 3.261756420135498,
@@ -6581,7 +6581,7 @@
       "translation": {
         "source": "The writer finished a story.",
         "target": "nüügwa tükwi-kaa-wei niddoo'i-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8783,
         "translation_completion_tokens": 17,
         "translation_time": 3.5536794662475586,
@@ -6600,7 +6600,7 @@
       "translation": {
         "source": "The teacher gave a lecture.",
         "target": "mahuw̃a nimoha-wei tünia-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8515,
         "translation_completion_tokens": 15,
         "translation_time": 3.29132080078125,
@@ -6619,7 +6619,7 @@
       "translation": {
         "source": "Mom made dinner.",
         "target": "'i-bia-uu maappa'i-wei tükadduuna",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8252,
         "translation_completion_tokens": 16,
         "translation_time": 2.8688700199127197,
@@ -6638,7 +6638,7 @@
       "translation": {
         "source": "Anna baked a cake.",
         "target": "Münna'wi 'u-gumasaa-wei keiki'-aa.",
-        "back_translation": "",
+        "back_translation": "Will bake cake for a long time.",
         "translation_prompt_tokens": 7509,
         "translation_completion_tokens": 17,
         "translation_time": 3.384174108505249,
@@ -6657,7 +6657,7 @@
       "translation": {
         "source": "We are playing and laughing.",
         "target": "nüügwa tübinuhi-wei nishuwa'i-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7882,
         "translation_completion_tokens": 17,
         "translation_time": 4.479405879974365,
@@ -6676,7 +6676,7 @@
       "translation": {
         "source": "I will cook and eat.",
         "target": "nüü sawa-wei tüka-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7864,
         "translation_completion_tokens": 10,
         "translation_time": 3.2230076789855957,
@@ -6695,7 +6695,7 @@
       "translation": {
         "source": "I read and write.",
         "target": "nüü-nia-dü mui-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8272,
         "translation_completion_tokens": 10,
         "translation_time": 3.1050662994384766,
@@ -6714,7 +6714,7 @@
       "translation": {
         "source": "They were laughing and joking.",
         "target": "mahuw̃a nishuwa'i-ti kaahi",
-        "back_translation": "",
+        "back_translation": "They are jokingly laughing.",
         "translation_prompt_tokens": 7916,
         "translation_completion_tokens": 12,
         "translation_time": 3.58435320854187,
@@ -6733,7 +6733,7 @@
       "translation": {
         "source": "She sings and dances.",
         "target": "'uhu hubiadu üi nüga",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7891,
         "translation_completion_tokens": 11,
         "translation_time": 3.432945966720581,
@@ -6752,7 +6752,7 @@
       "translation": {
         "source": "They danced and laughed.",
         "target": "mahuw̃a nükaga nishuwa'i",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8035,
         "translation_completion_tokens": 12,
         "translation_time": 3.682605743408203,
@@ -6771,7 +6771,7 @@
       "translation": {
         "source": "He visited and enjoyed.",
         "target": "uhu nobini-wei tüka-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7744,
         "translation_completion_tokens": 10,
         "translation_time": 3.049729585647583,
@@ -6790,7 +6790,7 @@
       "translation": {
         "source": "We will celebrate and dance.",
         "target": "nüügwa nüga-wei yotsi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7960,
         "translation_completion_tokens": 14,
         "translation_time": 3.210824966430664,
@@ -6809,7 +6809,7 @@
       "translation": {
         "source": "Birds were chirping and flying.",
         "target": "tsiipa-uhuw̃a tsiipe'i-wei yotsi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7336,
         "translation_completion_tokens": 18,
         "translation_time": 2.796269178390503,
@@ -6828,7 +6828,7 @@
       "translation": {
         "source": "They are climbing and exploring.",
         "target": "uhuw̃a tsibui-ti üi-tama'i-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8225,
         "translation_completion_tokens": 16,
         "translation_time": 3.3172147274017334,
@@ -6847,7 +6847,7 @@
       "translation": {
         "source": "He works and studies.",
         "target": "mahu tünaki-wei waakü-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7952,
         "translation_completion_tokens": 13,
         "translation_time": 2.953948497772217,
@@ -6866,7 +6866,7 @@
       "translation": {
         "source": "She is cooking and tasting.",
         "target": "mahu sawa-wei kama-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7672,
         "translation_completion_tokens": 9,
         "translation_time": 2.8061156272888184,
@@ -6885,7 +6885,7 @@
       "translation": {
         "source": "I am swimming and relaxing.",
         "target": "nüü-bü üwi paya-wee tooki'inia",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7880,
         "translation_completion_tokens": 15,
         "translation_time": 2.8435239791870117,
@@ -6904,7 +6904,7 @@
       "translation": {
         "source": "She was typing and sipping coffee.",
         "target": "mahu hibi-wei ui-yaduha-dü koopi'",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7740,
         "translation_completion_tokens": 16,
         "translation_time": 3.5401034355163574,
@@ -6923,7 +6923,7 @@
       "translation": {
         "source": "I ate while watching TV.",
         "target": "nüü tükä-wei ui-‘iyaa’i-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8188,
         "translation_completion_tokens": 15,
         "translation_time": 2.5984132289886475,
@@ -6942,7 +6942,7 @@
       "translation": {
         "source": "They will travel and explore.",
         "target": "uhu-wee mia-wei uhu-watti-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8461,
         "translation_completion_tokens": 13,
         "translation_time": 3.196152687072754,
@@ -6961,7 +6961,7 @@
       "translation": {
         "source": "We traveled and discovered.",
         "target": "nüügwa mia-wei tama'i-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8411,
         "translation_completion_tokens": 12,
         "translation_time": 2.5786824226379395,
@@ -6980,7 +6980,7 @@
       "translation": {
         "source": "I was running and listening to music.",
         "target": "nüü wükihaa-kaa-si ui-nakkahi-wei",
-        "back_translation": "",
+        "back_translation": "I will listen to it and then smile.",
         "translation_prompt_tokens": 8749,
         "translation_completion_tokens": 16,
         "translation_time": 3.5602505207061768,
@@ -6999,7 +6999,7 @@
       "translation": {
         "source": "Birds will migrate and return.",
         "target": "tsiipa-uhuw̃a nu'aa-wei mūnā-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8027,
         "translation_completion_tokens": 18,
         "translation_time": 4.313503980636597,
@@ -7018,7 +7018,7 @@
       "translation": {
         "source": "He was painting and humming.",
         "target": "uhu tiaga-wei h ǖhǖddügi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7847,
         "translation_completion_tokens": 19,
         "translation_time": 4.04906439781189,
@@ -7037,7 +7037,7 @@
       "translation": {
         "source": "She will study and pass.",
         "target": "uhu wükihaa-wei üi-pimaatta-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7619,
         "translation_completion_tokens": 15,
         "translation_time": 3.022454261779785,
@@ -7056,7 +7056,7 @@
       "translation": {
         "source": "Dogs are chasing and barking.",
         "target": "kwidapugu-uu ma'nhia-wei yagi-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8046,
         "translation_completion_tokens": 17,
         "translation_time": 5.17458701133728,
@@ -7075,7 +7075,7 @@
       "translation": {
         "source": "Plants grow and bloom.",
         "target": "nahna-ii hübiga-ki",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7508,
         "translation_completion_tokens": 10,
         "translation_time": 3.1143789291381836,
@@ -7094,7 +7094,7 @@
       "translation": {
         "source": "Dogs bark and wag their tails.",
         "target": "kwidapugu-uu yagi-wei pi'kwadzi-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8569,
         "translation_completion_tokens": 17,
         "translation_time": 5.313547849655151,
@@ -7113,7 +7113,7 @@
       "translation": {
         "source": "She smiled and waved.",
         "target": "uhew̃a wünaadduuba",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8005,
         "translation_completion_tokens": 11,
         "translation_time": 3.204468250274658,
@@ -7132,7 +7132,7 @@
       "translation": {
         "source": "The bird chirped and the squirrel jumped.",
         "target": "tsiipa'-ii tsiipe'i-wei aingwü-ii wubuki-wei",
-        "back_translation": "",
+        "back_translation": "The bird will chirp. The squirrel will jump.",
         "translation_prompt_tokens": 7810,
         "translation_completion_tokens": 22,
         "translation_time": 3.298943519592285,
@@ -7151,7 +7151,7 @@
       "translation": {
         "source": "Mike cooked and his sister danced.",
         "target": "nüüga-ii sawa-wei 'uhuw̃a pabi'-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8031,
         "translation_completion_tokens": 18,
         "translation_time": 3.081186056137085,
@@ -7170,7 +7170,7 @@
       "translation": {
         "source": "The dog ate soup and the cat ran.",
         "target": "kwidapugu-ii huba-wei kiidi'-uu poyoha-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9163,
         "translation_completion_tokens": 20,
         "translation_time": 4.927613973617554,
@@ -7189,7 +7189,7 @@
       "translation": {
         "source": "Susan sang and I read.",
         "target": "mahuw̃a hubiadu-wei nüü-nia-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8033,
         "translation_completion_tokens": 16,
         "translation_time": 3.3269245624542236,
@@ -7208,7 +7208,7 @@
       "translation": {
         "source": "Harry wrote and Ron read.",
         "target": "'uhu' 'i-zimui-ti 'u-nia-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8213,
         "translation_completion_tokens": 15,
         "translation_time": 3.283966064453125,
@@ -7227,7 +7227,7 @@
       "translation": {
         "source": "The king sat and the queen stood.",
         "target": "pogina-uu katü-ii h ühi wünü-uu",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9342,
         "translation_completion_tokens": 17,
         "translation_time": 3.8685641288757324,
@@ -7246,7 +7246,7 @@
       "translation": {
         "source": "Tom slept and Jerry watched.",
         "target": "nüügwa üwi-wei mahuw̃a ui-yaa'i-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8339,
         "translation_completion_tokens": 19,
         "translation_time": 3.7872793674468994,
@@ -7265,7 +7265,7 @@
       "translation": {
         "source": "Rachel danced and Monica sang.",
         "target": "nüga-wei hubiadu-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8062,
         "translation_completion_tokens": 11,
         "translation_time": 3.5298104286193848,
@@ -7284,7 +7284,7 @@
       "translation": {
         "source": "Jack climbed and Jill followed.",
         "target": "Jack-uu tsibui-ti, Jill-uu tatsee-hu-mi.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7506,
         "translation_completion_tokens": 18,
         "translation_time": 3.3303027153015137,
@@ -7303,7 +7303,7 @@
       "translation": {
         "source": "Alice laughed and Bob cried.",
         "target": "nishuwa'i-uu yaga-uu",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8098,
         "translation_completion_tokens": 11,
         "translation_time": 3.0497689247131348,
@@ -7322,7 +7322,7 @@
       "translation": {
         "source": "My brother drove and I waited.",
         "target": "pabi'-uu 'i-weegini-wei 'oonno'oho wü'tui-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7701,
         "translation_completion_tokens": 23,
         "translation_time": 3.535179376602173,
@@ -7341,7 +7341,7 @@
       "translation": {
         "source": "Romeo called and Juliet answered.",
         "target": "Romeo pei-ii Juliet nippaya-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8245,
         "translation_completion_tokens": 12,
         "translation_time": 2.6937592029571533,
@@ -7360,7 +7360,7 @@
       "translation": {
         "source": "The captain shouted and the crew responded.",
         "target": "Mahu kûküwohi-wei ühu nippaya-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9201,
         "translation_completion_tokens": 17,
         "translation_time": 3.9467568397521973,
@@ -7379,7 +7379,7 @@
       "translation": {
         "source": "Anna swam and Elsa skated.",
         "target": "Mahu na-bakia-wei, mahuw̃a tasigoo'i-wei.",
-        "back_translation": "",
+        "back_translation": "He will swim, they will skate.",
         "translation_prompt_tokens": 7673,
         "translation_completion_tokens": 20,
         "translation_time": 2.7214272022247314,
@@ -7398,7 +7398,7 @@
       "translation": {
         "source": "The sun shone and the moon glowed.",
         "target": "tabedua'-ii müca-uu kusida-wei ta-müca-uu kusida-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8615,
         "translation_completion_tokens": 25,
         "translation_time": 3.957908868789673,
@@ -7417,7 +7417,7 @@
       "translation": {
         "source": "Mom laughed and dad cried.",
         "target": "piabi nishuwa'i-wei nawabi yaga-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8931,
         "translation_completion_tokens": 15,
         "translation_time": 4.134610176086426,
@@ -7436,7 +7436,7 @@
       "translation": {
         "source": "The lion hunted and the tiger rested.",
         "target": "wiheetsiti-uu kooi-nühi-wei 'uunuppi-uu songapa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8392,
         "translation_completion_tokens": 23,
         "translation_time": 5.804795503616333,
@@ -7455,7 +7455,7 @@
       "translation": {
         "source": "The writer typed and the poet thought.",
         "target": "nüügwa tünima' ühi tünima'",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9540,
         "translation_completion_tokens": 15,
         "translation_time": 5.346444606781006,
@@ -7474,7 +7474,7 @@
       "translation": {
         "source": "The teacher spoke and the student listened.",
         "target": "tüniwaa'-uu yadohi-dei-gaa-dü, püdünü'ü-uu nakka-dei-gaa-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9994,
         "translation_completion_tokens": 33,
         "translation_time": 4.3659772872924805,
@@ -7493,7 +7493,7 @@
       "translation": {
         "source": "John traveled and Mary studied.",
         "target": "nüügwa mangaa-wei mahuw̃a naniwaa'-a",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7978,
         "translation_completion_tokens": 17,
         "translation_time": 3.3089406490325928,
@@ -7512,7 +7512,7 @@
       "translation": {
         "source": "The bear roared and the fox hid.",
         "target": "pahabichi-uu kwana-wei 'ishagwanga'-oka nadüwaa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8492,
         "translation_completion_tokens": 23,
         "translation_time": 4.279413461685181,
@@ -7531,7 +7531,7 @@
       "translation": {
         "source": "The chef baked and his assistant cleaned.",
         "target": "tüka-nobi-ii kumasawa-wei 'a-tümaabüa-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8715,
         "translation_completion_tokens": 23,
         "translation_time": 4.508076190948486,
@@ -7550,7 +7550,7 @@
       "translation": {
         "source": "Batman swung and Robin landed.",
         "target": "tasooma'i-wei mahuw̃a t üwoobü-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8012,
         "translation_completion_tokens": 18,
         "translation_time": 3.12367844581604,
@@ -7569,7 +7569,7 @@
       "translation": {
         "source": "Paul jumped and Peter ducked.",
         "target": "nattagwüna'i-wei namutsinga-hu-bitü-ga'",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8197,
         "translation_completion_tokens": 19,
         "translation_time": 2.9696927070617676,
@@ -7588,7 +7588,7 @@
       "translation": {
         "source": "Linda painted and her friend sketched.",
         "target": "Linda-uu tükamui-ti 'a-hani-ti 'u-mui-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8532,
         "translation_completion_tokens": 19,
         "translation_time": 3.037536859512329,
@@ -7607,7 +7607,7 @@
       "translation": {
         "source": "The bird and the squirrel played.",
         "target": "tsiipa'-ii maawi-ii tübinuhi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7652,
         "translation_completion_tokens": 15,
         "translation_time": 2.8444552421569824,
@@ -7626,7 +7626,7 @@
       "translation": {
         "source": "The bear and the fox foraged for food.",
         "target": "pahabichi-uu wahii'-uu tükapuhei-wei tünapi-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8686,
         "translation_completion_tokens": 22,
         "translation_time": 4.729261636734009,
@@ -7645,7 +7645,7 @@
       "translation": {
         "source": "The dog and the cat were eating soup.",
         "target": "kwidapugu-ii kiidi'-ii huba-hibi-dü",
-        "back_translation": "",
+        "back_translation": "The dog, the cat eat soup.",
         "translation_prompt_tokens": 9345,
         "translation_completion_tokens": 17,
         "translation_time": 4.727429628372192,
@@ -7664,7 +7664,7 @@
       "translation": {
         "source": "Batman and Robin fought crime.",
         "target": "nüügwa napidügu-wei 'u-zhapagwi-hu-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7898,
         "translation_completion_tokens": 21,
         "translation_time": 3.6180315017700195,
@@ -7683,7 +7683,7 @@
       "translation": {
         "source": "My brother and I went hiking.",
         "target": "nüügwa saa'hu tutuapi-ii mia-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8014,
         "translation_completion_tokens": 15,
         "translation_time": 3.0460212230682373,
@@ -7702,7 +7702,7 @@
       "translation": {
         "source": "The teacher and the student were discussing.",
         "target": "tüniwaa-uu püdnü'ümi-uhuw̃a waakü-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8649,
         "translation_completion_tokens": 23,
         "translation_time": 3.278672695159912,
@@ -7721,7 +7721,7 @@
       "translation": {
         "source": "Paul and Peter play the guitar.",
         "target": "Paul-uu Peter-uu tü-zataumugi-wei",
-        "back_translation": "",
+        "back_translation": "Paul, Peter will play guitar.",
         "translation_prompt_tokens": 7934,
         "translation_completion_tokens": 14,
         "translation_time": 3.7739620208740234,
@@ -7740,7 +7740,7 @@
       "translation": {
         "source": "Alice and Bob solve puzzles.",
         "target": "Alice üi Bob nuhi-ti tünika-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7816,
         "translation_completion_tokens": 13,
         "translation_time": 3.1330790519714355,
@@ -7759,7 +7759,7 @@
       "translation": {
         "source": "The writer and the poet collaborated on a book.",
         "target": "Nana-hoi tibo-ii 'u-dü-mui-ti.",
-        "back_translation": "",
+        "back_translation": "The table and the man were writing it.",
         "translation_prompt_tokens": 8180,
         "translation_completion_tokens": 17,
         "translation_time": 3.804755210876465,
@@ -7778,7 +7778,7 @@
       "translation": {
         "source": "Romeo and Juliet loved deeply.",
         "target": "nana-sutsamaa'i-kaa 'oonno'oho nana-sutsamaa'i-kaa",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7161,
         "translation_completion_tokens": 21,
         "translation_time": 3.1054301261901855,
@@ -7797,7 +7797,7 @@
       "translation": {
         "source": "The captain and the crew sailed the seas.",
         "target": "I do not have a direct translation for that sentence.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7747,
         "translation_completion_tokens": 12,
         "translation_time": 4.285818338394165,
@@ -7816,7 +7816,7 @@
       "translation": {
         "source": "Harry and Ron faced many challenges.",
         "target": "uhuw̃a tünika-wei tümu'u-uu",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7788,
         "translation_completion_tokens": 15,
         "translation_time": 2.9186031818389893,
@@ -7835,7 +7835,7 @@
       "translation": {
         "source": "The chef and his assistant prepared a feast.",
         "target": "tu'ihiibü-na mahuw̃a tüküna' 'awadüka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8985,
         "translation_completion_tokens": 20,
         "translation_time": 4.002835750579834,
@@ -7854,7 +7854,7 @@
       "translation": {
         "source": "Susan and I will watch a movie.",
         "target": "nüügwa soo'i-ii wa'ani-kaa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8215,
         "translation_completion_tokens": 16,
         "translation_time": 3.8246796131134033,
@@ -7873,7 +7873,7 @@
       "translation": {
         "source": "The lion and the tiger roared.",
         "target": "wiheetsiti-uu toopi-uu küt'ü'tühi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8307,
         "translation_completion_tokens": 19,
         "translation_time": 3.622213125228882,
@@ -7892,7 +7892,7 @@
       "translation": {
         "source": "The sun and the moon are celestial bodies.",
         "target": "tabeduadü m ü müca katü-kaa-pü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7774,
         "translation_completion_tokens": 15,
         "translation_time": 4.128420114517212,
@@ -7911,7 +7911,7 @@
       "translation": {
         "source": "Linda and her friend dance gracefully.",
         "target": "Linda üi niwaa' nükaga-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7885,
         "translation_completion_tokens": 12,
         "translation_time": 2.659745931625366,
@@ -7930,7 +7930,7 @@
       "translation": {
         "source": "Mom and dad are celebrating their anniversary.",
         "target": "nana-nüügwa tadoobe-ii 'awadüka-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7373,
         "translation_completion_tokens": 19,
         "translation_time": 3.5607237815856934,
@@ -7949,7 +7949,7 @@
       "translation": {
         "source": "Rachel and Monica share an apartment.",
         "target": "Rachel üi Monica tünaki nobi-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7218,
         "translation_completion_tokens": 12,
         "translation_time": 3.272862672805786,
@@ -7968,7 +7968,7 @@
       "translation": {
         "source": "John and Mary are traveling.",
         "target": "nüügwa taagwa mia-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8807,
         "translation_completion_tokens": 11,
         "translation_time": 3.4746246337890625,
@@ -7987,7 +7987,7 @@
       "translation": {
         "source": "Anna and Elsa share a bond.",
         "target": "nüügwa na'hi üi-tü'üga",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7893,
         "translation_completion_tokens": 15,
         "translation_time": 2.985614538192749,
@@ -8006,7 +8006,7 @@
       "translation": {
         "source": "Tom and Jerry chase each other.",
         "target": "mahu-ii ma'nhia-wei ma'nhia-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7293,
         "translation_completion_tokens": 17,
         "translation_time": 2.7607100009918213,
@@ -8025,7 +8025,7 @@
       "translation": {
         "source": "Jack and Jill went up the hill.",
         "target": "kammü mahuw̃a poyoha-wei toobo'-ka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7784,
         "translation_completion_tokens": 17,
         "translation_time": 3.0084445476531982,
@@ -8044,7 +8044,7 @@
       "translation": {
         "source": "The king and the queen ruled wisely.",
         "target": "I couldn't find a direct translation for \"king\" and \"queen\" in the available vocabulary. However, I can provide a translation for \"ruled wisely\" as \"naniwaa' kooni.\" \n\nSo, the translation for \"The king and the queen ruled wisely\" would be: \n\npogina na kuhi' h übichi' naniwaa' kooni.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7794,
         "translation_completion_tokens": 78,
         "translation_time": 4.256961345672607,
@@ -8063,7 +8063,7 @@
       "translation": {
         "source": "Mike and his sister study together.",
         "target": "Mike üi saa'hu pünni'-ii watti-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7521,
         "translation_completion_tokens": 16,
         "translation_time": 3.730269193649292,
@@ -8082,7 +8082,7 @@
       "translation": {
         "source": "The one who will run kicks the ball.",
         "target": "poyoha-wei tappakwatti poono'-eika",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8490,
         "translation_completion_tokens": 14,
         "translation_time": 3.889547109603882,
@@ -8101,7 +8101,7 @@
       "translation": {
         "source": "The swimmer has reached the shore.",
         "target": "nabakia-wei pakkaama-ii",
-        "back_translation": "",
+        "back_translation": "The shore will swim.",
         "translation_prompt_tokens": 7910,
         "translation_completion_tokens": 10,
         "translation_time": 3.52830171585083,
@@ -8120,7 +8120,7 @@
       "translation": {
         "source": "The driver is opening the door.",
         "target": "tsamiagü-uu tüküwüttümanu-oka ui-zakonohi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7998,
         "translation_completion_tokens": 23,
         "translation_time": 3.1136481761932373,
@@ -8139,7 +8139,7 @@
       "translation": {
         "source": "The painter finished the one who was sketching.",
         "target": "uhuw̃a na-kwüsa-wei 'i-mui-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9492,
         "translation_completion_tokens": 18,
         "translation_time": 3.5923755168914795,
@@ -8158,7 +8158,7 @@
       "translation": {
         "source": "The one who cooks prepares the meal.",
         "target": "sawa-dü-ii tünapi-oka 'a-sawa-wei",
-        "back_translation": "",
+        "back_translation": "The cook will cook the food.",
         "translation_prompt_tokens": 7650,
         "translation_completion_tokens": 18,
         "translation_time": 3.663749933242798,
@@ -8177,7 +8177,7 @@
       "translation": {
         "source": "The one who will jump waits quietly.",
         "target": "wubuki-wei wütui-dei-uu",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7901,
         "translation_completion_tokens": 13,
         "translation_time": 2.712717056274414,
@@ -8196,7 +8196,7 @@
       "translation": {
         "source": "The climber holds the rope tightly.",
         "target": "kwatsa'i-ii tüyahapü-oka uhi-zi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8338,
         "translation_completion_tokens": 19,
         "translation_time": 3.4935059547424316,
@@ -8215,7 +8215,7 @@
       "translation": {
         "source": "The sleeper woke up suddenly.",
         "target": "'üwi-uu nittü'buni-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8225,
         "translation_completion_tokens": 13,
         "translation_time": 2.6314985752105713,
@@ -8234,7 +8234,7 @@
       "translation": {
         "source": "The one who will teach greets the students.",
         "target": "tüniwaa'-uu üügwa 'a-püpü-düddü-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8057,
         "translation_completion_tokens": 21,
         "translation_time": 3.2448654174804688,
@@ -8253,7 +8253,7 @@
       "translation": {
         "source": "The dancer spins on the stage.",
         "target": "nüüga-uu kwinnanuhi-tei tibo-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8962,
         "translation_completion_tokens": 16,
         "translation_time": 4.006835699081421,
@@ -8272,7 +8272,7 @@
       "translation": {
         "source": "The one who laughs startled the child.",
         "target": "nishuwa'i-uu tua'-eika yadohi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8053,
         "translation_completion_tokens": 16,
         "translation_time": 2.71893048286438,
@@ -8291,7 +8291,7 @@
       "translation": {
         "source": "The walker approached the building.",
         "target": "mahu hukaw̃ia-wei nobi-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7582,
         "translation_completion_tokens": 13,
         "translation_time": 3.7288267612457275,
@@ -8310,7 +8310,7 @@
       "translation": {
         "source": "The one who will speak interrupts the meeting.",
         "target": "'ihi yaduha-wei tapinno'o",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8015,
         "translation_completion_tokens": 12,
         "translation_time": 2.692621946334839,
@@ -8329,7 +8329,7 @@
       "translation": {
         "source": "The writer closes the notebook.",
         "target": "tümui-wei 'i piponibü-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8043,
         "translation_completion_tokens": 14,
         "translation_time": 3.3906900882720947,
@@ -8348,7 +8348,7 @@
       "translation": {
         "source": "The one who is running enjoys the wind.",
         "target": "yotsi-uu hüyügwa-ii tüsuwa'wi-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7657,
         "translation_completion_tokens": 17,
         "translation_time": 4.296746015548706,
@@ -8367,7 +8367,7 @@
       "translation": {
         "source": "The builder constructs a house.",
         "target": "maappa'i-wei nobi-na uhu",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8624,
         "translation_completion_tokens": 11,
         "translation_time": 3.7433853149414062,
@@ -8386,7 +8386,7 @@
       "translation": {
         "source": "The reader has found the one who writes.",
         "target": "nüü' i-dama'i-wei 'u-mui-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8751,
         "translation_completion_tokens": 16,
         "translation_time": 3.294191360473633,
@@ -8405,7 +8405,7 @@
       "translation": {
         "source": "The one who will drive grabs the keys.",
         "target": "tü-zamia-gü-wei 'u-zipunuhinnu-oka",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8608,
         "translation_completion_tokens": 18,
         "translation_time": 3.876765251159668,
@@ -8424,7 +8424,7 @@
       "translation": {
         "source": "The singer leads the choir.",
         "target": "hubiadu-uu muhi-wei hubianobi-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8315,
         "translation_completion_tokens": 15,
         "translation_time": 3.5317564010620117,
@@ -8443,7 +8443,7 @@
       "translation": {
         "source": "The listener frowns at the noise.",
         "target": "nakkahi-uu wooichagi-oka uhu-nakka-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7701,
         "translation_completion_tokens": 17,
         "translation_time": 3.0482518672943115,
@@ -8462,7 +8462,7 @@
       "translation": {
         "source": "The one who paints watches the sunset.",
         "target": "mui-wei 'uhuw̃a tabezupa-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8082,
         "translation_completion_tokens": 14,
         "translation_time": 2.57553768157959,
@@ -8481,7 +8481,7 @@
       "translation": {
         "source": "The shopper picks the apples.",
         "target": "nahuu'hi aaponu'-eikka ui-tsoba-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8238,
         "translation_completion_tokens": 16,
         "translation_time": 4.296863079071045,
@@ -8500,7 +8500,7 @@
       "translation": {
         "source": "The one who will read turns the page.",
         "target": "'i-nia-wei 'ihi tibo-oka tükannu-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7832,
         "translation_completion_tokens": 18,
         "translation_time": 2.7711427211761475,
@@ -8519,7 +8519,7 @@
       "translation": {
         "source": "The sleeper dreams peacefully.",
         "target": "noosi-dabi-ti hüsünei-wei",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8945,
         "translation_completion_tokens": 12,
         "translation_time": 3.857957363128662,
@@ -8538,7 +8538,7 @@
       "translation": {
         "source": "The one who will jump stands at the edge.",
         "target": "nattagwüna'i-wei ühi wünü-uu paya-kaagwa",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7951,
         "translation_completion_tokens": 21,
         "translation_time": 2.9930906295776367,
@@ -8557,7 +8557,7 @@
       "translation": {
         "source": "They are climbing.",
         "target": "mahuw̃a tsibui-ti",
-        "back_translation": "",
+        "back_translation": "They are climbing.",
         "translation_prompt_tokens": 7190,
         "translation_completion_tokens": 9,
         "translation_time": 5.4343907833099365,
@@ -8576,7 +8576,7 @@
       "translation": {
         "source": "I read.",
         "target": "nüük tünia-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7368,
         "translation_completion_tokens": 8,
         "translation_time": 6.533965349197388,
@@ -8595,7 +8595,7 @@
       "translation": {
         "source": "He works.",
         "target": "mahu waakü-dü.",
-        "back_translation": "",
+        "back_translation": "He works.",
         "translation_prompt_tokens": 7546,
         "translation_completion_tokens": 9,
         "translation_time": 5.593247175216675,
@@ -8614,7 +8614,7 @@
       "translation": {
         "source": "I will cook.",
         "target": "nüükü sawa-wei.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7110,
         "translation_completion_tokens": 9,
         "translation_time": 6.650108337402344,
@@ -8633,7 +8633,7 @@
       "translation": {
         "source": "I am swimming.",
         "target": "nüük pahabi-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7147,
         "translation_completion_tokens": 7,
         "translation_time": 5.598217725753784,
@@ -8652,7 +8652,7 @@
       "translation": {
         "source": "He visited.",
         "target": "mahu nobini-ti.",
-        "back_translation": "",
+        "back_translation": "He is visiting.",
         "translation_prompt_tokens": 7152,
         "translation_completion_tokens": 7,
         "translation_time": 6.203502893447876,
@@ -8671,7 +8671,7 @@
       "translation": {
         "source": "I ate.",
         "target": "nüükka-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7391,
         "translation_completion_tokens": 6,
         "translation_time": 5.53460693359375,
@@ -8690,7 +8690,7 @@
       "translation": {
         "source": "They were laughing.",
         "target": "mahuw̃a nishuwa'i-ti",
-        "back_translation": "",
+        "back_translation": "They are laughing.",
         "translation_prompt_tokens": 7136,
         "translation_completion_tokens": 10,
         "translation_time": 6.447435140609741,
@@ -8709,7 +8709,7 @@
       "translation": {
         "source": "I was running.",
         "target": "nüükü poyoha-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7071,
         "translation_completion_tokens": 10,
         "translation_time": 6.269285440444946,
@@ -8728,7 +8728,7 @@
       "translation": {
         "source": "Birds were chirping.",
         "target": "tsiipa-ii tsiipe'i-ti",
-        "back_translation": "",
+        "back_translation": "The bird is chirping.",
         "translation_prompt_tokens": 7178,
         "translation_completion_tokens": 10,
         "translation_time": 5.889915943145752,
@@ -8747,7 +8747,7 @@
       "translation": {
         "source": "She sings.",
         "target": "mahu hubiadu-dü.",
-        "back_translation": "",
+        "back_translation": "She sings.",
         "translation_prompt_tokens": 7081,
         "translation_completion_tokens": 9,
         "translation_time": 5.353109359741211,
@@ -8766,7 +8766,7 @@
       "translation": {
         "source": "We are playing.",
         "target": "taagwa tübinohi-ti",
-        "back_translation": "",
+        "back_translation": "We are playing.",
         "translation_prompt_tokens": 7284,
         "translation_completion_tokens": 9,
         "translation_time": 6.132803678512573,
@@ -8785,7 +8785,7 @@
       "translation": {
         "source": "She is cooking.",
         "target": "mahu sawa-ti",
-        "back_translation": "",
+        "back_translation": "She is cooking.",
         "translation_prompt_tokens": 7175,
         "translation_completion_tokens": 5,
         "translation_time": 6.020514249801636,
@@ -8804,7 +8804,7 @@
       "translation": {
         "source": "They danced.",
         "target": "nüga-ti",
-        "back_translation": "",
+        "back_translation": "Dancing.",
         "translation_prompt_tokens": 7465,
         "translation_completion_tokens": 5,
         "translation_time": 6.588817119598389,
@@ -8823,7 +8823,7 @@
       "translation": {
         "source": "They will travel.",
         "target": "mahuw̃a [travel]-wei",
-        "back_translation": "",
+        "back_translation": "They will travel.",
         "translation_prompt_tokens": 7578,
         "translation_completion_tokens": 9,
         "translation_time": 5.164302825927734,
@@ -8842,7 +8842,7 @@
       "translation": {
         "source": "We traveled.",
         "target": "taagwa [travel]-ti",
-        "back_translation": "",
+        "back_translation": "We are traveling.",
         "translation_prompt_tokens": 7597,
         "translation_completion_tokens": 8,
         "translation_time": 5.897375822067261,
@@ -8861,7 +8861,7 @@
       "translation": {
         "source": "We will celebrate.",
         "target": "taagwa [celebrate]-wei",
-        "back_translation": "",
+        "back_translation": "We are celebrating.",
         "translation_prompt_tokens": 7102,
         "translation_completion_tokens": 9,
         "translation_time": 5.887098550796509,
@@ -8880,7 +8880,7 @@
       "translation": {
         "source": "Dogs are chasing.",
         "target": "isha'pugu-ii naki-ti",
-        "back_translation": "",
+        "back_translation": "The dog is chasing.",
         "translation_prompt_tokens": 7073,
         "translation_completion_tokens": 9,
         "translation_time": 5.417045593261719,
@@ -8899,7 +8899,7 @@
       "translation": {
         "source": "She smiled.",
         "target": "mahu wǔckihaa-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7012,
         "translation_completion_tokens": 10,
         "translation_time": 5.687665700912476,
@@ -8918,7 +8918,7 @@
       "translation": {
         "source": "Birds will migrate.",
         "target": "tsiipa-ii [migrate]-wei",
-        "back_translation": "",
+        "back_translation": "The bird is migrating.",
         "translation_prompt_tokens": 7172,
         "translation_completion_tokens": 10,
         "translation_time": 5.437289237976074,
@@ -8937,7 +8937,7 @@
       "translation": {
         "source": "He was painting.",
         "target": "mahu [paint]-ti.",
-        "back_translation": "",
+        "back_translation": "He is painting.",
         "translation_prompt_tokens": 7524,
         "translation_completion_tokens": 8,
         "translation_time": 5.8952391147613525,
@@ -8956,7 +8956,7 @@
       "translation": {
         "source": "She will study.",
         "target": "mahu [study]-wei",
-        "back_translation": "",
+        "back_translation": "He will study.",
         "translation_prompt_tokens": 6880,
         "translation_completion_tokens": 7,
         "translation_time": 5.81789755821228,
@@ -8975,7 +8975,7 @@
       "translation": {
         "source": "Plants grow.",
         "target": "[plant]-ii nahna-dü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7541,
         "translation_completion_tokens": 9,
         "translation_time": 5.751302242279053,
@@ -8994,7 +8994,7 @@
       "translation": {
         "source": "Dogs bark.",
         "target": "isha'pugu-ii yagi-dü",
-        "back_translation": "",
+        "back_translation": "The dog cries.",
         "translation_prompt_tokens": 7476,
         "translation_completion_tokens": 10,
         "translation_time": 6.07049298286438,
@@ -9013,7 +9013,7 @@
       "translation": {
         "source": "She was typing.",
         "target": "mahu [type]-ti",
-        "back_translation": "",
+        "back_translation": "She is typing.",
         "translation_prompt_tokens": 6732,
         "translation_completion_tokens": 7,
         "translation_time": 6.073499917984009,
@@ -9032,7 +9032,7 @@
       "translation": {
         "source": "The bird chased a worm.",
         "target": "tsiipa-ii a-naki-ti wo'abi-neika",
-        "back_translation": "",
+        "back_translation": "The bird is chasing the worm.",
         "translation_prompt_tokens": 7241,
         "translation_completion_tokens": 14,
         "translation_time": 8.414889335632324,
@@ -9051,7 +9051,7 @@
       "translation": {
         "source": "The bear caught a fish.",
         "target": "pahabichi-ii pagwi-neika ma-[catch]-ku",
-        "back_translation": "",
+        "back_translation": "The bear caught the fish.",
         "translation_prompt_tokens": 7588,
         "translation_completion_tokens": 16,
         "translation_time": 8.311708688735962,
@@ -9070,7 +9070,7 @@
       "translation": {
         "source": "Tom caught a fish.",
         "target": "pagwi-neika [Tom]-ii ma-[catch]-ku.",
-        "back_translation": "",
+        "back_translation": "Tom caught the fish,.",
         "translation_prompt_tokens": 7937,
         "translation_completion_tokens": 15,
         "translation_time": 8.281062841415405,
@@ -9089,7 +9089,7 @@
       "translation": {
         "source": "Rachel loves coffee.",
         "target": "Rachel-ii koopi'-eika ma-[love]-dü.",
-        "back_translation": "",
+        "back_translation": "Rachel loves the coffee.",
         "translation_prompt_tokens": 7663,
         "translation_completion_tokens": 16,
         "translation_time": 8.327170848846436,
@@ -9108,7 +9108,7 @@
       "translation": {
         "source": "John read a book.",
         "target": "[John]-ii a-nia-ti [book]-neika",
-        "back_translation": "",
+        "back_translation": "John is reading the book.",
         "translation_prompt_tokens": 7749,
         "translation_completion_tokens": 14,
         "translation_time": 7.3042638301849365,
@@ -9127,7 +9127,7 @@
       "translation": {
         "source": "The dog ate soup.",
         "target": "isha'pugu-ii ma-düka-ti huba",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7834,
         "translation_completion_tokens": 13,
         "translation_time": 7.234287261962891,
@@ -9146,7 +9146,7 @@
       "translation": {
         "source": "The sun heats the earth.",
         "target": "tüwoobü-neika tabedua-ii a-heat-dü.",
-        "back_translation": "",
+        "back_translation": "The sun heats the earth.",
         "translation_prompt_tokens": 8079,
         "translation_completion_tokens": 19,
         "translation_time": 7.978109121322632,
@@ -9165,7 +9165,7 @@
       "translation": {
         "source": "Batman caught a thief.",
         "target": "[thief]-neika [Batman]-ii ma-[catch]-ku.",
-        "back_translation": "",
+        "back_translation": "Batman caught the thief.",
         "translation_prompt_tokens": 8007,
         "translation_completion_tokens": 17,
         "translation_time": 7.255803346633911,
@@ -9184,7 +9184,7 @@
       "translation": {
         "source": "Romeo wrote a letter.",
         "target": "Romeo-ii a-w̃ui-ku [letter]-neika.",
-        "back_translation": "",
+        "back_translation": "Romeo wrote the letter.",
         "translation_prompt_tokens": 7863,
         "translation_completion_tokens": 16,
         "translation_time": 8.38568115234375,
@@ -9203,7 +9203,7 @@
       "translation": {
         "source": "Jack found a pail.",
         "target": "Jack ma-dama'i-ku [pail]-neika.",
-        "back_translation": "",
+        "back_translation": "Jack found the pail.",
         "translation_prompt_tokens": 7905,
         "translation_completion_tokens": 13,
         "translation_time": 7.22108006477356,
@@ -9222,7 +9222,7 @@
       "translation": {
         "source": "Susan sings songs.",
         "target": "[Susan]-ii ai-[sing]-dü [song]-neika.",
-        "back_translation": "",
+        "back_translation": "Susan sings the songs.",
         "translation_prompt_tokens": 7924,
         "translation_completion_tokens": 17,
         "translation_time": 8.847761631011963,
@@ -9241,7 +9241,7 @@
       "translation": {
         "source": "Mike watched a movie.",
         "target": "Mike soo'i-neika ma-watshi-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8225,
         "translation_completion_tokens": 12,
         "translation_time": 7.7725865840911865,
@@ -9260,7 +9260,7 @@
       "translation": {
         "source": "The king wore a crown.",
         "target": "[king]-ii a-[wear]-ti [crown]-neika",
-        "back_translation": "",
+        "back_translation": "The king is wearing the crown.",
         "translation_prompt_tokens": 7484,
         "translation_completion_tokens": 16,
         "translation_time": 6.9228599071502686,
@@ -9279,7 +9279,7 @@
       "translation": {
         "source": "The lion hunted a deer.",
         "target": "lion-ii tühda-neika a-hunt-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7278,
         "translation_completion_tokens": 13,
         "translation_time": 6.86667275428772,
@@ -9298,7 +9298,7 @@
       "translation": {
         "source": "The captain steered the ship.",
         "target": "[captain]-ii a-[steer]-ti [ship]-neika",
-        "back_translation": "",
+        "back_translation": "The captain is steering the ship.",
         "translation_prompt_tokens": 7346,
         "translation_completion_tokens": 17,
         "translation_time": 6.657486200332642,
@@ -9317,7 +9317,7 @@
       "translation": {
         "source": "Harry received a letter.",
         "target": "[Harry]-ii a-[receive]-ti [letter]-neika",
-        "back_translation": "",
+        "back_translation": "Harry is receiving the letter.",
         "translation_prompt_tokens": 7718,
         "translation_completion_tokens": 15,
         "translation_time": 6.693770885467529,
@@ -9336,7 +9336,7 @@
       "translation": {
         "source": "Linda bought a dress.",
         "target": "Linda a-nawasii-ku.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7924,
         "translation_completion_tokens": 8,
         "translation_time": 8.936036109924316,
@@ -9355,7 +9355,7 @@
       "translation": {
         "source": "The chef prepared a meal.",
         "target": "chef-ii ma-[prepare]-ti [meal]-neika",
-        "back_translation": "",
+        "back_translation": "The chef is preparing the meal.",
         "translation_prompt_tokens": 7445,
         "translation_completion_tokens": 14,
         "translation_time": 7.870882749557495,
@@ -9374,7 +9374,7 @@
       "translation": {
         "source": "My brother drives a car.",
         "target": "a-babi'-ii i-[drive]-dü [car]-neika",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8860,
         "translation_completion_tokens": 17,
         "translation_time": 8.633414268493652,
@@ -9393,7 +9393,7 @@
       "translation": {
         "source": "Alice opened a door.",
         "target": "[Alice]-ii a-[open]-ti [door]-neika",
-        "back_translation": "",
+        "back_translation": "Alice is opening the door.",
         "translation_prompt_tokens": 8137,
         "translation_completion_tokens": 15,
         "translation_time": 6.485731601715088,
@@ -9412,7 +9412,7 @@
       "translation": {
         "source": "Paul plays the guitar.",
         "target": "Paul ii a-zataumugi-dü.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7879,
         "translation_completion_tokens": 11,
         "translation_time": 8.306830167770386,
@@ -9431,7 +9431,7 @@
       "translation": {
         "source": "The writer finished a story.",
         "target": "[writer]-ii ma-[finish]-ku [story]-neika",
-        "back_translation": "",
+        "back_translation": "The writer finished the story.",
         "translation_prompt_tokens": 8767,
         "translation_completion_tokens": 15,
         "translation_time": 7.507565498352051,
@@ -9450,7 +9450,7 @@
       "translation": {
         "source": "The teacher gave a lecture.",
         "target": "tüniwaa-ii ma-nimoha-ti",
-        "back_translation": "",
+        "back_translation": "The teacher is lecturing him.",
         "translation_prompt_tokens": 8497,
         "translation_completion_tokens": 12,
         "translation_time": 7.226116895675659,
@@ -9469,7 +9469,7 @@
       "translation": {
         "source": "Mom made dinner.",
         "target": "mom-ii ma-[make]-ti [dinner]-neika",
-        "back_translation": "",
+        "back_translation": "Mom is making the dinner.",
         "translation_prompt_tokens": 7659,
         "translation_completion_tokens": 15,
         "translation_time": 6.895751953125,
@@ -9488,7 +9488,7 @@
       "translation": {
         "source": "Anna baked a cake.",
         "target": "[Anna]-ii a-kumasaa-ti [cake]-neika.",
-        "back_translation": "",
+        "back_translation": "Anna is baking the cake.",
         "translation_prompt_tokens": 7493,
         "translation_completion_tokens": 16,
         "translation_time": 6.505591630935669,
@@ -9507,7 +9507,7 @@
       "translation": {
         "source": "We are playing and laughing.",
         "target": "taagwa tübinohi-ti. taagwa nishua'i-ti.",
-        "back_translation": "",
+        "back_translation": "We are playing. We are laughing.",
         "translation_prompt_tokens": 7911,
         "translation_completion_tokens": 19,
         "translation_time": 7.535564184188843,
@@ -9526,7 +9526,7 @@
       "translation": {
         "source": "I will cook and eat.",
         "target": "nüükü sawa-wei. nüükü tücka-wei.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7759,
         "translation_completion_tokens": 18,
         "translation_time": 5.905426740646362,
@@ -9545,7 +9545,7 @@
       "translation": {
         "source": "I read and write.",
         "target": "nüük tünia-ti.  \nnüük tümui-dü.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8329,
         "translation_completion_tokens": 19,
         "translation_time": 8.670528411865234,
@@ -9564,7 +9564,7 @@
       "translation": {
         "source": "They were laughing and joking.",
         "target": "mahuw̃a nishuwa'i-ti, mahuw̃a kaahi-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8122,
         "translation_completion_tokens": 19,
         "translation_time": 10.12296724319458,
@@ -9583,7 +9583,7 @@
       "translation": {
         "source": "She sings and dances.",
         "target": "mahu hubiadu-dü. mahu nügä-dü.",
-        "back_translation": "",
+        "back_translation": "She sings. he dances.",
         "translation_prompt_tokens": 7937,
         "translation_completion_tokens": 16,
         "translation_time": 9.711864233016968,
@@ -9602,7 +9602,7 @@
       "translation": {
         "source": "They danced and laughed.",
         "target": "nüga-tei-ii nishuwa'i-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8020,
         "translation_completion_tokens": 13,
         "translation_time": 5.017683982849121,
@@ -9621,7 +9621,7 @@
       "translation": {
         "source": "He visited and enjoyed.",
         "target": "mahu nobini-ti. mahu tüsuwa'wi-ti.",
-        "back_translation": "",
+        "back_translation": "He is visiting. He is enjoying.",
         "translation_prompt_tokens": 7783,
         "translation_completion_tokens": 14,
         "translation_time": 9.644733905792236,
@@ -9640,7 +9640,7 @@
       "translation": {
         "source": "We will celebrate and dance.",
         "target": "taagwa [celebrate]-wei. taagwa nüga-wei.",
-        "back_translation": "",
+        "back_translation": "We will celebrate. we will dance.",
         "translation_prompt_tokens": 8006,
         "translation_completion_tokens": 19,
         "translation_time": 9.38339114189148,
@@ -9659,7 +9659,7 @@
       "translation": {
         "source": "Birds were chirping and flying.",
         "target": "tsiipe'i-ti tsiipa-ii. yotsi-ti tsiipa-ii.",
-        "back_translation": "",
+        "back_translation": "The bird is chirping. the bird is flying.",
         "translation_prompt_tokens": 7357,
         "translation_completion_tokens": 19,
         "translation_time": 8.886597156524658,
@@ -9678,7 +9678,7 @@
       "translation": {
         "source": "They are climbing and exploring.",
         "target": "mahuw̃a tsibui-ti. mahuw̃a [explore]-ti.",
-        "back_translation": "",
+        "back_translation": "They are climbing. they are exploring.",
         "translation_prompt_tokens": 8091,
         "translation_completion_tokens": 20,
         "translation_time": 8.949171781539917,
@@ -9697,7 +9697,7 @@
       "translation": {
         "source": "He works and studies.",
         "target": "mahu waakü-dü.  \nmahu [study]-dü.",
-        "back_translation": "",
+        "back_translation": "He works. he studies.",
         "translation_prompt_tokens": 7841,
         "translation_completion_tokens": 18,
         "translation_time": 6.4879539012908936,
@@ -9716,7 +9716,7 @@
       "translation": {
         "source": "She is cooking and tasting.",
         "target": "mahu sawa-ti. mahu t üma-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7711,
         "translation_completion_tokens": 12,
         "translation_time": 9.672677516937256,
@@ -9735,7 +9735,7 @@
       "translation": {
         "source": "I am swimming and relaxing.",
         "target": "nüükü pahabi-ti. nüükü [relax]-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7933,
         "translation_completion_tokens": 18,
         "translation_time": 8.851590156555176,
@@ -9754,7 +9754,7 @@
       "translation": {
         "source": "She was typing and sipping coffee.",
         "target": "She was typing: **mahu [type]-ti.**  \nShe was sipping coffee: **mahu koopi'-eika ma-[sip]-ti.**",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 6482,
         "translation_completion_tokens": 35,
         "translation_time": 9.726844787597656,
@@ -9773,7 +9773,7 @@
       "translation": {
         "source": "I ate while watching TV.",
         "target": "nüükü tükka-ti. nüükü [TV]-neika ma-[watch]-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8277,
         "translation_completion_tokens": 24,
         "translation_time": 10.12664532661438,
@@ -9792,7 +9792,7 @@
       "translation": {
         "source": "They will travel and explore.",
         "target": "mahuw̃a [travel]-wei. mahuw̃a [explore]-wei.",
-        "back_translation": "",
+        "back_translation": "They will travel. They will explore.",
         "translation_prompt_tokens": 8510,
         "translation_completion_tokens": 20,
         "translation_time": 9.26394248008728,
@@ -9811,7 +9811,7 @@
       "translation": {
         "source": "We traveled and discovered.",
         "target": "taagwa [travel]-ti. taagwa [discover]-ti.",
-        "back_translation": "",
+        "back_translation": "We are traveling. We are discovering.",
         "translation_prompt_tokens": 8449,
         "translation_completion_tokens": 17,
         "translation_time": 10.424703359603882,
@@ -9830,7 +9830,7 @@
       "translation": {
         "source": "I was running and listening to music.",
         "target": "nüükü poyoha-ti.  \nnüükü [music]-neika a-[listen]-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8840,
         "translation_completion_tokens": 26,
         "translation_time": 10.841418266296387,
@@ -9849,7 +9849,7 @@
       "translation": {
         "source": "Birds will migrate and return.",
         "target": "tsiipa-ii [migrate]-wei mahuw̃a [return]-wei",
-        "back_translation": "",
+        "back_translation": "The bird will migrate, they will return.",
         "translation_prompt_tokens": 7269,
         "translation_completion_tokens": 18,
         "translation_time": 8.395337104797363,
@@ -9868,7 +9868,7 @@
       "translation": {
         "source": "He was painting and humming.",
         "target": "mahu [paint]-ti. \nmahu [hum]-ti.",
-        "back_translation": "",
+        "back_translation": "He is painting. He is humming.",
         "translation_prompt_tokens": 7888,
         "translation_completion_tokens": 16,
         "translation_time": 10.393675088882446,
@@ -9887,7 +9887,7 @@
       "translation": {
         "source": "She will study and pass.",
         "target": "mahu [study]-wei. mahu [pass]-wei.",
-        "back_translation": "",
+        "back_translation": "She will study. She will pass.",
         "translation_prompt_tokens": 7660,
         "translation_completion_tokens": 14,
         "translation_time": 9.612644910812378,
@@ -9906,7 +9906,7 @@
       "translation": {
         "source": "Dogs are chasing and barking.",
         "target": "isha'pugu-ii naki-ti. isha'pugu-ii bark-ti.",
-        "back_translation": "",
+        "back_translation": "The dog is chasing. The dog is barking.",
         "translation_prompt_tokens": 8068,
         "translation_completion_tokens": 19,
         "translation_time": 10.907075881958008,
@@ -9925,7 +9925,7 @@
       "translation": {
         "source": "Plants grow and bloom.",
         "target": "[plant]-ii nahna-dü. [plant]-ii hübiga-dü.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7544,
         "translation_completion_tokens": 20,
         "translation_time": 9.106123447418213,
@@ -9944,7 +9944,7 @@
       "translation": {
         "source": "Dogs bark and wag their tails.",
         "target": "isha'pugu-ii [bark]-dü. isha'pugu-ii tǔi-kwadzi-neika mai-[wag]-dü.",
-        "back_translation": "",
+        "back_translation": "The dog barks. The dogs are wagging their tails.",
         "translation_prompt_tokens": 8672,
         "translation_completion_tokens": 35,
         "translation_time": 11.843507289886475,
@@ -9963,7 +9963,7 @@
       "translation": {
         "source": "She smiled and waved.",
         "target": "wǔckihaa-ii maneenigǔ-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7993,
         "translation_completion_tokens": 14,
         "translation_time": 5.919719219207764,
@@ -9982,7 +9982,7 @@
       "translation": {
         "source": "The bird chirped and the squirrel jumped.",
         "target": "tsiidoopi'-ii tsiipe'i-ti. maawi wubuki-ti.",
-        "back_translation": "",
+        "back_translation": "The bird is chirping. The squirrel is jumping.",
         "translation_prompt_tokens": 8481,
         "translation_completion_tokens": 19,
         "translation_time": 6.904674291610718,
@@ -10001,7 +10001,7 @@
       "translation": {
         "source": "Mike cooked and his sister danced.",
         "target": "sawa-ti [Mike]-ii. nügati ma-[sister]-ii.",
-        "back_translation": "",
+        "back_translation": "Mike is cooking. His sister is dancing.",
         "translation_prompt_tokens": 7860,
         "translation_completion_tokens": 19,
         "translation_time": 9.833285808563232,
@@ -10020,7 +10020,7 @@
       "translation": {
         "source": "The dog ate soup and the cat ran.",
         "target": "hubahibi [soup]-neika isha'pugu-ii ma-düka-ti. poyoha-ti kidi'-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8654,
         "translation_completion_tokens": 31,
         "translation_time": 10.865200281143188,
@@ -10039,7 +10039,7 @@
       "translation": {
         "source": "Susan sang and I read.",
         "target": "Susan hubia-du. Nüükwa nimadahi-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7830,
         "translation_completion_tokens": 15,
         "translation_time": 5.504150390625,
@@ -10058,7 +10058,7 @@
       "translation": {
         "source": "Harry wrote and Ron read.",
         "target": "tümui-ti [Harry]-ii.  \ntünia-ti [Ron]-ii.",
-        "back_translation": "",
+        "back_translation": "Harry is writing. Ron is reading.",
         "translation_prompt_tokens": 8278,
         "translation_completion_tokens": 20,
         "translation_time": 10.134639024734497,
@@ -10077,7 +10077,7 @@
       "translation": {
         "source": "The king sat and the queen stood.",
         "target": "pogina katü-ii wünü-ii",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9387,
         "translation_completion_tokens": 12,
         "translation_time": 7.306927680969238,
@@ -10096,7 +10096,7 @@
       "translation": {
         "source": "Tom slept and Jerry watched.",
         "target": "Tom üwi-ii. Jerry 'iyaa'i-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8317,
         "translation_completion_tokens": 14,
         "translation_time": 5.816234827041626,
@@ -10115,7 +10115,7 @@
       "translation": {
         "source": "Rachel danced and Monica sang.",
         "target": "Rachel nüga-tei-ii. Monica hubia-dui-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8041,
         "translation_completion_tokens": 17,
         "translation_time": 5.327902317047119,
@@ -10134,7 +10134,7 @@
       "translation": {
         "source": "Jack climbed and Jill followed.",
         "target": "Jack climbed: Jack maaba.  \nJill followed: Jill tatsee.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7486,
         "translation_completion_tokens": 17,
         "translation_time": 5.772220849990845,
@@ -10153,7 +10153,7 @@
       "translation": {
         "source": "Alice laughed and Bob cried.",
         "target": "Alice laughed.  \nBob cried.  \n\n**Translation:**\n- Alice: *Alice*  \n- Laughed: *nishuwa'i-ti*  \n- Bob: *Bob*  \n- Cried: *yaga-ti*  \n\nSo, the complete translation would be:  \n*Alice nishuwa'i-ti. Bob yaga-ti.*",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8076,
         "translation_completion_tokens": 72,
         "translation_time": 7.569330215454102,
@@ -10172,7 +10172,7 @@
       "translation": {
         "source": "My brother drove and I waited.",
         "target": "i-babi'-uu tsamiagü-ti. nüü wütui-ti.",
-        "back_translation": "",
+        "back_translation": "My brother is driving. I am waiting.",
         "translation_prompt_tokens": 8961,
         "translation_completion_tokens": 19,
         "translation_time": 9.895299673080444,
@@ -10191,7 +10191,7 @@
       "translation": {
         "source": "Romeo called and Juliet answered.",
         "target": "Romeo called. Juliet answered. \n\nIn Paiute, it can be translated as:\n\"Romeo pei. Juliet nippaya.\"",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8226,
         "translation_completion_tokens": 29,
         "translation_time": 6.70607590675354,
@@ -10210,7 +10210,7 @@
       "translation": {
         "source": "The captain shouted and the crew responded.",
         "target": "The translations in Owen's Valley Paiute are:\n\n1. The captain shouted. - **[captain]-ii [shout]-ti.**\n2. The crew responded. - **[crew]-ii [respond]-ti.**",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9321,
         "translation_completion_tokens": 49,
         "translation_time": 17.855223178863525,
@@ -10229,7 +10229,7 @@
       "translation": {
         "source": "Anna swam and Elsa skated.",
         "target": "Anna pabattahabi. Elsa tasigoo'i.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7656,
         "translation_completion_tokens": 13,
         "translation_time": 6.342587947845459,
@@ -10248,7 +10248,7 @@
       "translation": {
         "source": "The sun shone and the moon glowed.",
         "target": "tabedua'-ii shine-ti. m üca-ii glow-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7530,
         "translation_completion_tokens": 17,
         "translation_time": 12.360698223114014,
@@ -10267,7 +10267,7 @@
       "translation": {
         "source": "Mom laughed and dad cried.",
         "target": "piabi 'ahayagi-ii. nawabi yaga-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8909,
         "translation_completion_tokens": 16,
         "translation_time": 7.225303888320923,
@@ -10286,7 +10286,7 @@
       "translation": {
         "source": "The lion hunted and the tiger rested.",
         "target": "wiheetsiti kooi-nühi, toopi songapa",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8373,
         "translation_completion_tokens": 14,
         "translation_time": 6.612361192703247,
@@ -10305,7 +10305,7 @@
       "translation": {
         "source": "The writer typed and the poet thought.",
         "target": "The sentences can be translated as follows:\n\n1. The writer typed.\n2. The poet thought.\n\nIn Paiute, this can be expressed as:\n\n1. tsimui 'i-dü-mui-ti.\n2. wüsubidda 'i-dü-mui-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9521,
         "translation_completion_tokens": 57,
         "translation_time": 7.867501735687256,
@@ -10324,7 +10324,7 @@
       "translation": {
         "source": "The teacher spoke and the student listened.",
         "target": "tüniwaa'-ii [speak]-ti. püdünüümü [listen]-ti.",
-        "back_translation": "",
+        "back_translation": "The teacher is speaking. The young person is listening.",
         "translation_prompt_tokens": 8589,
         "translation_completion_tokens": 24,
         "translation_time": 10.520826816558838,
@@ -10343,7 +10343,7 @@
       "translation": {
         "source": "John traveled and Mary studied.",
         "target": "John traveled. Mary studied.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8238,
         "translation_completion_tokens": 7,
         "translation_time": 6.597534656524658,
@@ -10362,7 +10362,7 @@
       "translation": {
         "source": "The bear roared and the fox hid.",
         "target": "pahabichi-ii [roar]-ti. ishagwanga-ii [hide]-ti.",
-        "back_translation": "",
+        "back_translation": "The bear is roaring. The fox is hiding.",
         "translation_prompt_tokens": 7709,
         "translation_completion_tokens": 24,
         "translation_time": 9.117574214935303,
@@ -10381,7 +10381,7 @@
       "translation": {
         "source": "The chef baked and his assistant cleaned.",
         "target": "tüdokoobattü' kumasawa, tükümaabü'a mawüdotsü'a.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8696,
         "translation_completion_tokens": 25,
         "translation_time": 7.528761625289917,
@@ -10400,7 +10400,7 @@
       "translation": {
         "source": "Batman swung and Robin landed.",
         "target": "Batman tasooma'i-ti. Robin t üwoob ü-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8045,
         "translation_completion_tokens": 16,
         "translation_time": 9.518856525421143,
@@ -10419,7 +10419,7 @@
       "translation": {
         "source": "Paul jumped and Peter ducked.",
         "target": "Paul nattagwüna'i. Peter püyü-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7935,
         "translation_completion_tokens": 16,
         "translation_time": 5.458545684814453,
@@ -10438,7 +10438,7 @@
       "translation": {
         "source": "Linda painted and her friend sketched.",
         "target": "Linda tiaga-ti. her friend mui-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8513,
         "translation_completion_tokens": 11,
         "translation_time": 5.1225738525390625,
@@ -10457,7 +10457,7 @@
       "translation": {
         "source": "The bird and the squirrel played.",
         "target": "tsiidoopi'-ii tǔbinohi-ti maawi-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8046,
         "translation_completion_tokens": 18,
         "translation_time": 8.63037371635437,
@@ -10476,7 +10476,7 @@
       "translation": {
         "source": "The bear and the fox foraged for food.",
         "target": "pahabichi 'isha'-uu tükapuhei-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8671,
         "translation_completion_tokens": 16,
         "translation_time": 7.888573408126831,
@@ -10495,7 +10495,7 @@
       "translation": {
         "source": "The dog and the cat were eating soup.",
         "target": "kwidapugu-ii huba-hibi-ti. kiidi'-ii huba-hibi-ti.",
-        "back_translation": "",
+        "back_translation": "The dog is eating soup. The cat is eating soup.",
         "translation_prompt_tokens": 8760,
         "translation_completion_tokens": 23,
         "translation_time": 11.240381002426147,
@@ -10514,7 +10514,7 @@
       "translation": {
         "source": "Batman and Robin fought crime.",
         "target": "Batman napidügü-ka. Robin napidügü-ka.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7937,
         "translation_completion_tokens": 15,
         "translation_time": 10.45861291885376,
@@ -10533,7 +10533,7 @@
       "translation": {
         "source": "My brother and I went hiking.",
         "target": "[hike]-neika i-[brother]-ii a-[go]-ti. nüü [hike]-neika a-[go]-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8156,
         "translation_completion_tokens": 32,
         "translation_time": 14.135109663009644,
@@ -10552,7 +10552,7 @@
       "translation": {
         "source": "The teacher and the student were discussing.",
         "target": "tüniwaa-ii. püdünüümü-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8674,
         "translation_completion_tokens": 17,
         "translation_time": 10.34665060043335,
@@ -10571,7 +10571,7 @@
       "translation": {
         "source": "Paul and Peter play the guitar.",
         "target": "Paul üü tsataumugi-wei.  \nPeter üü tsataumugi-wei.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7976,
         "translation_completion_tokens": 22,
         "translation_time": 7.118077039718628,
@@ -10590,7 +10590,7 @@
       "translation": {
         "source": "Alice and Bob solve puzzles.",
         "target": "[puzzle]-neika [Alice]-ii ai-[solve]-dü. [puzzle]-neika [Bob]-ii ai-[solve]-dü.",
-        "back_translation": "",
+        "back_translation": "Alice solves the puzzle. Bob solves the puzzle.",
         "translation_prompt_tokens": 7920,
         "translation_completion_tokens": 34,
         "translation_time": 11.600072622299194,
@@ -10609,7 +10609,7 @@
       "translation": {
         "source": "The writer and the poet collaborated on a book.",
         "target": "The translation for \"The writer and the poet collaborated on a book.\" can be constructed as follows:\n\n1. The writer collaborated.\n2. The poet collaborated.\n3. They collaborated on a book.\n\nIn Paiute, this can be expressed as:\n- \"Tsimui 'i-dü-mui-ti.\" (The writer collaborated.)\n- \"Tsimui 'i-dü-mui-ti.\" (The poet collaborated.)\n- \"Tibo 'i-dü-mui-ti.\" (They collaborated on a book.)\n\nCombining these, you can say:\n\"Writer and poet 'i-dü-mui-ti tibo.\"",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8997,
         "translation_completion_tokens": 128,
         "translation_time": 9.403358221054077,
@@ -10628,7 +10628,7 @@
       "translation": {
         "source": "Romeo and Juliet loved deeply.",
         "target": "Romeo sutsamaa'i-ti. Juliet sutsamaa'i-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7808,
         "translation_completion_tokens": 16,
         "translation_time": 7.324667453765869,
@@ -10647,7 +10647,7 @@
       "translation": {
         "source": "The captain and the crew sailed the seas.",
         "target": "saki-chi'i-wee-ddu 'oonno'oho payaküwabü ",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7790,
         "translation_completion_tokens": 21,
         "translation_time": 8.254544258117676,
@@ -10666,7 +10666,7 @@
       "translation": {
         "source": "Harry and Ron faced many challenges.",
         "target": "Harry koobe tümü'u.  \nRon koobe tümü'u.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7826,
         "translation_completion_tokens": 16,
         "translation_time": 6.493525981903076,
@@ -10685,7 +10685,7 @@
       "translation": {
         "source": "The chef and his assistant prepared a feast.",
         "target": "[feast]-neika [chef]-ii ma-[prepare]-ti. [feast]-neika tü-[assistant]-ii a-[prepare]-ti.",
-        "back_translation": "",
+        "back_translation": "The chef prepared the feast. The assistant prepared the feast.",
         "translation_prompt_tokens": 8449,
         "translation_completion_tokens": 35,
         "translation_time": 12.991180419921875,
@@ -10704,7 +10704,7 @@
       "translation": {
         "source": "Susan and I will watch a movie.",
         "target": "Susan na nüügwa soo'i-dü-aa wa'ani-wei.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8261,
         "translation_completion_tokens": 18,
         "translation_time": 6.842441082000732,
@@ -10723,7 +10723,7 @@
       "translation": {
         "source": "The lion and the tiger roared.",
         "target": "wiheetsiti kű'ű'chi, toopi kű'ű'chi",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8291,
         "translation_completion_tokens": 19,
         "translation_time": 6.886705636978149,
@@ -10742,7 +10742,7 @@
       "translation": {
         "source": "The sun and the moon are celestial bodies.",
         "target": "tabeduadü-neika tabüka-müca ii a-be-dü.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7878,
         "translation_completion_tokens": 19,
         "translation_time": 11.187707901000977,
@@ -10761,7 +10761,7 @@
       "translation": {
         "source": "Linda and her friend dance gracefully.",
         "target": "nüga-dü [Linda]-ii. nüga-dü a-[friend]-ii.",
-        "back_translation": "",
+        "back_translation": "Linda dances. Her friend dances.",
         "translation_prompt_tokens": 7514,
         "translation_completion_tokens": 21,
         "translation_time": 8.408034563064575,
@@ -10780,7 +10780,7 @@
       "translation": {
         "source": "Mom and dad are celebrating their anniversary.",
         "target": "mom-ii a-celebrate-ti dad-ii a-celebrate-ti",
-        "back_translation": "",
+        "back_translation": "Mom is celebrating it. Dad is celebrating it.",
         "translation_prompt_tokens": 7177,
         "translation_completion_tokens": 17,
         "translation_time": 9.32303261756897,
@@ -10799,7 +10799,7 @@
       "translation": {
         "source": "Rachel and Monica share an apartment.",
         "target": "[apartment]-neika [Rachel]-ii a-[share]-dü. [apartment]-neika [Monica]-ii ma-[share]-dü.",
-        "back_translation": "",
+        "back_translation": "Rachel shares the apartment. Monica shares the apartment.",
         "translation_prompt_tokens": 7329,
         "translation_completion_tokens": 36,
         "translation_time": 12.763583421707153,
@@ -10818,7 +10818,7 @@
       "translation": {
         "source": "John and Mary are traveling.",
         "target": "John-ii [travel]-ti. Mary-ii [travel]-ti.",
-        "back_translation": "",
+        "back_translation": "John is traveling. Mary is traveling.",
         "translation_prompt_tokens": 7709,
         "translation_completion_tokens": 17,
         "translation_time": 8.097295045852661,
@@ -10837,7 +10837,7 @@
       "translation": {
         "source": "Anna and Elsa share a bond.",
         "target": "Anna tükü'na bond-ii. Elsa tükü'na bond-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7934,
         "translation_completion_tokens": 21,
         "translation_time": 6.7882115840911865,
@@ -10856,7 +10856,7 @@
       "translation": {
         "source": "Tom and Jerry chase each other.",
         "target": "Tom ma'nhia Jerry. Jerry ma'nhia Tom.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7335,
         "translation_completion_tokens": 15,
         "translation_time": 6.025051116943359,
@@ -10875,7 +10875,7 @@
       "translation": {
         "source": "Jack and Jill went up the hill.",
         "target": "Jack went up the hill: **mia-ti [Jack]-ii.**  \nJill went up the hill: **mia-ti [Jill]-ii.**",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 6827,
         "translation_completion_tokens": 34,
         "translation_time": 8.419670104980469,
@@ -10894,7 +10894,7 @@
       "translation": {
         "source": "The king and the queen ruled wisely.",
         "target": "[king]-ii [rule]-ti [queen]-ii.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7789,
         "translation_completion_tokens": 14,
         "translation_time": 15.306190252304077,
@@ -10913,7 +10913,7 @@
       "translation": {
         "source": "Mike and his sister study together.",
         "target": "Mike ui-hama'a-wei. His sister ui-hama'a-wei.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7602,
         "translation_completion_tokens": 18,
         "translation_time": 7.0899412631988525,
@@ -10932,7 +10932,7 @@
       "translation": {
         "source": "The one who will run kicks the ball.",
         "target": "poyoha-weidü-ii ma-[kick]-dü [ball]-neika",
-        "back_translation": "",
+        "back_translation": "The one who will run kicks the ball.",
         "translation_prompt_tokens": 8503,
         "translation_completion_tokens": 20,
         "translation_time": 8.87204098701477,
@@ -10951,7 +10951,7 @@
       "translation": {
         "source": "The swimmer has reached the shore.",
         "target": "pahabi-dü-ii a-pakkaama-pü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7918,
         "translation_completion_tokens": 14,
         "translation_time": 9.719038724899292,
@@ -10970,7 +10970,7 @@
       "translation": {
         "source": "The driver is opening the door.",
         "target": "driver-ii ma-[open]-ti [door]-neika",
-        "back_translation": "",
+        "back_translation": "The driver is opening the door.",
         "translation_prompt_tokens": 8940,
         "translation_completion_tokens": 14,
         "translation_time": 9.255501508712769,
@@ -10989,7 +10989,7 @@
       "translation": {
         "source": "The painter finished the one who was sketching.",
         "target": "The translation for \"The painter finished the one who was sketching.\" is:\n\n**\"Heitti 'uhu na-nia-ti.\"**",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 9482,
         "translation_completion_tokens": 29,
         "translation_time": 7.5983991622924805,
@@ -11008,7 +11008,7 @@
       "translation": {
         "source": "The one who cooks prepares the meal.",
         "target": "mahani kuhani tükagü",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8511,
         "translation_completion_tokens": 9,
         "translation_time": 6.937101364135742,
@@ -11027,7 +11027,7 @@
       "translation": {
         "source": "The one who will jump waits quietly.",
         "target": "[wait]-dü [jump]-weidü-ii",
-        "back_translation": "",
+        "back_translation": "The one who will jump waits.",
         "translation_prompt_tokens": 7460,
         "translation_completion_tokens": 14,
         "translation_time": 7.8243114948272705,
@@ -11046,7 +11046,7 @@
       "translation": {
         "source": "The climber holds the rope tightly.",
         "target": "[climber]-ii a-[hold]-dü [rope]-neika",
-        "back_translation": "",
+        "back_translation": "The climber holds the rope.",
         "translation_prompt_tokens": 8329,
         "translation_completion_tokens": 17,
         "translation_time": 8.910552024841309,
@@ -11065,7 +11065,7 @@
       "translation": {
         "source": "The sleeper woke up suddenly.",
         "target": "sleeper-ii tŭbuni-ti",
-        "back_translation": "",
+        "back_translation": "The sleepr is waking up.",
         "translation_prompt_tokens": 8176,
         "translation_completion_tokens": 11,
         "translation_time": 7.091444253921509,
@@ -11084,7 +11084,7 @@
       "translation": {
         "source": "The one who will teach greets the students.",
         "target": "tüniwaa-neika ai-greet-dü [student]-neika",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8870,
         "translation_completion_tokens": 17,
         "translation_time": 10.119114875793457,
@@ -11103,7 +11103,7 @@
       "translation": {
         "source": "The dancer spins on the stage.",
         "target": "dancer-ii kwinnanuhi-ti",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8912,
         "translation_completion_tokens": 10,
         "translation_time": 8.087153911590576,
@@ -11122,7 +11122,7 @@
       "translation": {
         "source": "The one who laughs startled the child.",
         "target": "nishuwa'i-dü-ii ma-tua'-neika wüntü'yagü-ti.",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8521,
         "translation_completion_tokens": 24,
         "translation_time": 10.377257108688354,
@@ -11141,7 +11141,7 @@
       "translation": {
         "source": "The walker approached the building.",
         "target": "walker-ii ma-approach-ti building-neika",
-        "back_translation": "",
+        "back_translation": "The walker is approaching the building.",
         "translation_prompt_tokens": 7566,
         "translation_completion_tokens": 12,
         "translation_time": 10.594474077224731,
@@ -11160,7 +11160,7 @@
       "translation": {
         "source": "The one who will speak interrupts the meeting.",
         "target": "a-nippogina-weidü-ii [meeting]-neika",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 8602,
         "translation_completion_tokens": 16,
         "translation_time": 9.162962913513184,
@@ -11179,7 +11179,7 @@
       "translation": {
         "source": "The writer closes the notebook.",
         "target": "[writer]-ii a-[close]-dü [notebook]-neika.",
-        "back_translation": "",
+        "back_translation": "The writer closes the notebook.",
         "translation_prompt_tokens": 8030,
         "translation_completion_tokens": 18,
         "translation_time": 9.851216793060303,
@@ -11198,7 +11198,7 @@
       "translation": {
         "source": "The one who is running enjoys the wind.",
         "target": "poyoha-dü-ii a-hüügwapü-neika",
-        "back_translation": "",
+        "back_translation": "N/A.",
         "translation_prompt_tokens": 7954,
         "translation_completion_tokens": 16,
         "translation_time": 8.817681550979614,
@@ -11217,7 +11217,7 @@
       "translation": {
         "source": "The builder constructs a house.",
         "target": "nobi-neika [builder]-ii ma-[construct]-dü.",
-        "back_translation": "",
+        "back_translation": "The builder constructs the home.",
         "translation_prompt_tokens": 7770,
         "translation_completion_tokens": 16,
         "translation_time": 8.818693399429321,
@@ -11236,7 +11236,7 @@
       "translation": {
         "source": "The reader has found the one who writes.",
         "target": "reader-ii a-dama'i-pü. mahu tümui-dü.",
-        "back_translation": "",
+        "back_translation": "The reader has found. He writes.",
         "translation_prompt_tokens": 8264,
         "translation_completion_tokens": 18,
         "translation_time": 12.542221307754517,
@@ -11255,7 +11255,7 @@
       "translation": {
         "source": "The one who will drive grabs the keys.",
         "target": "[key]-neika [drive]-weidü-ii ai-[grab]-dü.",
-        "back_translation": "",
+        "back_translation": "The one who will drive grabs the keys.",
         "translation_prompt_tokens": 8620,
         "translation_completion_tokens": 20,
         "translation_time": 8.547371864318848,
@@ -11274,7 +11274,7 @@
       "translation": {
         "source": "The singer leads the choir.",
         "target": "[singer]-ii a-[lead]-dü [choir]-neika.",
-        "back_translation": "",
+        "back_translation": "The singer leads the choir.",
         "translation_prompt_tokens": 8304,
         "translation_completion_tokens": 18,
         "translation_time": 8.78697156906128,
@@ -11293,7 +11293,7 @@
       "translation": {
         "source": "The listener frowns at the noise.",
         "target": "listener-ii [frown]-dü",
-        "back_translation": "",
+        "back_translation": "The listener frowns.",
         "translation_prompt_tokens": 8091,
         "translation_completion_tokens": 10,
         "translation_time": 7.614928483963013,
@@ -11312,7 +11312,7 @@
       "translation": {
         "source": "The one who paints watches the sunset.",
         "target": "[paint]-dü-ii a-[watch]-dü [sunset]-neika",
-        "back_translation": "",
+        "back_translation": "The painter watches the sunset.",
         "translation_prompt_tokens": 8912,
         "translation_completion_tokens": 20,
         "translation_time": 8.223597764968872,
@@ -11331,7 +11331,7 @@
       "translation": {
         "source": "The shopper picks the apples.",
         "target": "[shopper]-ii aaponu'-eika ai-[pick]-dü.",
-        "back_translation": "",
+        "back_translation": "The shopper picks the apples.",
         "translation_prompt_tokens": 8226,
         "translation_completion_tokens": 19,
         "translation_time": 8.800852060317993,
@@ -11350,7 +11350,7 @@
       "translation": {
         "source": "The one who will read turns the page.",
         "target": "tünia-weidü-ii a-[turn]-dü [page]-neika",
-        "back_translation": "",
+        "back_translation": "The one who will read turns the page.",
         "translation_prompt_tokens": 8316,
         "translation_completion_tokens": 20,
         "translation_time": 10.310653686523438,
@@ -11369,7 +11369,7 @@
       "translation": {
         "source": "The sleeper dreams peacefully.",
         "target": "noosi-dü sleeper-ii",
-        "back_translation": "",
+        "back_translation": "The sleeper dreams.",
         "translation_prompt_tokens": 8233,
         "translation_completion_tokens": 8,
         "translation_time": 7.87561821937561,
@@ -11388,7 +11388,7 @@
       "translation": {
         "source": "The one who will jump stands at the edge.",
         "target": "wünü-dü [jump]-weidü-ii",
-        "back_translation": "",
+        "back_translation": "The one who will jump stands.",
         "translation_prompt_tokens": 7454,
         "translation_completion_tokens": 14,
         "translation_time": 8.184054374694824,
