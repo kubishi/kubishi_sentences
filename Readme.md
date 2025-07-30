@@ -28,7 +28,6 @@ All reproducibility scripts are located in the `scripts` folder:
 cd scripts
 ```
 
----
 
 ### Reproducing Only the Plots (Quick Start)
 
@@ -40,7 +39,6 @@ python plot_results.py
 
 This will reproduce all figures shown in the paper using precomputed results stored in `yaduha/scripts/results`.
 
----
 
 ### Full Reproduction Pipeline
 
@@ -97,9 +95,8 @@ Once complete, re-run the evaluation analysis:
 python evaluate_translators_analysis.py
 ```
 
----
 
-### 📈 Re-Generate Final Plots
+### Re-Generate Final Plots
 
 Finally, generate the complete evaluation figures:
 
@@ -109,6 +106,5 @@ python plot_results.py
 
 These plots will match those shown in the main paper.
 
----
 
 Let me know if you'd like this in Markdown and LaTeX versions side-by-side.
