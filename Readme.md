@@ -12,11 +12,9 @@ echo "OPENAI_API_KEY=your-api-key-here" > .env
 
 ### 2. Install the Package
 
-Clone and install the repository:
+We are assuming you have downloaded the zippped repository containing this README file and extracted it to a local directory. Navigate to the root of the repository and install the package using pip:
 
 ```bash
-git clone https://github.com/kubishi/yaduha.git
-cd yaduha
 pip install ./src
 ```
 
