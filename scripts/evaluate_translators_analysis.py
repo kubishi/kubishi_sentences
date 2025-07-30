@@ -38,9 +38,8 @@ if FILETYPE == 'pdf':
 TRANSLATOR_NAMES = {
     'instructions': 'Instructions',
     'finetuned': 'Fine-tuned',
-    # 'pipeline': 'Pipeline',
     'agentic': 'Builder',
-    'pipeline-new': 'Pipeline',
+    'pipeline': 'Pipeline',
     'rag': 'RAG',
 }
 
@@ -481,7 +480,6 @@ def plot_translation_quality():
 
             # Plot bars with error bars
             for j, translator in enumerate(CATEGORY_ORDERS['translator']):
-                print(f"Translator {j}: {translator}")
                 data = similarity_data[similarity_data['translator'] == translator]
                 if not data.empty:
                     bars = ax.bar(
@@ -772,7 +770,6 @@ def get_interesting_examples():
     # get example where Builder comparator is better than Pipeline
     print(f"=== Examples where Builder is better than Pipeline ===")
     df = load_data(compute_scores=True)
-    print(df.columns)
     df_1 = df[df['translator'].isin(['Pipeline', 'Builder'])]
     df_1 = df_1[df_1['model'] == 'gpt-4o']
     df_1['diff'] = df_1.groupby('translation_source')['semantic_similarity_comparator'].diff()

@@ -5,9 +5,9 @@ from typing import Dict, List, Union
 import pandas as pd
 
 thisdir = pathlib.Path(__file__).parent.resolve()
+resultspath = thisdir / 'results/evaluation_results_evaluated.json'
 
 def remove_old_translators(to_remove: List[str]):
-    resultspath = thisdir / 'results/evaluation_results.json'
     results = json.loads(resultspath.read_text())
     results['results'] = [
         res for res in results['results']
@@ -16,7 +16,6 @@ def remove_old_translators(to_remove: List[str]):
     resultspath.write_text(json.dumps(results, indent=2, ensure_ascii=False))
 
 def rename_translator(old: str, new: str):
-    resultspath = thisdir / 'results/evaluation_results.json'
     results = json.loads(resultspath.read_text())
     for res in results['results']:
         if res['translator'] == old:
@@ -24,7 +23,6 @@ def rename_translator(old: str, new: str):
     resultspath.write_text(json.dumps(results, indent=2, ensure_ascii=False))
 
 def remove_old_sentences():
-    resultspath = thisdir / 'results/evaluation_results.json'
     datapath = thisdir / 'data/evaluation_sentences.csv'
 
     results = json.loads(resultspath.read_text())
@@ -65,9 +63,9 @@ def combine_results():
 
 def main():
     # remove_old_sentences()
-    combine_results()
-    # remove_old_translators(['finetuned-simple'])
-    # rename_translator('finetuned', 'finetuned-old')
+    # combine_results()
+    remove_old_translators(['pipeline'])
+    rename_translator('pipeline-new', 'pipeline')
 
 if __name__ == "__main__":
     main()

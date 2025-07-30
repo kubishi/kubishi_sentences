@@ -1,6 +1,11 @@
-import json
 import traceback
-from typing import Dict, List, Set, Tuple, Type
+from typing import Dict, List
+import pandas as pd
+import pathlib
+from pydantic import BaseModel
+import dotenv
+
+# Yaduha imports
 from yaduha.translate.base import Translation, Translator
 from yaduha.translate import (
     PipelineTranslator,
@@ -8,14 +13,10 @@ from yaduha.translate import (
     AgenticTranslator,
     RAGTranslator
 )
-import pandas as pd
-import pathlib
-
-from pydantic import BaseModel
-import dotenv
-import logging
-
 from yaduha.translate.finetuned import FinetunedTranslator
+
+# Local imports
+from config import FINETUNED_MODEL_GPT_4O, FINETUNED_MODEL_GPT_4O_MINI
 
 dotenv.load_dotenv()
 
@@ -40,19 +41,17 @@ def main():
     ]
     translators: Dict[str, Dict[str, Translator]] = {
         'gpt-4o-mini': {
-            # 'pipeline': PipelineTranslator(model='gpt-4o-mini'),
-            # 'instructions': InstructionsTranslator(model='gpt-4o-mini'),
-            # 'agentic': AgenticTranslator(model='gpt-4o-mini'),
-            # 'finetuned': FinetunedTranslator(model='ft:gpt-4o-mini-2024-07-18:kubishi::AInrzzLW'),
-            'pipeline-new': PipelineTranslator(model='gpt-4o-mini'),
+            'instructions': InstructionsTranslator(model='gpt-4o-mini'),
+            'agentic': AgenticTranslator(model='gpt-4o-mini'),
+            'finetuned': FinetunedTranslator(model=FINETUNED_MODEL_GPT_4O_MINI),
+            'pipeline': PipelineTranslator(model='gpt-4o-mini'),
             'rag': RAGTranslator(model='gpt-4o-mini')
         },
         'gpt-4o': {
-            # 'pipeline': PipelineTranslator(model='gpt-4o'),
-            # 'instructions': InstructionsTranslator(model='gpt-4o'),
-            # 'agentic': AgenticTranslator(model='gpt-4o'),
-            # 'finetuned': FinetunedTranslator(model='ft:gpt-4o-2024-08-06:kubishi::AInyiTpj'),
-            'pipeline-new': PipelineTranslator(model='gpt-4o'),
+            'instructions': InstructionsTranslator(model='gpt-4o'),
+            'agentic': AgenticTranslator(model='gpt-4o'),
+            'finetuned': FinetunedTranslator(model=FINETUNED_MODEL_GPT_4O),
+            'pipeline': PipelineTranslator(model='gpt-4o'),
             'rag': RAGTranslator(model='gpt-4o')
         },
     }

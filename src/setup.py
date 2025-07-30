@@ -16,6 +16,7 @@ setup(
         'torchaudio',
         'transformers',
         'sentence-transformers',
+        'plotly',
     ],
     dependency_links=[
         'https://download.pytorch.org/whl/cpu'  # The custom index URL for the CPU wheels
