@@ -8,21 +8,21 @@ from typing import Callable, Dict, List, Optional, Tuple, Union
 
 from openai.types.chat import ChatCompletion
 
-from yaduha.translate.pipeline_sentence_builder import NOUNS, Object, Subject, Verb
-from yaduha.translate.examples import EXAMPLE_SENTENCES
-from yaduha.common import get_openai_client
-from yaduha.translate.pipeline_syntax import (
+from tsiipa.translate.pipeline.pipeline_sentence_builder import NOUNS, Object, Subject, Verb
+from tsiipa.translate.pipeline.examples import EXAMPLE_SENTENCES
+from tsiipa.common import get_openai_client
+from tsiipa.translate.pipeline.pipeline_syntax import (
     Sentence, SubjectNoun, Proximity, Person, Plurality,
     Inclusivity, Tense, Aspect,
     Pronoun, ObjectNoun, SentenceList
 )
-from yaduha.translate.pipeline_syntax import Verb as SegmentVerb
-from yaduha.evaluate.semantic_similarity import (
+from tsiipa.translate.pipeline.pipeline_syntax import Verb as SegmentVerb
+from tsiipa.evaluate.semantic_similarity import (
     semantic_similarity_transformers,
     semantic_similarity_openai
 )
-from yaduha.translate.pipeline_back_translate import translate as translate_ovp_to_english
-from yaduha.translate.base import Translator, Translation
+from tsiipa.translate.pipeline.pipeline_back_translate import translate as translate_ovp_to_english
+from tsiipa.translate.base import Translator, Translation
 
 SS_MODE = os.getenv('SS_MODE', 'sentence-transformers')
 

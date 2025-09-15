@@ -70,5 +70,65 @@
     {
         "english": "They will find those dogs.",
         "paiute": "isha'pugu-noka uhuw̃a ui-dama'i-wei"
+    },
+    {
+        "english": "They will find those dogs.",
+        "paiute": "isha'pugu-noka uhuw̃a ui-dama'i-wei"
+    },
+    {
+        "english": "Those lizards will smell those fish.",
+        "paiute": "mukita-uu pagwi-noka ui-gwana-wei"
+    },
+    {
+        "english": "This lizard smells those fish.",
+        "paiute": "mukita-ii pagwi-noka ui-gwana-dü"
+    },
+    {
+        "english": "They will climb.",
+        "paiute": "tsibui-wei uhuw̃a"
+    },
+    {
+        "english": "I will climb.",
+        "paiute": "tsibui-wei nüü"
+    },
+    {
+        "english": "You will climb.",
+        "paiute": "tsibui-wei üü"
+    }
+    {
+        "english": "He/she/it will fly.",
+        "paiute": "yotsi-wei uhu"
+    },
+    {
+        "english": "He/she/it is flying.",
+        "paiute": "yotsi-ti uhu"
+    },
+    {
+        "english": "He/she/it flies.",
+        "paiute": "yotsi-dü uhu"
+    },
+    {
+        "english": "This coyote is climbing.",
+        "paiute": "isha'-ii tsibui-ti"
+    },
+    {
+        "english": "This coyote will climb.",
+        "paiute": "isha'-ii tsibui-wei"
+    },
+    {
+        "english": "You and I have cooked those dogs.",
+        "paiute": "isha'pugu-noka taa ui-zawa-pü"
+    },
+    {
+        "english": "You and I cooking those dogs.",
+        "paiute": "isha'pugu-noka taa ui-zawa-dü"
+    },
+    {
+        "english": "You and I will cook those dogs.",
+        "paiute": "isha'pugu-noka taa ui-zawa-wei"
+    },
+    {
+        "english": "This coyote is going to drink this water.",
+        "paiute": "isha'-ii paya-neika ai-hibi-gaa-wei"
     }
 ]

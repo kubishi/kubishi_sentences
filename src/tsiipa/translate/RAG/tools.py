@@ -18,7 +18,7 @@ KUBISHI_API_URL = "https://dictionary.kubishi.com/api"
 
 #TOOLS -------------------------------------
 
-search_english = ToolCallFunction(
+search_english_tool = ToolCallFunction(
     tool_name="search_english", 
     tool_description="Search for Paiute words in English (semantic search).", 
     arguments=[
@@ -28,7 +28,9 @@ search_english = ToolCallFunction(
             description="The search term, either a word or a sentence."
         )
     )]
-).create_function()
+)
+
+search_english = search_english_tool.create_function()
 
 search_paiute = ToolCallFunction(
     tool_name="search_paiute", 

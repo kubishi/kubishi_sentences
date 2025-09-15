@@ -18,12 +18,17 @@ class FewShotExample(BaseModel):
 
 class FewShot(ABC):
     @abstractmethod
-    def create_few_shot_messages(self):
+    def create_few_shot_messages(self) -> None:
         pass
+
         
     @abstractmethod
     def execute(self, *args, **kwargs) -> Any:
         pass
+
+class CreateFewShotMessages(FewShot):
+    def create_messages(self) -> None:
+        
 
 
 class CreateFewShotMessages()
