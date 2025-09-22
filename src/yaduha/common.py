@@ -24,3 +24,5 @@ def get_openai_client(api_key: Optional[str] = None) -> openai.Client:
     if api_key is None:
         raise ValueError("API key not provided and OPENAI_API_KEY environment variable not set.")
     return openai.Client(api_key=api_key)
+
+
