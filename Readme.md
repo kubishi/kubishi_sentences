@@ -14,5 +14,5 @@ pip install ./src
 3. Run the examples in the [scripts](./scripts) directory
 ```bash
 cd ./scripts
-python example_pipeline.py
+python test_tool.py
 ```
