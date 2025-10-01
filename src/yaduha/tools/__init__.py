@@ -7,6 +7,8 @@ import string
 import inspect
 import jsonschema
 
+from openai.types.responses import FunctionToolParam
+
 
 class Tool(BaseModel):
     name: str
@@ -29,7 +31,7 @@ class Tool(BaseModel):
         """Generate a random tool call id of the form call_aSENunZCF31ob7zV89clvL4n"""
         return "call_" + ''.join(random.choices(string.ascii_letters + string.digits, k=24))
 
-    def get_tool_call_schema(self) -> Dict:
+    def get_tool_call_schema(self) -> FunctionToolParam:
         signature = inspect.signature(self.__call__)
         properties = {}
         for name, param in signature.parameters.items():
@@ -44,12 +46,13 @@ class Tool(BaseModel):
             properties[name] = (annotation, default)
 
         model = create_model(self.name, **properties)
-        schema = {
-            "type": "function",
-            "name": self.name,
-            "description": self.description,
-            "parameters": model.model_json_schema()
-        }
+        schema = FunctionToolParam(
+            name=self.name,
+            parameters=model.model_json_schema(),
+            strict=False,
+            type="function",
+            description=self.description,
+        )
         return schema
     
     def get_tool_call_output_schema(self) -> Dict:
@@ -82,7 +85,7 @@ class Tool(BaseModel):
         
         for i, (input_example, output_example) in enumerate(examples):
             try:
-                jsonschema.validate(instance=input_example, schema=schema["parameters"])
+                jsonschema.validate(instance=input_example, schema=schema["parameters"] or {})
             except jsonschema.ValidationError as e:
                 raise ValueError(f"Example {i} input does not conform to schema: {e.message}")
             try:

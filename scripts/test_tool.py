@@ -16,7 +16,7 @@ def main():
     print(pipeline_tool.model_json_schema())
     print(pipeline_tool.get_tool_call_schema())
 
-    response = pipeline_tool(query="I drink water", limit=3)
+    response = pipeline_tool(query="I drink water")
     print(response)
 
 

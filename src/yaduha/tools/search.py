@@ -45,7 +45,7 @@ class SearchSentencesTool(Tool):
     KUBISHI_API_URL: ClassVar[str] = "https://dictionary.kubishi.com/api"
 
     def __call__(self, query: str, limit: int) -> List[Dict]:
-        response = requests.get(f"{KUBISHI_API_URL}/search/sentence", params={"query": query})
+        response = requests.get(f"{SearchPaiuteTool.KUBISHI_API_URL}/search/sentence", params={"query": query})
         response.raise_for_status()
         res_json = response.json()
         infos = []

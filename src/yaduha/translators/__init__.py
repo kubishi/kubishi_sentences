@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 from pydantic import BaseModel
 from yaduha.tools import Tool
 
@@ -14,6 +14,7 @@ class Translation(BaseModel):
     back_translation_prompt_tokens: int
     back_translation_completion_tokens: int
     back_translation_time: float
+    metadata: Dict[str, Any] = {}
 
     def __str__( self ) -> str:
         lines = [

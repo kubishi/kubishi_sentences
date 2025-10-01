@@ -29,6 +29,7 @@ class Bot(ABC):
         
         continue_calling = True
         while True:
+            print([tool.get_tool_call_schema() for tool in self.tools])
             response = self.client.responses.create(
                 model=self.model,
                 input=messages,
