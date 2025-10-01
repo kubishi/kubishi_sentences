@@ -4,6 +4,7 @@ import dotenv
 import os
 
 from yaduha.tools.search import SearchEnglishTool, SearchPaiuteTool
+from yaduha.translators.pipeline import PipelineTranslator
 
 dotenv.load_dotenv(dotenv.find_dotenv())
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -16,6 +17,7 @@ def main():
         tools=[
             SearchEnglishTool(),
             SearchPaiuteTool(),
+            PipelineTranslator()
         ],
     )
     bot.run_cli()

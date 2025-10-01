@@ -8,7 +8,7 @@ from yaduha.tools import Tool
 from yaduha.translators.pipeline.pipeline_functions import split_sentence, comparator_sentence, translate_simple, order_sentence, make_sentence
 from yaduha.translators.pipeline.pipeline_syntax import SentenceList
 from yaduha.translators.pipeline.pipeline_back_translate import translate as translate_ovp_to_english
-from typing import List
+from typing import Dict, List, Tuple
 
 
 class PipelineTranslator(Translator):
@@ -93,5 +93,8 @@ class PipelineTranslator(Translator):
             }
         )
     
-    def get_examples(self, *args, **kwargs):
-        return []
+    def get_examples(self, sentences: List[str] = ["I drink water"]) -> List[Tuple[Dict, Translation]]:
+        examples = [
+            ({"query": sentence}, self(sentence=sentence)) for sentence in sentences
+        ]
+        return examples

@@ -1,5 +1,5 @@
 from yaduha.tools.search import SearchEnglishTool
-from yaduha.tools.pipeline import PipelineTranslate
+from yaduha.translators.pipeline import PipelineTranslator
 
 
 def main():
@@ -12,11 +12,11 @@ def main():
 
     print("\n\n")
 
-    pipeline_tool = PipelineTranslate()
+    pipeline_tool = PipelineTranslator()
     print(pipeline_tool.model_json_schema())
     print(pipeline_tool.get_tool_call_schema())
 
-    response = pipeline_tool(query="I drink water")
+    response = pipeline_tool(sentence="I drink water")
     print(response)
 
 
