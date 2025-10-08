@@ -8,8 +8,8 @@ class Translation(BaseModel):
     target: str
     back_translation: Optional[str]
 
-    translation_prompt_tokens: int
-    translation_completion_tokens: int
+    prompt_tokens: int
+    completion_tokens: int
     translation_time: float
     back_translation_prompt_tokens: int
     back_translation_completion_tokens: int
@@ -21,8 +21,8 @@ class Translation(BaseModel):
             f"Source: {self.source}",
             f"Target: {self.target}",
             f"Back Translation: {self.back_translation}",
-            f"Translation Prompt Tokens: {self.translation_prompt_tokens}",
-            f"Translation Completion Tokens: {self.translation_completion_tokens}",
+            f"Prompt Tokens: {self.prompt_tokens}",
+            f"Completion Tokens: {self.completion_tokens}",
             f"Translation Time: {self.translation_time:.2f} seconds",
             f"Back Translation Prompt Tokens: {self.back_translation_prompt_tokens}",
             f"Back Translation Completion Tokens: {self.back_translation_completion_tokens}",

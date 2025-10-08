@@ -14,7 +14,7 @@ from yaduha.translators.pipeline.pipeline_back_translate import translate as tra
 
 
 class BuilderTranslator(Translator):
-    model: str = "gpt-4o"
+    model: str = "gpt-4o-mini"
     tools: List[Tool] = []
     name: str = "builder_translator"
     description: str = "Translate text to the target language using an agentive approach with step-by-step vocabulary and grammar choices."
@@ -284,8 +284,8 @@ class BuilderTranslator(Translator):
                             source=text,
                             target=translation,
                             back_translation=back_translation,
-                            translation_prompt_tokens=prompt_tokens,
-                            translation_completion_tokens=completion_tokens,
+                            prompt_tokens=prompt_tokens,
+                            completion_tokens=completion_tokens,
                             translation_time=translation_time,
                             back_translation_prompt_tokens=backwards_prompt_tokens,
                             back_translation_completion_tokens=backwards_completion_tokens,

@@ -13,7 +13,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 def main():
     bot = Bot(
         client=openai.Client(api_key=OPENAI_API_KEY),
-        model="gpt-4o",
+        model="gpt-4o-mini",
         tools=[
             SearchEnglishTool(),
             SearchPaiuteTool(),

@@ -2,11 +2,16 @@ import json
 from typing import Dict, List
 from abc import ABC
 from yaduha.tools import Tool
-
-
+from pydantic import BaseModel
 
 import openai
 
+
+class BotResponse(BaseModel):
+    prompt_tokens: int
+    completion_tokens: int
+    total_tokens: int
+    response: str
 
 class Bot(ABC):
     def __init__(self,
@@ -21,7 +26,7 @@ class Bot(ABC):
         self.name = name
         self.description = description
 
-    def __call__(self, messages: List) -> Dict[str, int | str | List]:
+    def __call__(self, messages: List) -> BotResponse:
         tools = {
             tool.name: tool for tool in self.tools
         }
@@ -50,19 +55,27 @@ class Bot(ABC):
 
             if not continue_calling:
                 if response.usage is not None:
-                    return {
-                        "translation_prompt_tokens": response.usage.input_tokens,
-                        "translation_completion_tokens": response.usage.output_tokens,
-                        "translation_total_tokens": response.usage.total_tokens,
-                        "translation": response.output_text,
-                        "messages": messages
-                    }
+                    # return {
+                    #     "translation_prompt_tokens": response.usage.input_tokens,
+                    #     "translation_completion_tokens": response.usage.output_tokens,
+                    #     "translation_total_tokens": response.usage.total_tokens,
+                    #     "translation": response.output_text,
+                    #     "messages": messages
+                    # }
+                    return BotResponse(
+                        prompt_tokens=response.usage.input_tokens,
+                        completion_tokens=response.usage.output_tokens,
+                        total_tokens=response.usage.total_tokens,
+                        response=response.output_text
+                    )
                 else:
                     print("Response usage is None")
-                    return {
-                        "translation": response.output_text,
-                        "messages": messages
-                    }
+                    return BotResponse(
+                        prompt_tokens=0,
+                        completion_tokens=0,
+                        total_tokens=0,
+                        response=response.output_text
+                    )
 
     def run_cli(self):
         print(f"Welcome to {self.name}!")
@@ -75,7 +88,7 @@ class Bot(ABC):
                 break
             messages.append({"role": "user", "content": user_input})
             response = self(messages=messages)
-            print(f"{self.name}: {response}")
+            print(f"{self.name}: {response.response}")
             
     
 

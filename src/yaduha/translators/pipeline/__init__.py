@@ -15,7 +15,7 @@ class PipelineTranslator(Translator):
     tools: List[Tool] = []
     name: str = "pipeline_translator"
     description: str = "Translate text to the target language and back to the source language using a pipeline of tools."
-    model: str = "gpt-4o"
+    model: str = "gpt-4o-mini"
 
     def __call__(self, sentence: str) -> Translation:
         start_time = time.time()
@@ -79,7 +79,7 @@ class PipelineTranslator(Translator):
             source=sentence,
             target=target_simple_sentence_nl,
             back_translation=backwards_translation_nl,
-            translation_prompt_tokens=prompt_tokens,
+            prompt_tokens=prompt_tokens,
             translation_completion_tokens=completion_tokens,
             translation_time=translation_time,
             back_translation_prompt_tokens=prompt_tokens_back,

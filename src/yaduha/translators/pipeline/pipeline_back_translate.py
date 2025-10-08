@@ -86,7 +86,7 @@ def translate(subject_noun: str,
               object_noun_nominalizer: Optional[str],
               object_suffix: Optional[str],
               object_possessive_pronoun: Optional[str],
-              model: str = 'gpt-4o',
+              model: str = 'gpt-4o-mini',
               res_callback: Optional[Callable[[ChatCompletion], None]] = None) -> str:
     choices = dict(
         subject_noun=subject_noun,

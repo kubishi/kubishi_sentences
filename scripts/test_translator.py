@@ -1,7 +1,7 @@
-from yaduha.translators.rag_translator import RAGTranslator
+from yaduha.translators.builder import BuilderTranslator
 
 def main():
-    translator_tool = RAGTranslator()
+    translator_tool = BuilderTranslator(model="")
     print(translator_tool("Hello, how are you?"))
 
 if __name__ == "__main__":
