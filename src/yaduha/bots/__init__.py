@@ -11,11 +11,11 @@ import openai
 
 class Bot(ABC):
     def __init__(self,
-                 client: openai.Client,
-                 model: str,
-                 tools: List[Tool],
-                 name: str = "bot",
-                 description: str = "A bot that can use tools to perform tasks."):
+                client: openai.Client,
+                model: str,
+                tools: List[Tool],
+                name: str = "bot",
+                description: str = "A bot that can use tools to perform tasks."):
         self.client = client
         self.model = model
         self.tools = tools

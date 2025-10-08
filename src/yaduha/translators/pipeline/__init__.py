@@ -95,6 +95,6 @@ class PipelineTranslator(Translator):
     
     def get_examples(self, sentences: List[str] = ["I drink water"]) -> List[Tuple[Dict, Translation]]:
         examples = [
-            ({"query": sentence}, self(sentence=sentence)) for sentence in sentences
+            ({"sentence": sentence}, self(sentence=sentence)) for sentence in sentences
         ]
         return examples
