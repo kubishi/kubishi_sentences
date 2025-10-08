@@ -1,9 +1,8 @@
-from copy import copy
 import json
 from typing import Dict, List
-from pydantic import BaseModel
-from abc import ABC, abstractmethod
+from abc import ABC
 from yaduha.tools import Tool
+
 
 
 import openai
@@ -22,7 +21,7 @@ class Bot(ABC):
         self.name = name
         self.description = description
 
-    def __call__(self, messages: List) -> str:
+    def __call__(self, messages: List) -> Dict[str, int | str | List]:
         tools = {
             tool.name: tool for tool in self.tools
         }
@@ -50,7 +49,20 @@ class Bot(ABC):
                     })
 
             if not continue_calling:
-                return response.output_text
+                if response.usage is not None:
+                    return {
+                        "translation_prompt_tokens": response.usage.input_tokens,
+                        "translation_completion_tokens": response.usage.output_tokens,
+                        "translation_total_tokens": response.usage.total_tokens,
+                        "translation": response.output_text,
+                        "messages": messages
+                    }
+                else:
+                    print("Response usage is None")
+                    return {
+                        "translation": response.output_text,
+                        "messages": messages
+                    }
 
     def run_cli(self):
         print(f"Welcome to {self.name}!")
