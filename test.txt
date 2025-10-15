@@ -1,0 +1,108 @@
+{
+    'search_english': [
+        (
+            [
+                {'id': 'call_vo3isRt99BoLXHTQ8jKOSoXv', 'function': {'name': 'search_english', 'arguments': '{"query": "where"}'}, 'type': 'function'}, 
+                {'id': 'call_nEwVXSreWuBZyxb9cPIElV2t', 'function': {'name': 'search_english', 'arguments': '{"query": "is"}'}, 'type': 'function'}, 
+                {'id': 'call_8Xq8iSBP0l0t0UsCowjDuiYY', 'function': {'name': 'search_english', 'arguments': '{"query": "my"}'}, 'type': 'function'}, 
+                {'id': 'call_AwshMO0ytCFkVOsk2FMj8Hb9', 'function': {'name': 'search_english', 'arguments': '{"query": "dog"}'}, 'type': 'function'}
+            ], 
+            [
+                {'role': 'tool', 'content': [{'paiute_translation': 'haŵutta', 'english': 'where', 'definition': 'To where, shows movement to a destination.'}], 'tool_call_id': 'call_vo3isRt99BoLXHTQ8jKOSoXv'}, 
+                {'role': 'tool', 'content': [{'paiute_translation': 'maŵani', 'english': 'be', 'definition': None}], 'tool_call_id': 'call_nEwVXSreWuBZyxb9cPIElV2t'}, 
+                {'role': 'tool', 'content': [{'paiute_translation': 'teimikka', 'english': 'our', 'definition': None}], 'tool_call_id': 'call_8Xq8iSBP0l0t0UsCowjDuiYY'}, 
+                {'role': 'tool', 'content': [{'paiute_translation': 'kwidapugu', 'english': 'dog', 'definition': 'Dog'}], 'tool_call_id': 'call_AwshMO0ytCFkVOsk2FMj8Hb9'}
+            ]
+        ), 
+        (
+            [
+                {'id': 'call_IPigvjn7s3oMM799hwXn7VXv', 'function': {'name': 'search_english', 'arguments': '{"query": "Rock"}'}, 'type': 'function'}, 
+                {'id': 'call_qU3rfjsOFwLUu7iEvRYvINYm', 'function': {'name': 'search_english', 'arguments': '{"query": "going to"}'}, 'type': 'function'}, 
+                {'id': 'call_bh7UJYUj20K1HJPINx4KNpYs', 'function': {'name': 'search_english', 'arguments': '{"query": "hit"}'}, 'type': 'function'}, 
+                {'id': 'call_7l45qHodo3picS5c6BAf2rnz', 'function': {'name': 'search_english', 'arguments': '{"query": "cat"}'}, 'type': 'function'}
+            ], 
+            [
+                {'role': 'tool', 'content': [{'paiute_translation': 'tübbi', 'english': 'rock', 'definition': 'Rock or boulder.'}], 'tool_call_id': 'call_IPigvjn7s3oMM799hwXn7VXv'}, 
+                {'role': 'tool', 'content': [{'paiute_translation': '-gaidü', 'english': 'go', 'definition': 'Verbal suffix expressing that someone "will intend on going" to do the action in which it is attached to, and is a shortened version of verbal suffixes -gaa-wei-dü.'}], 'tool_call_id': 'call_qU3rfjsOFwLUu7iEvRYvINYm'},
+                {'role': 'tool', 'content': [{'paiute_translation': 'kwia', 'english': 'hit', 'definition': 'To hit, to strike.'}], 'tool_call_id': 'call_bh7UJYUj20K1HJPINx4KNpYs'}, 
+                {'role': 'tool', 'content': [{'paiute_translation': "kiidi'", 'english': 'cat', 'definition': 'Domestic cat.'}], 'tool_call_id': 'call_7l45qHodo3picS5c6BAf2rnz'}
+            ]
+        )
+    ], 
+    'search_sentences': [
+        (
+            [
+                {'id': 'call_Ck9MvgvNd0spC2cmgQnI6nfU', 'function': {'name': 'search_sentences', 'arguments': '{"query": "Where is my dog"}'}, 'type': 'function'}
+            ], 
+            [
+                {'role': 'tool', 'content': [{'sentence': "Hanno 'i-doogü'?", 'translation': 'Where is my dog?'}, {'sentence': "Hanno 'ü-gwidapugu-uu?", 'translation': "Where's your dog?"}, {'sentence': "Hanno-kko 'üü 'i-buni-ggü-ti 'i-doogü-tsi'-aa?", 'translation': 'Where did you spot my dog at (on my behalf)?'}, {'sentence': "Hanno-wa' i-kammü-naha-uu?", 'translation': 'Where is my rabbit?'}, {'sentence': "'I-doogü'-uu 'a-güŵa-duha nobi-neikka mia-ti.", 'translation': 'My dog is going alongside the house.'}], 'tool_call_id': 'call_Ck9MvgvNd0spC2cmgQnI6nfU'}
+            ]
+        ), 
+        (
+            [
+                {'id': 'call_MBrxgARtMUtuLKt3dmYQlIsS', 'function': {'name': 'search_sentences', 'arguments': '{"query": "That rock is going to hit that cat"}'}, 'type': 'function'}
+            ], 
+            [
+                {'role': 'tool', 'content': [{'sentence': "'A-wüü-pitü-dü-ii 'a-ŵama-su ta-dabi-kaa.", 'translation': 'The one who brought that (rock) could hit us with it.'}, {'sentence': "Na-buni-nnu-nokka tübbi-ma 'u-dabi-ti.", 'translation': 'He hit the window with a rock.'}, {'sentence': "'Uhu-dii-büü hanni'i-mana tübbi-nokka 'u-yügwi-dua-pü pinnahei haga-sa-mana 'u-ŵan-dugu-su-düa koddoha-wei.", 'translation': 'He should do something with that rock because someone else will fall on it.'}, {'sentence': "'Uhu-dii-büü hanni'i-mana tübbi-nokka 'u-yügwi-dua-pü pinnahei\n                        haga-sa-mana 'u-ŵan-dugu-su-düa koddoha-wei.", 'translation': 'He should do something with that rock because someone else will fall\n                            on it.'}, {'sentence': "'A-zitüdo'mi tübbi-ŵa-ikka.", 'translation': 'Prop it with the rock.'}], 'tool_call_id': 'call_MBrxgARtMUtuLKt3dmYQlIsS'}
+            ]
+        )
+    ]
+}
+
+RESULTS
+[
+    {
+        "role": "system", 
+        "content": "You are a language translator for the language known as Owen's Valley Paiute. \nYou will answer a direct translation for a sentence provided by the user.\nThe user is a beginner eager to learn Paiute translations. You have access to several tools:\n- **English word search:** Translate words and phrases from English to Paiute.\n- **semantic search:** Given an English sentence, retrieve similar Paiute translations to provide context and improve accuracy.\nYou can use the following grammar rules to check user input sentences from English to Owens Valley Paiute in addition to the other tools available to you.\nUse the vocabulary and sentence structures available to translate the input sentence as best as possible.\nIt doesn't need to be perfect and you can leave English words untranslated if necessary.\n"
+    },
+    {"role": "user", "content": "Where is the dog"}, 
+    {"role": "assitant", "tool_calls": 
+        "[
+            {
+                \"id\": \"call_g0tmdqGRV1G865vEPRLjtuVp\", 
+                \"function\": {
+                    \"name\": \"search_english\", 
+                    \"arguments\": \"{
+                        \\\"query\\\": \\\"where\\\"
+                    }\"
+                },    
+                \"type\": \"function\"
+            }, 
+            {\"id\": \"call_YfWMQhJYLChaDbpB5oD8bNMY\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"is\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_E5iskGGw3t9w2jLCf4erZIsj\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"my\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_AVv8zKxmp8ukg5jWQFfINEkC\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"dog\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_3sTUflQjjKJSKBFcK4Y5kQ4X\", \"function\": {\"name\": \"search_sentences\", \"arguments\": \"{\\\"query\\\": \\\"Where is my dog\\\"}\"}, \"type\": \"function\"}
+        ]"
+    }, 
+
+    {
+        "role": "tool", 
+        "content": [{"paiute_translation": "ha\u0175utta", "english": "where", "definition": "To where, shows movement to a destination."}], 
+        "tool_call_id": "call_g0tmdqGRV1G865vEPRLjtuVp"
+    }, 
+    {"role": "tool", "content": [{"paiute_translation": "ma\u0175ani", "english": "be", "definition": null}], "tool_call_id": "call_YfWMQhJYLChaDbpB5oD8bNMY"}, 
+    {"role": "tool", "content": [{"paiute_translation": "teimikka", "english": "our", "definition": null}], "tool_call_id": "call_E5iskGGw3t9w2jLCf4erZIsj"}, 
+    {"role": "tool", "content": [{"paiute_translation": "kwidapugu", "english": "dog", "definition": "Dog"}], "tool_call_id": "call_AVv8zKxmp8ukg5jWQFfINEkC"}, 
+    {"role": "tool", "content": [{"sentence": "Hanno 'i-doog\u00fc'?", "translation": "Where is my dog?"}, {"sentence": "Hanno '\u00fc-gwidapugu-uu?", "translation": "Where's your dog?"}, {"sentence": "Hanno-kko '\u00fc\u00fc 'i-buni-gg\u00fc-ti 'i-doog\u00fc-tsi'-aa?", "translation": "Where did you spot my dog at (on my behalf)?"}, {"sentence": "Hanno-wa' i-kamm\u00fc-naha-uu?", "translation": "Where is my rabbit?"}, {"sentence": "'I-doog\u00fc'-uu 'a-g\u00fc\u0175a-duha nobi-neikka mia-ti.", "translation": "My dog is going alongside the house."}], "tool_call_id": "call_3sTUflQjjKJSKBFcK4Y5kQ4X"}, 
+    
+    {"role": "assistant", "content": "Hanno 'i-doog\u00fc'?"}, 
+    
+    {"role": "user", "content": "That rock is going to hit that cat"}, 
+    {"role": "assitant", "tool_calls": 
+        "[
+            {\"id\": \"call_xQATEqg8KmNjG2IsOn9lZKF9\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"Rock\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_vzVspFjvU8CobjcOLz3XCX8i\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"going to\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_SHd86rDriO4ubhpcZDj9Svx9\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"hit\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_5zoOvMNkDIgfw7zRHXyaZNqf\", \"function\": {\"name\": \"search_english\", \"arguments\": \"{\\\"query\\\": \\\"cat\\\"}\"}, \"type\": \"function\"}, 
+            {\"id\": \"call_at7hpqwOGgf3BH1xvOaNlVYY\", \"function\": {\"name\": \"search_sentences\", \"arguments\": \"{\\\"query\\\": \\\"That rock is going to hit that cat\\\"}\"}, \"type\": \"function\"}
+        ]"
+    }, 
+    
+    {"role": "tool", "content": [{"paiute_translation": "t\u00fcbbi", "english": "rock", "definition": "Rock or boulder."}], "tool_call_id": "call_xQATEqg8KmNjG2IsOn9lZKF9"}, 
+    {"role": "tool", "content": [{"paiute_translation": "-gaid\u00fc", "english": "go", "definition": "Verbal suffix expressing that someone \"will intend on going\" to do the action in which it is attached to, and is a shortened version of verbal suffixes -gaa-wei-d\u00fc."}], "tool_call_id": "call_vzVspFjvU8CobjcOLz3XCX8i"}, 
+    {"role": "tool", "content": [{"paiute_translation": "kwia", "english": "hit", "definition": "To hit, to strike."}], "tool_call_id": "call_SHd86rDriO4ubhpcZDj9Svx9"}, 
+    {"role": "tool", "content": [{"paiute_translation": "kiidi'", "english": "cat", "definition": "Domestic cat."}], "tool_call_id": "call_5zoOvMNkDIgfw7zRHXyaZNqf"}, 
+    {"role": "tool", "content": [{"sentence": "'A-w\u00fc\u00fc-pit\u00fc-d\u00fc-ii 'a-\u0175ama-su ta-dabi-kaa.", "translation": "The one who brought that (rock) could hit us with it."}, {"sentence": "Na-buni-nnu-nokka t\u00fcbbi-ma 'u-dabi-ti.", "translation": "He hit the window with a rock."}, {"sentence": "'Uhu-dii-b\u00fc\u00fc hanni'i-mana t\u00fcbbi-nokka 'u-y\u00fcgwi-dua-p\u00fc pinnahei haga-sa-mana 'u-\u0175an-dugu-su-d\u00fca koddoha-wei.", "translation": "He should do something with that rock because someone else will fall on it."}, {"sentence": "'Uhu-dii-b\u00fc\u00fc hanni'i-mana t\u00fcbbi-nokka 'u-y\u00fcgwi-dua-p\u00fc pinnahei\n                        haga-sa-mana 'u-\u0175an-dugu-su-d\u00fca koddoha-wei.", "translation": "He should do something with that rock because someone else will fall\n                            on it."}, {"sentence": "'A-zit\u00fcdo'mi t\u00fcbbi-\u0175a-ikka.", "translation": "Prop it with the rock."}], "tool_call_id": "call_at7hpqwOGgf3BH1xvOaNlVYY"}, 
+    
+    {"role": "assistant", "content": "t\u00fcbbi-uu kidi'-oka u-gwati-gaa-wei"}
+]

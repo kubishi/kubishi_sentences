@@ -80,7 +80,7 @@ class PipelineTranslator(Translator):
             target=target_simple_sentence_nl,
             back_translation=backwards_translation_nl,
             prompt_tokens=prompt_tokens,
-            translation_completion_tokens=completion_tokens,
+            completion_tokens=completion_tokens,
             translation_time=translation_time,
             back_translation_prompt_tokens=prompt_tokens_back,
             back_translation_completion_tokens=completion_tokens_back,

@@ -1,7 +1,8 @@
+from collections import defaultdict
+import json
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel
 from yaduha.tools import Tool
-
 
 class Translation(BaseModel):
     source: str
@@ -30,6 +31,8 @@ class Translation(BaseModel):
         ]
         return "\n".join(lines)
     
+    
+    
     def __repr__(self) -> str:
         return self.__str__()
 
@@ -48,3 +51,4 @@ class Translator(Tool):
             Translation: The translation
         """
         raise NotImplementedError
+    
