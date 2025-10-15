@@ -35,13 +35,11 @@ class RAGTranslator(Translator):
             tools=self.tools,
             description=self.description,
         )
-        response = bot(
-            messages=[
-                {"role": "system", "content": self.prompt},
-
-                {"role": "user", "content": sentence}
-            ]
+        messages = self.create_few_shot()
+        messages.append(
+            {"role": "user", "content": sentence},
         )
+        response = bot(messages=messages)
 
         end = time.time()
         return Translation(
@@ -61,7 +59,7 @@ class RAGTranslator(Translator):
     
     
     
-    def create_few_shot(self) -> None:
+    def create_few_shot(self) -> List[Dict[str, Any]]:
 
         sentence_examples = ["Where is the dog", "That rock is going to hit that cat"]
         sentence_example_results = ["Hanno 'i-doogü'?", "tübbi-uu kidi'-oka u-gwati-gaa-wei"]
@@ -133,11 +131,8 @@ class RAGTranslator(Translator):
                 output_tool_calls.extend(tool_calls[tool_name][i][1])
 
             messages.append({"role": "assitant", "tool_calls": json.dumps(input_tool_calls)})
-
             messages.extend(output_tool_calls)
-
             messages.append({"role": "assistant", "content": sentence_example_results[i]})
             
-            
-        return json.dumps(messages)
+        return messages
 
