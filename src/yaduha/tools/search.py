@@ -22,7 +22,7 @@ class SearchEnglishTool(Tool):
     description: str = "Search for English to Paiute translations."
     KUBISHI_API_URL: ClassVar[str] = "https://dictionary.kubishi.com/api"
 
-    def __call__(self, query: str, limit: int) -> List[Dict]:
+    def __call__(self, query: str, limit: int = 3) -> List[Dict]:
         response = requests.get(f"{SearchEnglishTool.KUBISHI_API_URL}/search/english", params={"query": query, "limit": limit})
         response.raise_for_status()
         res_json: List[Dict] = response.json()
@@ -37,7 +37,7 @@ class SearchEnglishTool(Tool):
 
         return results
     
-    def get_examples(self, examples: List[List[str]] = [["where", "is", "my", "dog"], ["Rock", "going to", "hit", "cat",]], limit: int = 1) -> List[Tuple[Dict, List[Dict]]]:
+    def get_examples(self, examples: List[List[str]] = [["where", "is", "my", "dog"], ["Rock", "going to", "hit", "cat",]], limit: int = 3) -> List[Tuple[Dict, List[Dict]]]:
         """
         Get examples for the tool. 
 
@@ -66,7 +66,7 @@ class SearchPaiuteTool(Tool):
 
     #TODO: Similar to search_english, filter only the necessary fields
 
-    def __call__(self, query: str, limit: int) -> List[Dict]:
+    def __call__(self, query: str, limit: int = 3) -> List[Dict]:
         response = requests.get(f"{SearchPaiuteTool.KUBISHI_API_URL}/search/paiute", params={"query": query, "limit": limit})
         response.raise_for_status()
         res_json: List[Dict] = response.json()
@@ -83,8 +83,8 @@ class SearchSentencesTool(Tool):
     description: str = "Search for sentences in English (semantic search)."
     KUBISHI_API_URL: ClassVar[str] = "https://dictionary.kubishi.com/api"
     
-    def __call__(self, query: str, limit: int) -> List[Dict]:
-        response = requests.get(f"{SearchPaiuteTool.KUBISHI_API_URL}/search/sentence", params={"query": query})
+    def __call__(self, query: str, limit: int = 3) -> List[Dict]:
+        response = requests.get(f"{SearchPaiuteTool.KUBISHI_API_URL}/search/sentence", params={"query": query, "limit": limit})
         response.raise_for_status()
         res_json = response.json()
         infos = []

@@ -1,0 +1,100 @@
+[
+  {
+    "role": "user",
+    "content": "Where is my dog?"
+  },
+  {
+    "role": "assistant",
+    "content": [],
+    "tool_calls": [
+      {
+        "id": "call_DiyN1J0T2ajiorsldLElFQIG",
+        "function": {
+          "name": "search_english",
+          "arguments": "query: where"
+        },
+        "type": "function"
+      },
+      {
+        "id": "call_bSMYzz6LzyYFTFx80RtFHPQB",
+        "function": {
+          "name": "search_english",
+          "arguments": "query: dog"
+        },
+        "type": "function"
+      },
+      {
+        "id": "call_UBn4YXxQTRYVuHp23FczIOu7",
+        "function": {
+          "name": "search_sentences",
+          "arguments": "query: where is my dog?"
+        },
+        "type": "function"
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "content": [
+      {
+        "paiute_translation": "haŵutta",
+        "english": "where",
+        "definition": "To where, shows movement to a destination."
+      },
+      {
+        "paiute_translation": "tu'ihanno",
+        "english": "anywhere",
+        "definition": "Anywhere, anyplace."
+      },
+      {
+        "paiute_translation": "'ionnoho",
+        "english": "here",
+        "definition": "Here, in this place/spot, locating one's place or whereabouts."
+      }
+    ],
+    "tool_call_id": "call_DiyN1J0T2ajiorsldLElFQIG"
+  },
+  {
+    "role": "tool",
+    "content": [
+      {
+        "paiute_translation": "kwidapugu",
+        "english": "dog",
+        "definition": "Dog"
+      },
+      {
+        "paiute_translation": "'ishabugu",
+        "english": "dog",
+        "definition": "Dog (domestic), coyote-pet."
+      },
+      {
+        "paiute_translation": "toogü'",
+        "english": "dog",
+        "definition": "Dog, from English \"dog.\""
+      }
+    ],
+    "tool_call_id": "call_bSMYzz6LzyYFTFx80RtFHPQB"
+  },
+  {
+    "role": "tool",
+    "content": [
+      {
+        "sentence": "Hanno 'i-doogü'?",
+        "translation": "Where is my dog?"
+      },
+      {
+        "sentence": "Hanno 'ü-gwidapugu-uu?",
+        "translation": "Where's your dog?"
+      },
+      {
+        "sentence": "Hanno-wa' i-kammü-naha-uu?",
+        "translation": "Where is my rabbit?"
+      }
+    ],
+    "tool_call_id": "call_UBn4YXxQTRYVuHp23FczIOu7"
+  },
+  {
+    "role": "assistant",
+    "content": "Hanno 'i-doogü'?"
+  }
+]
